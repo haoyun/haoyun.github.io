@@ -8,7 +8,7 @@ author: Yun Hao
 ```bash
 hakyll-init Hakyll-Foundation
 cd Hakyll-Foundation
-foundation new --framework sites --template basic --directory Foundation
+foundation new --framework sites --directory Foundation --template basic
 git init
 git remote add origin git@github.com:haoyun/Hakyll-Foundation.git
 git commit --allow-empty -m "dummy first commit"
@@ -28,3 +28,53 @@ git push origin source
 ## How to use this template? ##
 
 See `README.md` in the root foler.
+
+## Changelog
+
+### Basic Configuration
+
+It is necessary to ignore the `Foundation` folder otherwise it will take a long time to build the site,
+as there are lots of tiny files in this folder. 
+
+Use `hakyllWith` instead of `hakyll`:
+
+```haskell
+main = hakyllWith hfConfiguration $ do
+```
+
+And define `hfConfiguration` as
+
+```haskell
+hfConfiguration :: Configuration
+hfConfiguration = defaultConfiguration
+    {   ignoreFile           = ignoreFile'}
+  where
+    ignoreFile' path
+        | "Foundation" `isPrefixOf` fileName = True
+        | "."          `isPrefixOf` fileName = True
+        | "#"          `isPrefixOf` fileName = True
+        | "~"          `isSuffixOf` fileName = True
+        | ".swp"       `isSuffixOf` fileName = True
+        | otherwise                          = False
+      where
+        fileName = takeFileName path
+```
+
+Accordingly, should import more libaries:
+```haskell
+import           Data.List        (isPrefixOf, isSuffixOf)
+import           System.FilePath  (takeFileName)
+```
+and add dependece
+```json
+filepath >=1.0 && <1.5
+```
+to `site.hs`.
+
+
+The above is apdated from [`Hakyll.Core.Configuration`](Hakyll.Core.Configuration).
+As we can see, there are many configurations that we can modify according to our need.
+
+
+
+[Hakyll.Core.Configuration]: https://hackage.haskell.org/package/hakyll-4.9.8.0/docs/Hakyll-Core-Configuration.html
