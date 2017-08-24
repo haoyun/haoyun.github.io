@@ -1,0 +1,30 @@
+---
+title: How was this temple built and how to use this template?
+author: Yun Hao
+---
+
+## How was this project initialized? ##
+
+```bash
+hakyll-init Hakyll-Foundation
+cd Hakyll-Foundation
+foundation new --framework sites --template basic --directory Foundation
+git init
+git remote add origin git@github.com:haoyun/Hakyll-Foundation.git
+git commit --allow-empty -m "dummy first commit"
+git push origin master
+git checkout --orphan source
+git submodule add git@github.com:haoyun/Hakyll-Foundation.git html_public
+git commit -m "add submodule"
+git push origin source
+#cd html_public
+#git commit --allow-empty -m 'update'
+#git push origin master
+#cd ..
+git add .
+git commit -m 'source update'
+git push origin source
+```
+## How to use this template? ##
+
+See `README.md` in the root foler.
