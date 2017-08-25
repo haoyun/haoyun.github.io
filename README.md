@@ -1,6 +1,10 @@
 Hakyll Foundation Template
 ==========================
 
+This is just a very basic template that you can use
+* the [Hakyll][Hakyll] library, which is base on [Pandoc][Pandoc] to generate your static site, and
+* the [Zurb Foundation][Foundation] framework to design your site.
+
 ## Requirements
 
 * git
@@ -49,4 +53,8 @@ git add .
 git commit -m 'source updae'
 git push origin source
 ```
+
+[Hakyll]: https://jaspervdj.be/hakyll/
+[Foundation]: http://foundation.zurb.com/
+[Pandoc]: https://pandoc.org/
 
