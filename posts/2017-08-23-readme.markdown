@@ -65,10 +65,12 @@ Accordingly, should import more libaries:
 import           Data.List        (isPrefixOf, isSuffixOf)
 import           System.FilePath  (takeFileName)
 ```
+
 and add dependece
 ```json
 filepath >=1.0 && <1.5
 ```
+
 to `site.hs`.
 
 

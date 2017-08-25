@@ -66,7 +66,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(600);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #1779ba,
@@ -850,7 +850,7 @@ $topbar-unstack-breakpoint: medium;
 // -----------
 
 $xy-grid: true;
-$grid-container: $global-width;
+$grid-container: $global-width * .8;
 $grid-columns: 12;
 $grid-margin-gutters: (
   small: 20px,

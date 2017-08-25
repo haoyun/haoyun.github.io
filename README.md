@@ -20,6 +20,9 @@ git clone --recursive git@github.com:haoyun/Hakyll-Foundation.git site
 cd site
 git checkout source
 git submodule update --init --recursive
+cd Foundation
+npm install
+bower install
 ```
 
 ## Develop ##
