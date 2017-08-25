@@ -31,7 +31,7 @@ See `README.md` in the root foler.
 
 ## Changelog
 
-### Basic Configuration
+### Hakyll Configuration
 
 It is necessary to ignore the `Foundation` folder otherwise it will take a long time to build the site,
 as there are lots of tiny files in this folder. 
@@ -74,6 +74,13 @@ to `site.hs`.
 
 The above is apdated from [`Hakyll.Core.Configuration`](Hakyll.Core.Configuration).
 As we can see, there are many configurations that we can modify according to our need.
+
+### Foundation
+
+Edit the output directory of the gerneated CSS files. Edit `gulpfile.js`
+```nodejs
+.pipe(gulp.dest('../css'));
+```
 
 
 
