@@ -72,7 +72,7 @@ filepath >=1.0 && <1.5
 to `site.hs`.
 
 
-The above is apdated from [`Hakyll.Core.Configuration`](Hakyll.Core.Configuration).
+The above is apdated from [`Hakyll.Core.Configuration`][Hakyll.Core.Configuration].
 As we can see, there are many configurations that we can modify according to our need.
 
 ### Foundation
