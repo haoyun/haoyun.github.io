@@ -31,9 +31,17 @@ See `README.md` in the root foler.
 
 ## Changelog
 
+### Foundation
+
+Edit the output directory of the gerneated CSS files. Edit `gulpfile.js`
+```nodejs
+.pipe(gulp.dest('../css'));
+```
+
 ### Hakyll Configuration
 
-It is necessary to ignore the `Foundation` folder otherwise it will take a long time to build the site,
+It is necessary to ignore the `Foundation` folder otherwise it will take
+ a long time to build the site,
 as there are lots of tiny files in this folder. 
 
 Use `hakyllWith` instead of `hakyll`:
@@ -74,16 +82,54 @@ filepath >=1.0 && <1.5
 to `site.hs`.
 
 
-The above is apdated from [`Hakyll.Core.Configuration`][Hakyll.Core.Configuration].
-As we can see, there are many configurations that we can modify according to our need.
+The above is apdated from
+ [`Hakyll.Core.Configuration`][Hakyll.Core.Configuration].
+As we can see, there are many configurations that we can modify
+ according to our need.
 
-### Foundation
+### Url without `.html`
 
-Edit the output directory of the gerneated CSS files. Edit `gulpfile.js`
-```nodejs
-.pipe(gulp.dest('../css'));
+There are many solutions available on the Internet.
+
+* [This one][jekyll-url]
+ seems to be the best solution.
+
+This solution really makes Hakyll to generate the *correct* url in the very
+beginning, rather than modify the *wrong* url that has ben put into the html
+files. The latter approch has the potential that it does not correct all urls,
+and that it may also introduce mistakes for the urls that should be in their
+original form.
+
+Other solutions are.
+
+* [Alternative 1](https://www.rohanjain.in/hakyll-clean-urls/)
+* [Alternative 2](http://alexanderlobov.ru/posts/2017-02-05-hakyll-clean-urls/)
+
+
+
+### Reminder
+
+This is a post about TikZ.
+
+* https://skybluetrades.net/blog/posts/2013/11/25/the-teeny-tiny-happy-hakyll-tikz-pixie.html
+
+The source code of it show how to add new commands to the main program.
+It's better to creat a command like
+
+```bash
+cabal run newpost
+? Title:
+? Author:
+? Tag (separated by comma):
 ```
+
+to creat a new post (and metada file) according to a predesigned template file.
+
+* https://www.gwern.net/About
+
+This is another well programmed site.
 
 
 
 [Hakyll.Core.Configuration]: https://hackage.haskell.org/package/hakyll-4.9.8.0/docs/Hakyll-Core-Configuration.html
+[jekyll-url]: https://aherrmann.github.io/programming/2016/01/31/jekyll-style-urls-with-hakyll/
