@@ -1,3 +1,9 @@
+footer {
+	background-color: #e6e6e6;
+	padding: 20px 0px;
+}
+
+
 /*
 body {
     color: black;
@@ -26,9 +32,9 @@ nav a {
     text-transform: uppercase;
 }
 
-
+/*
 footer {
-    border-top: solid 2px black;
+    /*border-top: solid 2px black;
     color: #555;
     font-size: 12px;
     margin-top: 30px;
@@ -43,6 +49,7 @@ h1 {
 h2 {
     font-size: 20px;
 }
+*/
 
 article .header {
     color: #555;
