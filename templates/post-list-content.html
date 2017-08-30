@@ -1,0 +1,12 @@
+<div class="grid-y">
+        $for(posts)$
+            <div class="cell">
+                <a href="$url$">$title$</a> - $date$
+                $if(teaser)$
+                    $teaser$
+                $else$
+                    $body$
+                $endif$
+            </div>>
+        $endfor$
+</div>

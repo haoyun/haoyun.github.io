@@ -2,7 +2,8 @@ Hakyll Foundation Template
 ==========================
 
 This is just a very basic template that you can use
-* the [Hakyll][Hakyll] library, which is base on [Pandoc][Pandoc] to generate your static site, and
+* the [Hakyll][Hakyll] library, which is base on [Pandoc][Pandoc]
+  to generate your static site, and
 * the [Zurb Foundation][Foundation] framework to design your site.
 
 ## Requirements
@@ -56,6 +57,16 @@ git add .
 git commit -m 'source updae'
 git push origin source
 ```
+
+
+To-do List
+----------
+
+- [ ] Create multiple templates,
+      each having a basic version and a ready-to-use version.
+- [ ] Cover image field.
+- [ ] Custimizable teaser.
+- [ ] Run foundation watch and hakyll watch using one command.
 
 [Hakyll]: https://jaspervdj.be/hakyll/
 [Foundation]: http://foundation.zurb.com/
