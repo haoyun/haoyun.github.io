@@ -58,6 +58,12 @@ git commit -m 'source updae'
 git push origin source
 ```
 
+Hints
+-----
+
+If your file, for example `.html` file, will be processed by Hakyll/Pandoc,
+then write `$$` instead of `$`.
+
 
 To-do List
 ----------

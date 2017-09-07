@@ -1,16 +1,158 @@
----
-title: Home
----
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Natural Stupidity</title>
+        <link rel="stylesheet" href="/css/app.css" />
+        <link rel="stylesheet" href="/css/default.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    </head>
+    
+    <style>
+/* http://www.cssscript.com/demo/transparent-image-hover-overlay-with-pure-css-css3/ */
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
 
-<h2>Welcome</h2>
+.media__image { display: block; }
 
-<img src="/images/haskell-logo.png" style="float: right; margin: 10px;" />
+.media__body {
+  background: rgba(238,232,213,.7);//rgba(41, 128, 185, 0.7);
+  bottom: 0;
+  color: #002b36;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3.75em 3em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
 
-<p>Welcome to my blog!</p>
+.media__body:hover { opacity: 1; }
 
-<p>I've reproduced a list of recent posts here for your reading pleasure:</p>
+.media:hover .media__image { fill: #2aa198; }
 
-<h2>Posts</h2>
-$partial("templates/post-list.html")$
+.media__body:after,
+.media__body:before {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  bottom: 1em;
+  content: '';
+  left: 1em;
+  opacity: 0;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s 0.2s;
+  transition: 0.6s 0.2s;
+}
 
-<p>…or you can find more in the <a href="/archive.html">archives</a>.</p>
+.media__body:before {
+  border-bottom: none;
+  border-top: none;
+  left: 2em;
+  right: 2em;
+}
+
+.media__body:after {
+  border-left: none;
+  border-right: none;
+  bottom: 2em;
+  top: 2em;
+}
+
+.media__body:hover:after,
+.media__body:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.media__body h2 { margin-top: 0; }
+
+.media__body p { margin-bottom: 1.5em; }
+
+.media:nth-child(2) .media__body { background: rgba(146, 41, 185, 0.7); }
+
+.media:nth-child(3) .media__body { background: rgba(185, 41, 128, 0.7); }
+
+.media:nth-child(4) .media__body { background: rgba(185, 50, 41, 0.7); }
+
+.media:nth-child(5) .media__body { background: rgba(185, 146, 41, 0.7); }
+
+.media:nth-child(6) .media__body { background: rgba(128, 185, 41, 0.7); }
+    </style>
+    <body>
+    
+        <div class="grid-container">
+            <div class="grid-y grid-padding-y grid-margin-y align-center" style="height:100vh">
+                <div class="cell medium-6 small-1 small-order-2 medium-order-1">
+                    <h1>
+                        我是谁？这是什么地方？
+                    </h1>
+                    <h2>
+                        呃……我也不知道
+                    </h2>
+                    <h3>
+                        我也很为自己捉急啊!
+                    </h3>
+
+                </div>
+                <div class="cell medium-6 small-10 small-order-1 medium-order-2">
+                    <div class="grid-x align-center">
+                        <div class="cell large-4 medium-5 small-12">
+                            <div class="media">
+                                <a href="/s/">
+                                    <svg class="media__image" fill="#073642" width="100%" viewBox="0 0 87.421159 86.472443">
+			    	                  <use xlink:href="images/logo.svg#path3713"></use>
+			    	                </svg>
+                                    <div class="media__body">
+                                        <h5>又曰『智障』</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cell large-1 medium-1 hide-for-small"></div>
+                        <div class="cell large-4 medium-5 small-12">
+                            <div class="media">
+                                <a href="/n/">
+                                    <!--<img src="images/logo.svg#path3711" style="fill:'#859900';" width="100%"/>-->
+                                    <svg class="media__image" fill="#073642" width="100%" viewBox="0 0 87.421159 86.472443">
+                                      <use xlink:href="images/logo.svg#path3715"></use>
+			    	                </svg>
+                                    <div class="media__body">
+                                        <h5>亦作『幼稚』</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	
+    
+
+        <!-- JavaScript -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+            $(document).foundation();
+        </script>
+    </body>
+</html>
+		

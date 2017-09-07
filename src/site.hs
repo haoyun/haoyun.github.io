@@ -43,7 +43,7 @@ main = hakyllWith hfConfiguration $ do
                 >>= relativizeUrls
 
 
-    match "index.html" $ do
+    match "index_1.html" $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
@@ -56,6 +56,10 @@ main = hakyllWith hfConfiguration $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
+    
+    match "index.html" $ do
+        route idRoute
+        compile copyFileCompiler
 
     match "templates/*" $ compile templateBodyCompiler
 
@@ -75,7 +79,7 @@ hfConfiguration = defaultConfiguration
 --    , tmpDirectory         = "_cache/tmp"
         providerDirectory    = "./src_site"
 --    , ignoreFile           = ignoreFile'
---    , deployCommand        = "echo 'No deploy command specified' && exit 1"
+      , deployCommand        = "zsh ./src/deploy.sh" -- "echo 'No deploy command specified' && exit 1"
 --    , deploySite           = system . deployCommand
 --    , inMemoryCache        = True
 --    , previewHost          = "127.0.0.1"
