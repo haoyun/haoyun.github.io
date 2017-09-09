@@ -148,4 +148,4 @@ Essentially, there is no original work by myself.
 [periods]: https://people.math.ethz.ch/~jfresan/berlin.html
 [padichodge]: http://www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
 [geomlanglands]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
-[Mainz] https://www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
+[Mainz]: https://www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
