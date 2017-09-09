@@ -1,3 +1,6 @@
+
+- - - - - - - - - -
+
 <p>Yun Hao (郝运)</p>
 <address style="white-space: nowrap;">
 Freie Universität Berlin<br>
@@ -31,31 +34,31 @@ Here is my [CV][CV]. To know more, see [about]().
 ## Veranstaltungen
 
 ### Aktuelle \& Kommende
-* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz]
+* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
   Johannes Gutenberg-Universität Main.
 
 ### Vergangen
 * **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
   Freie Universität Berlin.
-* **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs]\
+* **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
   Universität Duisburg-Essen, Campus Essen.
-* **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah]\
+* **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
   University of Utah, Salt Lake City, Utah, USA\
   *Supported by [BMS][BMS] and [NSF]*.
-* **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014\
+* **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
   [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
-* **2013-02 -- 2013-06**. [The 5th Enhanced Program for Graduate Study][BICMREPGS]\
+* **2013-02 -- 2013-06**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
   [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
 
 - - - - - - - - - -
 
 ## Skripte zu ausgewählten Vorlesungen und Seminaren
 
-* 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf)
-* 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf)
-* 2016/17 Winter Semester, [Divided Power Algebra](/files/16WS-Divided-Power-Crystal.pdf)
-* 2016/17 Winter Semester, [Motivic Integration](/files/16WS-FS-Motivic-Integration.pdf)
-* 2014/15 Winter Semester, [Local Class Field Theory]()
+* 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf).
+* 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf).
+* 2016/17 Winter Semester, [Divided Power Algebra](/files/16WS-Divided-Power-Crystal.pdf).
+* 2016/17 Winter Semester, [Motivic Integration](/files/16WS-FS-Motivic-Integration.pdf).
+* 2014/15 Winter Semester, [Local Class Field Theory]().
 
 Mehr gibt es unter [/n/](/n/).
 
@@ -73,7 +76,7 @@ Mehr gibt es unter [/n/](/n/).
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
             * 2017-07-17    Comparison isomorphisms I 
-        + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands]
+        + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
             * 2017-04-27    Tate’s thesis for function fields, I
             * 2017-05-24    Tate’s thesis for function fields, I
     - **2016-17 Winter Seminar** 
