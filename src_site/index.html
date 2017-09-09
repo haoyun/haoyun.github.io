@@ -14,8 +14,8 @@
     <body>
     
         <div class="grid-container">
-            <div class="grid-y grid-padding-y grid-margin-y align-spaced" style="height:100vh">
-                <div class="cell medium-1 small-1 small-order-2 medium-order-1">
+            <div class="grid-y grid-padding-y grid-margin-y align-spaced medium-grid-frame">
+                <div class="cell medium-1 small-1">
                     <div class="grid-x align-center">
                         <div class="cell shrink">
                             <div class="captchaContainer">
@@ -23,13 +23,18 @@
                                     <button type="button" class="captchaBox boxHover"></button>
                                 </div>
                                 <input type="checkbox" name="hiddenCaptcha" id="hiddenCaptcha" disabled="disabled"/>
-                                <label for="hiddenCaptcha" class="captchaLabel">我是智障</label>
+                                <label for="hiddenCaptcha" class="captchaLabel">I am stupid!</label>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="cell medium-6 small-10 small-order-1 medium-order-2">
+                <div class="cell medium-6 small-10">
                     <div class="grid-x align-center">
+                        <div class="cells shrink hide-for-small-only">
+                            <p style="writing-mode: vertical-rl; text-orientation: upright;">
+                                其实就是
+                            </p>
+                        </div>
                         <div class="cell large-4 medium-5 small-12">
                             <div class="media">
                                 <a href="/s/">
@@ -37,12 +42,17 @@
 			    	                  <use xlink:href="images/logo.svg#path3713"></use>
 			    	                </svg>
                                     <div class="media__body">
-                                        <h5>也叫『智障』</h5>
+                                        <h5>又称『智障』</h5>
                                     </div>
                                 </a>
                             </div>
+                        </div>  
+                        <div class="cell large-1 medium-1 hide-for-small-only"></div>
+                        <div class="cells shrink hide-for-small-only">
+                            <p style="writing-mode: vertical-rl; text-orientation: upright;">
+                                却以为是
+                            </p>
                         </div>
-                        <div class="cell large-1 medium-1 hide-for-small"></div>
                         <div class="cell large-4 medium-5 small-12">
                             <div class="media">
                                 <a href="/n/">
