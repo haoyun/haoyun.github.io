@@ -8,107 +8,25 @@
         <link rel="stylesheet" href="/css/app.css" />
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     </head>
     
-    <style>
-/* http://www.cssscript.com/demo/transparent-image-hover-overlay-with-pure-css-css3/ */
-.media {
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-}
-
-.media__image { display: block; }
-
-.media__body {
-  background: rgba(238,232,213,.7);//rgba(41, 128, 185, 0.7);
-  bottom: 0;
-  color: #002b36;
-  font-size: 1em;
-  left: 0;
-  opacity: 0;
-  overflow: hidden;
-  padding: 3.75em 3em;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  right: 0;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.media__body:hover { opacity: 1; }
-
-.media:hover .media__image { fill: #2aa198; }
-
-.media__body:after,
-.media__body:before {
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  bottom: 1em;
-  content: '';
-  left: 1em;
-  opacity: 0;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: 0.6s 0.2s;
-  transition: 0.6s 0.2s;
-}
-
-.media__body:before {
-  border-bottom: none;
-  border-top: none;
-  left: 2em;
-  right: 2em;
-}
-
-.media__body:after {
-  border-left: none;
-  border-right: none;
-  bottom: 2em;
-  top: 2em;
-}
-
-.media__body:hover:after,
-.media__body:hover:before {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-}
-
-.media__body h2 { margin-top: 0; }
-
-.media__body p { margin-bottom: 1.5em; }
-
-.media:nth-child(2) .media__body { background: rgba(146, 41, 185, 0.7); }
-
-.media:nth-child(3) .media__body { background: rgba(185, 41, 128, 0.7); }
-
-.media:nth-child(4) .media__body { background: rgba(185, 50, 41, 0.7); }
-
-.media:nth-child(5) .media__body { background: rgba(185, 146, 41, 0.7); }
-
-.media:nth-child(6) .media__body { background: rgba(128, 185, 41, 0.7); }
-    </style>
     <body>
     
         <div class="grid-container">
-            <div class="grid-y grid-padding-y grid-margin-y align-center" style="height:100vh">
-                <div class="cell medium-6 small-1 small-order-2 medium-order-1">
-                    <h1>
-                        我是谁？这是什么地方？
-                    </h1>
-                    <h2>
-                        呃……我也不知道
-                    </h2>
-                    <h3>
-                        我也很为自己捉急啊!
-                    </h3>
-
+            <div class="grid-y grid-padding-y grid-margin-y align-spaced" style="height:100vh">
+                <div class="cell medium-1 small-1 small-order-2 medium-order-1">
+                    <div class="grid-x align-center">
+                        <div class="cell shrink">
+                            <div class="captchaContainer">
+                                <div class="captchaWrapper">
+                                    <button type="button" class="captchaBox boxHover"></button>
+                                </div>
+                                <input type="checkbox" name="hiddenCaptcha" id="hiddenCaptcha" disabled="disabled"/>
+                                <label for="hiddenCaptcha" class="captchaLabel">I am stupid!</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="cell medium-6 small-10 small-order-1 medium-order-2">
                     <div class="grid-x align-center">
@@ -149,6 +67,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+        <script src="js/app.js"></script>
         <script>
             hljs.initHighlightingOnLoad();
             $(document).foundation();

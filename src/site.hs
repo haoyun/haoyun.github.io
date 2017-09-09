@@ -7,31 +7,57 @@ import           Data.List        (isPrefixOf, isSuffixOf)
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith hfConfiguration $ do
-    match "images/*" $ do
+    -- | Create .nojekyll
+    create [".nojekyll"] $ do
+        route idRoute
+        compile (makeItem ("No jekyll\n"::String))
+    
+    -- | Create CNAME
+    create ["CNAME"] $ do
+        route idRoute
+        compile (makeItem ("naturalstupidity.tk\n"::String))
+
+    -- | Create robots.txt
+    create ["robots.txt"] $ do
+        route idRoute
+        compile (makeItem ("User-agent: *\nDisallow: /\n"::String))   
+        
+    -- | Copy binary files
+    match "images/**" $ do
         route   idRoute
         compile copyFileCompiler
-
+    
+    match "files/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+        
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
+    
+    match "js/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+        
+    -- | Compile pages
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["n/about.rst", "n/contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match "posts/*" $ do
+    match "n/posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["n/archive.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll "n/posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
@@ -43,10 +69,10 @@ main = hakyllWith hfConfiguration $ do
                 >>= relativizeUrls
 
 
-    match "index_1.html" $ do
+    match "n/index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll "n/posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
@@ -60,6 +86,13 @@ main = hakyllWith hfConfiguration $ do
     match "index.html" $ do
         route idRoute
         compile copyFileCompiler
+    
+    match "s/index.markdown" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/textfile.html" postCtx
+            >>= relativizeUrls
+            
 
     match "templates/*" $ compile templateBodyCompiler
 
