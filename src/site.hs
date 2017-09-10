@@ -115,6 +115,6 @@ hfConfiguration = defaultConfiguration
       , deployCommand        = "zsh ./src/deploy.sh" -- "echo 'No deploy command specified' && exit 1"
 --    , deploySite           = system . deployCommand
 --    , inMemoryCache        = True
---    , previewHost          = "127.0.0.1"
---   , previewPort          = 8000
+      , previewHost          = "0.0.0.0"
+      , previewPort          = 80
     }
