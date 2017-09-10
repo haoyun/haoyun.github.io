@@ -27,7 +27,7 @@ Ich bin Doktorand in Mathematik an der Freie Universitaet Berlin.
 Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG]
 von [Prof. Dr. Hélène Esnault][Esnault].
 
-Here is my [CV][CV]. To know more, see [about]().
+Here is my [CV](). To know more, see [about]().
 
 - - - - - - - - - -
 

@@ -1,52 +1,18 @@
  /*
  /
- /
- /
- /
- / captcha-like checkbox
- /
- /
- / https://codepen.io/rynjwssl/pen/XKXYMd
- /
- /
- /
+ / fake recaptcha
  /
  /
 */
 
-var BOX = $('.captchaBox');
-var WRAP = $('.captchaWrapper');
-var CONTAINER = $('.captchaContainer');
-var CHECK = $('#hiddenCaptcha');
+var c_container = $(".c-container");
 
-$(function(){
-  if(CHECK.prop('checked')) {
-    BOX.removeClass();
-    BOX.addClass('captchaBox circle fadeOut');
-  }
-  CONTAINER.click(function() {
-    if(CONTAINER.hasClass('captchaError')) {
-      CONTAINER.removeClass('captchaError');
-    }
-  })
+c_container.click(function() {
+  $('.c-checkbox-0').remove();
+  $('.c-checkbox-1').addClass("c-checkbox-borderAnimation-33");
+  $('.c-checkbox-3').addClass("c-checkbox-spinnerAnimation");
+  $('.c-checkbox-2').addClass("c-checkbox-spinner");
+  $('.c-checkbox-4').addClass("c-checkbox-checkmark");//.delay(3000).queue(function() {
+  //  $('.c-checkbox-5').addClass("c-checkbox-checked");
+  //});
 });
-
-BOX.click(function() {
-  setTimeout(scaleDown, 100);
-})
-function scaleDown() {
-  BOX.addClass('scaleDown');
-  setTimeout(scaleUp, 600);
-}
-function scaleUp() {
-  BOX.removeClass('scaleDown boxHover').addClass('circle scaleUp');
-  WRAP.addClass('rotation');
-  setTimeout(fadeToMark, 1200);
-}
-function fadeToMark() {
-  BOX.removeClass('scaleUp rotation').addClass('fadeOut');
-  setTimeout(checkItOut, 400);
-}
-function checkItOut() {
-  CHECK.prop('checked', true);
-}
