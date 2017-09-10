@@ -1,3 +1,4 @@
+[Back to Stupidity ↵](/)
 
 - - - - - - - - - -
 
