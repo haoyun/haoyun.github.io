@@ -41,8 +41,12 @@ Here is my [CV](). To know more, see [about]().
 ### Vergangen
 * **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
   Freie Universität Berlin.
+* **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
+  [Humboldt Universität zu Berlin][HUB].
 * **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
-  Universität Duisburg-Essen, Campus Essen.
+  [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
+* **2016-06-20 -- 2016-06-22**. [Shimura Varieties][leidenshimura].\
+  [Leiden University][leidenu].
 * **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
   University of Utah, Salt Lake City, Utah, USA\
   *Supported by [BMS][BMS] and [NSF]*.
@@ -124,41 +128,46 @@ a correspondence with a graph of a sufficiently large power of
 Frobenius is non-empty ([arXiv:1405.6381][Vashavsky]).
 Essentially, there is no original work by myself.
 
-[BMS]: http://www.math-berlin.de
-[FUB]: http://www.fu-berlin.de/
-[TUB]: http://www.tu-berlin.de/
-[BICMR]: http://www.bicmr.org/
+[alggrp]: http://www.math.fu-berlin.de/users/lei/algebraische%20Gruppen.html
+[abv]: http://www.mi.fu-berlin.de/users/elenalavanda/ab_var2.html
 [AEI]: http://www.aei.mpg.de/
 [AG]:  http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/index.html
-[Esnault]: http://www.mi.fu-berlin.de/users/esnault/
-[Sullivan]: http://page.math.tu-berlin.de/~sullivan/
-[Maryna]: https://www.math.hu-berlin.de/~viazovsm/index.html
-[etale]: http://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
-[utah]: https://sites.google.com/site/2015summerinstitute/
-[DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
-[TF]: https://www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
-[de Jong-He-Starr]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
-[abv]: http://www.mi.fu-berlin.de/users/elenalavanda/ab_var2.html
+[BMS]: http://www.math-berlin.de
+[Berkovich]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html
 [BICMREPGS]: http://www.bicmr.org/content/page/25.html
-[GR]: http://ferienkurs.aei.mpg.de/
-[NSF]: http://www.nsf.gov/
+[BICMR]: http://www.bicmr.org/
+[Crystalline]: http://page.mi.fu-berlin.de/katsief/crys.html
 [CV]: /files/CV-20170121.pdf
-[Vashavsky]: http://arxiv.org/abs/1405.6381
-[intersection]: /seminars/15WS-Intersection-Theory/
-[ellipticcurves]: http://www.mi.fu-berlin.de/users/ruelling/EC.html
-[modulispacesandgit]: http://userpage.fu-berlin.de/hoskins/moduli_and_GIT.html
+[de Jong-He-Starr]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
+[dmod]: http://www.mi.fu-berlin.de/users/zomervruchtw/2016-dmod/
 [deformation]: http://www2.mathematik.hu-berlin.de/~kemenymi/teaching/deformation-theory.html
+[DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
+[Esnault]: http://www.mi.fu-berlin.de/users/esnault/
+[ellipticcurves]: http://www.mi.fu-berlin.de/users/ruelling/EC.html
+[etale]: http://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
+[FUB]: http://www.fu-berlin.de/
+[geomlanglands]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
+[GR]: http://ferienkurs.aei.mpg.de/
+[higssk3moduli]: http://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/HBKM/conference.php
+[Higgs]: http://higgs2016.sfb45.de/
+[HUB]: https://www.hu-berlin.de/
+[intersection]: /seminars/15WS-Intersection-Theory/
+[leidenu]: https://www.universiteitleiden.nl/
+[leidenshimura]: http://www.math.leidenuniv.nl/~wzomervr/2016-shimura/
 [Liedtke]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/k3_wise1516.html
+[Mainz]: https://www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
+[Maryna]: https://www.math.hu-berlin.de/~viazovsm/index.html
+[modulispacesandgit]: http://userpage.fu-berlin.de/hoskins/moduli_and_GIT.html
 [masterthesis]: /files/master-thesis.pdf
 [masterthesissrc]: https://raw.githubusercontent.com/haoyun/master-thesis/master/main.tex
-[dmod]: http://www.mi.fu-berlin.de/users/zomervruchtw/2016-dmod/
 [motivic]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/motives_sose16.html
-[alggrp]: http://www.math.fu-berlin.de/users/lei/algebraische%20Gruppen.html
-[smatrix]: http://www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
-[Higgs]: http://higgs2016.sfb45.de/
-[Berkovich]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html
-[Crystalline]: http://page.mi.fu-berlin.de/katsief/crys.html
+[NSF]: http://www.nsf.gov/
 [periods]: https://people.math.ethz.ch/~jfresan/berlin.html
 [padichodge]: http://www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
-[geomlanglands]: http://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
-[Mainz]: https://www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
+[smatrix]: http://www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
+[Sullivan]: http://page.math.tu-berlin.de/~sullivan/
+[TUB]: http://www.tu-berlin.de/
+[TF]: https://www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
+[UniDuisburgEssen]: https://www.uni-due.de/
+[utah]: https://sites.google.com/site/2015summerinstitute/
+[Vashavsky]: http://arxiv.org/abs/1405.6381
