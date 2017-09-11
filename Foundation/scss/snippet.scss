@@ -1,0 +1,9 @@
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    min-width: 2rem;  /* without this, problem in firefox*/
+}
+
+.extra-text {
+    color: $solarized-base00;
+}
