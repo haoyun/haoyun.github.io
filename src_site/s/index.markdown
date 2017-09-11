@@ -28,7 +28,7 @@ Ich bin Doktorand in Mathematik an der Freie Universitaet Berlin.
 Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG]
 von [Prof. Dr. Hélène Esnault][Esnault].
 
-Here is my [CV](). To know more, see [about]().
+Here is my [CV](#). To know more, see [about](#).
 
 - - - - - - - - - -
 
@@ -63,7 +63,7 @@ Here is my [CV](). To know more, see [about]().
 * 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf).
 * 2016/17 Winter Semester, [Divided Power Algebra](/files/16WS-Divided-Power-Crystal.pdf).
 * 2016/17 Winter Semester, [Motivic Integration](/files/16WS-FS-Motivic-Integration.pdf).
-* 2014/15 Winter Semester, [Local Class Field Theory]().
+* 2014/15 Winter Semester, [Local Class Field Theory](#).
 
 Mehr gibt es unter [/n/](/n/).
 
