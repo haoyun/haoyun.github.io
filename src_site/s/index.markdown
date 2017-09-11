@@ -110,7 +110,7 @@ Mehr gibt es unter [/n/](/n/).
 
 ### Entwürfe
 
-* A tiny result of an analogue of Simpson correspondence for abelian varieties
+* A tiny result on an analogue of Simpson correspondence for abelian varieties
  in characteristic $p$. [[PDF]](/files/17SS-Simpson-Correspondence-AV-char-p.pdf)
 
 ### Preprints
