@@ -83,7 +83,7 @@ Mehr gibt es unter [/n/](/n/).
             * 2017-07-17    Comparison isomorphisms I 
         + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
             * 2017-04-27    Tate’s thesis for function fields, I
-            * 2017-05-24    Tate’s thesis for function fields, I
+            * 2017-05-04    Tate’s thesis for function fields, II
     - **2016-17 Winter Seminar** 
         + [Crystalline Cohomology][Crystalline].
             * 2016-10-31    Divided powers
