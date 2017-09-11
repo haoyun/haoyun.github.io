@@ -86,7 +86,7 @@ Mehr gibt es unter [/n/](/n/).
             * 2017-05-24    Tate’s thesis for function fields, I
     - **2016-17 Winter Seminar** 
         + [Crystalline Cohomology][Crystalline].
-            * 2016-10-31    Yun	Divided powers
+            * 2016-10-31    Divided powers
             * 2016-11-07    Calculus with divided powers
             * 2016-11-28    Crystals
         + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
