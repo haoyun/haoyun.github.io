@@ -1,7 +1,11 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+
 .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: upright;
     min-width: 2rem;  /* without this, problem in firefox*/
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 100;
 }
 
 .extra-text {
