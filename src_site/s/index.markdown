@@ -48,7 +48,7 @@ Here is my [CV](). To know more, see [about]().
 * **2016-06-20 -- 2016-06-22**. [Shimura Varieties][leidenshimura].\
   [Leiden University][leidenu].
 * **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
-  University of Utah, Salt Lake City, Utah, USA\
+  University of Utah, Salt Lake City, Utah, USA.\
   *Supported by [BMS][BMS] and [NSF]*.
 * **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
   [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
@@ -80,29 +80,29 @@ Mehr gibt es unter [/n/](/n/).
 * Seminars
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
-            * 2017-07-17    Comparison isomorphisms I 
+            * 2017-07-17    Comparison isomorphisms I.
         + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
-            * 2017-04-27    Tate’s thesis for function fields, I
-            * 2017-05-04    Tate’s thesis for function fields, II
+            * 2017-04-27    Tate’s thesis for function fields, I.
+            * 2017-05-04    Tate’s thesis for function fields, II.
     - **2016-17 Winter Seminar** 
         + [Crystalline Cohomology][Crystalline].
-            * 2016-10-31    Divided powers
-            * 2016-11-07    Calculus with divided powers
-            * 2016-11-28    Crystals
+            * 2016-10-31    Divided powers.
+            * 2016-11-07    Calculus with divided powers.
+            * 2016-11-28    Crystals.
         + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
             * 2017-02-09    Motivic integration and motivic zeta functions
     - **2016 Summer Semester** [D-modules][dmod].
         + 2015-05-02    D-modules and connections.
         + 2015-07-11    The Gieseker conjecture.
     - **2015-16 Winter Semester**. [Intersection Theory][intersection].
-        + 2015-11-16    Chow Ring of $\mathbb{G}(1,3)$
-        + 2016-02-08    Chern Classes V: some proofs
+        + 2015-11-16    Chow Ring of $\mathbb{G}(1,3)$.
+        + 2016-02-08    Chern Classes V: some proofs.
     - **2015 Summer semester**. [Étale Cohomology][etale].
-        + 2015-04-20    Étale morphisms and Henselization
-        + 2015-05-11    Galois coverings and fundamental group
-        + 2015-06-19    Étale cohomology
+        + 2015-04-20    Étale morphisms and Henselization.
+        + 2015-05-11    Galois coverings and fundamental group.
+        + 2015-06-19    Étale cohomology.
     - **2014-15 Winter Semester**. [Abelian Varieties][abv].
-        + 2014-11-11    Vanishing theorem
+        + 2014-11-11    Vanishing theorem.
 
 - - - - - - - - - - -
 
