@@ -17,7 +17,7 @@ This is just a very basic template that you can use
 ## Download ##
 
 ```bash
-git clone --recursive git@github.com:haoyun/Hakyll-Foundation.git site
+git clone --recursive git@github.com:haoyun/haoyun.github.io.git site
 cd site
 git checkout source
 git submodule update --init --recursive
