@@ -11,3 +11,16 @@
 .extra-text {
     color: $solarized-base00;
 }
+
+.responsive_huge_text {
+    color: $solarized-base01;
+    line-height: 1;
+    font-weight: 900;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.media:hover .media__image { color: $solarized-cyan; }
+
+.media a .media__image {
+    color: $body-font-color;
+}

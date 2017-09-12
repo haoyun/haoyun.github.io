@@ -8,12 +8,13 @@
   display: inline-block;
   position: relative;
   vertical-align: top;
+  width: 100%;
 }
 
 .media__image { display: block; }
 
 .media__body {
-  background: rgba(238,232,213,.7);//rgba(41, 128, 185, 0.7);
+  background: rgba($solarized-base2,.7);//rgba(41, 128, 185, 0.7);
   bottom: 0;
   color: #002b36;
   font-size: 1em;
@@ -30,8 +31,6 @@
 }
 
 .media__body:hover { opacity: 1; }
-
-.media:hover .media__image { fill: #2aa198; }
 
 .media__body:after,
 .media__body:before {
