@@ -15,4 +15,7 @@ git push origin HEAD:master -f
 cd ..
 git add .
 git commit -m 'source update'
-git push origin source
+git push origin source &&
+cd Foundation/ &&
+foundation build &&
+cd ../
