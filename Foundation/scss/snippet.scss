@@ -24,3 +24,12 @@
 .media a .media__image {
     color: $body-font-color;
 }
+
+
+footer {
+    background-color: $solarized-base2;
+}
+
+.footer-copyright {
+    background-color: rgba($solarized-base1,0.1);
+}
