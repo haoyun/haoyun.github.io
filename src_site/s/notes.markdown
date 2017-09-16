@@ -2,14 +2,14 @@
 title: Links
 ---
 
-Here you may find some short and stupid notes.
-All these notes are for myself and they may contain many mistakes and they may
-not be complete. So it must be painful to read them.
+Here you may find some short and stupid notes. All these notes are for myself.
+They may contain many mistakes and may not be complete. So it must be painful to
+read them. I do not suggest you read them.
 
-**Think before you read**!
+**Do not read**!
 
-* $G$-torsors
-* Grothendieck-connections
+* $G$-torsors and Gerbes
+* Grothendieck connections
 * Pullback of connections
 * Characteristic polynomial of a twisted endomorphism
 * Connections, stractifications and $D$-modules

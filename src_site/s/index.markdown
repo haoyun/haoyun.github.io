@@ -1,7 +1,3 @@
-[Back to Stupidity ↵](/)
-
-- - - - - - - - - -
-
 <p>Yun Hao (郝运)</p>
 <address style="white-space: nowrap;">
 Freie Universität Berlin<br>
