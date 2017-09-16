@@ -57,11 +57,14 @@ Here is my [CV](#). To know more, see [about](#).
 
 * 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf).
 * 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf).
+* 2017 Summer Semester, Models of curves and abelian varieties.
 * 2016/17 Winter Semester, [Divided Power Algebra](/files/16WS-Divided-Power-Crystal.pdf).
 * 2016/17 Winter Semester, [Motivic Integration](/files/16WS-FS-Motivic-Integration.pdf).
-* 2014/15 Winter Semester, [Local Class Field Theory](#).
+* 2016 Summer Semester, Algebraic groups.
+* 2015/16 Winter Semester, Elliptic curves.
+* 2014/15 Winter Semester, Local class field theory.
 
-Mehr gibt es unter [/n/](/n/).
+Mehr gibt es unter [/s/notes.html](/s/notes.html) und [/n/](/n/).
 
 - - - - - - - - - -
 
@@ -163,7 +166,7 @@ Essentially, there is no original work by myself.
 [padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
 [smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
 [Sullivan]: //page.math.tu-berlin.de/~sullivan/
-[TUB]: /www.tu-berlin.de/
+[TUB]: //www.tu-berlin.de/
 [TF]: //www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
 [UniDuisburgEssen]: //www.uni-due.de/
 [utah]: //sites.google.com/site/2015summerinstitute/
