@@ -85,9 +85,9 @@ main = hakyllWith hfConfiguration $ do
     
     match "index.html" $ do
         route idRoute
-        compile copyFileCompiler
-    
-    match "s/index.markdown" $ do
+        compile $ copyFileCompiler
+
+    match "s/*.markdown" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/textfile.html" postCtx
