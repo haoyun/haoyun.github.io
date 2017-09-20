@@ -2,8 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
-
-import           Data.List        (isPrefixOf, isSuffixOf)
+import           ExtensionlessUrl
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith hfConfiguration $ do
@@ -48,7 +47,9 @@ main = hakyllWith hfConfiguration $ do
             >>= relativizeUrls
 
     match "n/posts/*" $ do
-        route $ setExtension "html"
+        route $ setExtension "html" `composeRoutes`
+                appendIndex         `composeRoutes`
+                dateFolders
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
@@ -101,6 +102,7 @@ main = hakyllWith hfConfiguration $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    dropIndexHtml "url"          `mappend`
     defaultContext
 
 --------------------------------------------------------------------------------
