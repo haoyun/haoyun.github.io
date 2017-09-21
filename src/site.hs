@@ -89,7 +89,8 @@ main = hakyllWith hfConfiguration $ do
     
     match "index.html" $ do
         route idRoute
-        compile $ copyFileCompiler
+        compile $ getResourceBody
+            >>= applyAsTemplate postCtx
 
     match "s/index.markdown" $ do
         route $ setExtension "html"
@@ -99,9 +100,10 @@ main = hakyllWith hfConfiguration $ do
 
     match (fromList ["comment.markdown", "s/notes.markdown"]) $ do
         route $ setExtension "html" `composeRoutes` appendIndex
-        compile $ pandocCompiler
+        compile $ getResourceBody
+            >>= applyAsTemplate postCtx
+            >>= renderPandoc
             >>= loadAndApplyTemplate "templates/textfile.html" postCtx
-            >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
 
