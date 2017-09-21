@@ -134,22 +134,22 @@ Essentially, there is no original work by myself.
 [AG]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/index.html
 [BMS]: //www.math-berlin.de
 [Berkovich]://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html
-[BICMREPGS]: //www.bicmr.org/content/page/25.html
-[BICMR]: //www.bicmr.org/
+[BICMREPGS]: http://www.bicmr.org/content/page/25.html
+[BICMR]: http://www.bicmr.org/
 [Crystalline]: //page.mi.fu-berlin.de/katsief/crys.html
 [CV]: /files/CV-20170121.pdf
 [de Jong-He-Starr]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
 [dmod]://pub.math.leidenuniv.nl/~zomervruchtw/2016-dmod/
 [deformation]: //www2.mathematik.hu-berlin.de/~kemenymi/teaching/deformation-theory.html
-[DG]://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
+[DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
 [Esnault]://www.mi.fu-berlin.de/users/esnault/
 [ellipticcurves]://www.mi.fu-berlin.de/users/ruelling/EC.html
 [etale]://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
 [FUB]://www.fu-berlin.de/
 [geomlanglands]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
-[GR]: //ferienkurs.aei.mpg.de/
+[GR]: http://ferienkurs.aei.mpg.de/
 [higssk3moduli]://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/HBKM/conference.php
-[Higgs]: //higgs2016.sfb45.de/
+[Higgs]: http://higgs2016.sfb45.de/
 [HUB]: //www.hu-berlin.de/
 [intersection]: /seminars/15WS-Intersection-Theory/
 [leidenu]://www.universiteitleiden.nl/
@@ -165,7 +165,7 @@ Essentially, there is no original work by myself.
 [periods]: //people.math.ethz.ch/~jfresan/berlin.html
 [padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
 [smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
-[Sullivan]: //page.math.tu-berlin.de/~sullivan/
+[Sullivan]: http://page.math.tu-berlin.de/~sullivan/
 [TUB]: //www.tu-berlin.de/
 [TF]: //www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
 [UniDuisburgEssen]: //www.uni-due.de/
