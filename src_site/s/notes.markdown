@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Notes
 ---
 
 Here you may find some short and stupid notes. All these notes are for myself.

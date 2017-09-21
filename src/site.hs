@@ -41,9 +41,10 @@ main = hakyllWith hfConfiguration $ do
     -- | Compile pages
 
     match (fromList ["n/about.rst", "n/contact.markdown"]) $ do
-        route   $ setExtension "html"
+        route $ setExtension "html" `composeRoutes`
+                appendIndex
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" (dropIndexHtml "url"  `mappend` defaultContext)
             >>= relativizeUrls
 
     match "n/posts/*" $ do
@@ -56,12 +57,14 @@ main = hakyllWith hfConfiguration $ do
             >>= relativizeUrls
 
     create ["n/archive.html"] $ do
-        route idRoute
+        route $ idRoute  `composeRoutes`
+                appendIndex
         compile $ do
             posts <- recentFirst =<< loadAll "n/posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
+                    dropIndexHtml "url"                      `mappend`
                     defaultContext
 
             makeItem ""
@@ -88,12 +91,17 @@ main = hakyllWith hfConfiguration $ do
         route idRoute
         compile $ copyFileCompiler
 
-    match "s/*.markdown" $ do
+    match "s/index.markdown" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/textfile.html" postCtx
             >>= relativizeUrls
-            
+
+    match (fromList ["comment.markdown", "s/notes.markdown"]) $ do
+        route $ setExtension "html" `composeRoutes` appendIndex
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/textfile.html" postCtx
+            >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
 

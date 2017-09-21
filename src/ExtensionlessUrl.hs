@@ -16,7 +16,7 @@ import           Hakyll.Core.Util.String
 --------------------------------------------------------------------------------
 appendIndex :: Routes
 appendIndex = customRoute $
-    replaceAll "\\" (const "/") . (\(p, e) -> p </> "index" <.> e ) . splitExtension . toFilePath
+    (\(p, e) -> p ++ "/index" ++ e ) . splitExtension . toFilePath
 --------------------------------------------------------------------------------
 dateFolders :: Routes
 dateFolders =

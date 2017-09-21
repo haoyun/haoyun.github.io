@@ -64,7 +64,7 @@ Here is my [CV](#). To know more, see [about](#).
 * 2015/16 Winter Semester, Elliptic curves.
 * 2014/15 Winter Semester, Local class field theory.
 
-Mehr gibt es unter [/s/notes.html](/s/notes.html) und [/n/](/n/).
+Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
 
 - - - - - - - - - -
 

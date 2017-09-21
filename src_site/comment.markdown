@@ -1,0 +1,15 @@
+---
+title: Notes
+---
+
+Here you can leave message. You can also send me mails.
+
+<section>
+<script>
+var idcomments_acct = '3eb5e7864d2f0dc9d1586c6209453d5d';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+</section>
