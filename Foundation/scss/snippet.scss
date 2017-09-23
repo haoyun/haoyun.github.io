@@ -37,3 +37,13 @@ footer {
 footer {
     font-size: $small-font-size;
 }
+
+article .header {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
+
+article .main {
+    text-align: justify;
+}
