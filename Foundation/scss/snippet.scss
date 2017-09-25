@@ -1,5 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
 
+
+// 
+// For Index.html only
+// 
+// 
+
 .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -26,6 +32,11 @@
 }
 
 
+//
+// all pages
+//
+//
+
 footer {
     background-color: $solarized-base2;
 }
@@ -38,6 +49,11 @@ footer {
     font-size: $small-font-size;
 }
 
+//
+//  For blog posts.
+//
+//
+
 article .header {
     color: #555;
     font-size: 14px;
@@ -46,4 +62,18 @@ article .header {
 
 article .main {
     text-align: justify;
+}
+
+
+//
+// For blog
+//
+//
+
+.top-bar .menu {
+    color: $solarized-blue;
+}
+
+.top-bar .menu a {
+    color: $solarized-blue;
 }
