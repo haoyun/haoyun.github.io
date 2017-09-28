@@ -17,4 +17,6 @@ read them. I do not suggest you read them.
 * $$p$$-curvatures
 * Tannakian categories
 * Barsotti-Tate Group
+* Spectral Sequences
+* Gauss-Manin Connection
 * ...
