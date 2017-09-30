@@ -17,14 +17,22 @@ It prevents the image to be enclosed in <p></p>. See Pandoc's documents.
 -->
 
 - - - - - - - - - -
-
 ## ÜBER MICH
 
-Ich bin Doktorand in Mathematik an der Freie Universitaet Berlin. 
+
+Ich bin Doktorand in Mathematik
+an der Freie Universitaet Berlin. 
 Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG]
 von [Prof. Dr. Hélène Esnault][Esnault].
 
 Here is my [CV](#). To know more, see [about](#).
+<div style="
+height:120px;
+margin-top:-120px;
+margin-left:10%;
+opacity:0.5;"><img src="/images/text27.png" alt="alt"></img>\
+</div>
+
 
 - - - - - - - - - -
 
