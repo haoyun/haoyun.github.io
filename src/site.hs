@@ -22,21 +22,13 @@ main = hakyllWith hfConfiguration $ do
         compile (makeItem ("User-agent: *\nDisallow: /\n"::String))   
         
     -- | Copy binary files
-    match "images/**" $ do
-        route   idRoute
-        compile copyFileCompiler
-    
-    match "files/**" $ do
+    match ("images/**" .||. "files/**" .||. "js/*") $ do
         route   idRoute
         compile copyFileCompiler
         
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-    
-    match "js/*" $ do
-        route   idRoute
-        compile copyFileCompiler
         
     -- | Compile pages
 
@@ -98,12 +90,14 @@ main = hakyllWith hfConfiguration $ do
             >>= loadAndApplyTemplate "templates/textfile.html" postCtx
             >>= relativizeUrls
 
-    match (fromList ["comment.markdown", "s/notes.markdown"]) $ do
-        route $ setExtension "html" `composeRoutes` appendIndex
-        compile $ getResourceBody
-            >>= applyAsTemplate postCtx
-            >>= renderPandoc
-            >>= loadAndApplyTemplate "templates/textfile.html" postCtx
+    match ( "comment.markdown" .||. 
+            "s/*.markdown" .&&. complement "s/index.markdown"
+          ) $ do
+                route $ setExtension "html" `composeRoutes` appendIndex
+                compile $ getResourceBody
+                    >>= applyAsTemplate postCtx
+                    >>= renderPandoc
+                    >>= loadAndApplyTemplate "templates/textfile.html" postCtx
 
     match "templates/*" $ compile templateBodyCompiler
 
