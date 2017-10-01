@@ -27,11 +27,15 @@ von [Prof. Dr. Hélène Esnault][Esnault].
 
 Here is my [CV](#). To know more, see [about](#).
 <div style="
-height:120px;
-margin-top:-120px;
+height: 8rem;
+margin-top: -8rem;
+max-width: 80%;
 margin-left:10%;
-opacity:0.5;"><img src="/images/text27.png" alt="alt"></img>\
-</div>
+z-index: -1;
+position: relative;
+background: url(/images/text27.png) no-repeat;
+background-size: 80% auto;
+opacity:0.5;"></div>
 
 
 - - - - - - - - - -
