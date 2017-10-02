@@ -17,38 +17,15 @@ It prevents the image to be enclosed in <p></p>. See Pandoc's documents.
 -->
 
 - - - - - - - - - -
-## ÜBER MICH
 
-Ich bin Doktorand in Mathematik an der Freie Universitaet Berlin. 
-Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG]
-von [Prof. Dr. Hélène Esnault][Esnault].
+## ÜBER MICH<span id="to-replace-2">
 
-<div style="
-height: 5rem;
-margin-top: -5rem;
-max-width: 80%;
-margin-left: 15%;
-z-index: -1;
-position: relative;
-background: url(/images/unqualified.png) no-repeat;
-background-size: auto 3rem;
-opacity:.8;"></div>
+Ich </span>bin <span id="to-replace-1"></span>Doktorand in Mathematik an der Freie Universitaet Berlin. Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von [Prof. Dr. Hélène Esnault][Esnault].
 
 Here is my [CV](#). To know more, see [about](#).
-<div style="
-height: 8rem;
-margin-top: -8rem;
-max-width: 80%;
-margin-left:-3%;
-z-index: -1;
-position: relative;
-background: url(/images/stupid.png) no-repeat;
-background-size: 5rem auto;
-opacity:.8;"></div>
 
 
 - - - - - - - - - -
-
 ## Veranstaltungen
 
 ### Aktuelle \& Kommende

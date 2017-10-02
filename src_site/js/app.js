@@ -1,5 +1,45 @@
  /*
  /
+ / replace div 
+ / have to use JS as the text is parsed by Pandoc
+ /
+*/
+
+
+
+$("span#to-replace-1").replaceWith('\
+<div style="\
+display: inline-block;\
+height: 3rem;\
+margin-top: -3rem;\
+width: 80%;\
+margin-left: -80%;\
+left: 80%;\
+top: 1.5rem;\
+z-index: -1;\
+position: relative;\
+background: url(/images/unqualified.png) no-repeat;\
+background-size: auto 3rem;\
+opacity:.8;"></div>'); 
+
+$("span#to-replace-2").replaceWith('\
+<div style="\
+display: inline-block;\
+height: 3rem;\
+margin-top: -3rem;\
+width: 30%;\
+margin-left: -40%;\
+left: 30%;\
+top: .5rem;\
+z-index: -1;\
+position: relative;\
+background: url(/images/stupid.png) no-repeat;\
+background-size: 5rem auto;\
+opacity:.7;"></div>');
+
+
+ /*
+ /
  / fake recaptcha
  /
  /
