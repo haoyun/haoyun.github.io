@@ -6,6 +6,16 @@
 // 
 // 
 
+.website-title {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.website-subtitle {
+    font-variant: small-caps;
+}
+
 .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: upright;
