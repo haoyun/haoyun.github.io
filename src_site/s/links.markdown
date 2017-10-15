@@ -29,11 +29,15 @@ title: Links
 
 ## SGA
 
-* [SGA1][SGA1], SGA2, SGA3, [SGA4][SGA4], SGA4½, SGA5, SGA6, SGA7
+* [Scanned][SGAScanned]. 
+* TeXed: [SGA1][SGA1], [SGA2][SGA2], [SGA3][SGA3], [SGA4][SGA4], SGA4½, SGA5, SGA6, SGA7 I, SGA 7 II
 
-
-[SGA1]: https://arxiv.org/abs/math/0206203
-[SGA4]: http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/
+[SGAScanned]: http://library.msri.org/books/sga/sga/index.html
+[SGA1]: //arxiv.org/abs/math/0206203
+[SGA2]: //arxiv.org/abs/math/0511279
+[SGA3]: //webusers.imj-prg.fr/~patrick.polo/SGA3/
+[SGA4]: //fabrice.orgogozo.perso.math.cnrs.fr/SGA4/
+[SGA7II]: //publications.ias.edu/node/358
 
 
 ## Online books & notes

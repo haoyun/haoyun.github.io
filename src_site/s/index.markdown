@@ -20,34 +20,13 @@ It prevents the image to be enclosed in <p></p>. See Pandoc's documents.
 
 ## ÜBER MICH<span id="to-replace-2">
 
-Ich </span>bin <span id="to-replace-1"></span>Doktorand in Mathematik an der Freie Universitaet Berlin. Ich arbeite gerade in der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von [Prof. Dr. Hélène Esnault][Esnault].
+Ich </span>bin <span id="to-replace-1"></span>Doktorand in Mathematik an
+der [Freie Universitaet Berlin][FUB]. Ich arbeite gerade in
+der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
+[Prof. Dr. Hélène Esnault][Esnault].
 
+I am funded by [Berlin Mathematical School][BMS].
 Here is my [CV](#). To know more, see [about](#).
-
-
-- - - - - - - - - -
-## Veranstaltungen
-
-### Aktuelle \& Kommende
-
-### Vergangen
-* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
-  Johannes Gutenberg-Universität Main.
-* **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
-  Freie Universität Berlin.
-* **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
-  [Humboldt Universität zu Berlin][HUB].
-* **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
-  [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
-* **2016-06-20 -- 2016-06-22**. [Shimura Varieties][leidenshimura].\
-  [Leiden University][leidenu].
-* **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
-  University of Utah, Salt Lake City, Utah, USA.\
-  *Supported by [BMS][BMS] and [NSF]*.
-* **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
-  [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
-* **2013-02 -- 2013-06**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
-  [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
 
 - - - - - - - - - -
 
@@ -55,6 +34,7 @@ Here is my [CV](#). To know more, see [about](#).
 * Seminars
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
+		    * 2017-11-06    Grothendieck Existence Theorem
 	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
@@ -81,6 +61,31 @@ Here is my [CV](#). To know more, see [about](#).
         + 2015-06-19    Étale cohomology.
     - **2014--15 Winter Semester**. [Abelian Varieties][abv].
         + 2014-11-11    Vanishing theorem.
+
+- - - - - - - - - -
+
+## Veranstaltungen
+
+### Aktuelle \& Kommende
+
+### Vergangen
+* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
+  Johannes Gutenberg-Universität Main.
+* **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
+  Freie Universität Berlin.
+* **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
+  [Humboldt Universität zu Berlin][HUB].
+* **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
+  [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
+* **2016-06-20 -- 2016-06-22**. [Shimura Varieties][leidenshimura].\
+  [Leiden University][leidenu].
+* **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
+  University of Utah, Salt Lake City, Utah, USA.\
+  *Supported by [BMS][BMS] and [NSF]*.
+* **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
+  [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
+* **2013-02 -- 2013-06**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
+  [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
 
 - - - - - - - - - -
 
