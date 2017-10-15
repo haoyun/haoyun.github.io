@@ -29,8 +29,11 @@ title: Links
 
 ## SGA
 
-* SGA1, SGA2, SGA3, SGA4, SGA4½, SGA5, SGA6, SGA7
+* [SGA1][SGA1], SGA2, SGA3, [SGA4][SGA4], SGA4½, SGA5, SGA6, SGA7
 
+
+[SGA1]: https://arxiv.org/abs/math/0206203
+[SGA4]: http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/
 
 
 ## Online books & notes

@@ -29,10 +29,10 @@ Here is my [CV](#). To know more, see [about](#).
 ## Veranstaltungen
 
 ### Aktuelle \& Kommende
-* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
-  Johannes Gutenberg-Universität Main.
 
 ### Vergangen
+* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
+  Johannes Gutenberg-Universität Main.
 * **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
   Freie Universität Berlin.
 * **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
@@ -51,6 +51,39 @@ Here is my [CV](#). To know more, see [about](#).
 
 - - - - - - - - - -
 
+## Talks
+* Seminars
+    - **2017--18 Winter Semester**.
+	    + [Formal geometry and deformation theory][formalanddefomation].
+	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
+    - **2017 Summer Semester**
+        + [$p$-adic Hodge Theory][padichodge].
+            * 2017-07-17    Comparison isomorphisms I.
+        + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
+            * 2017-04-27    Tate’s thesis for function fields, I.
+            * 2017-05-04    Tate’s thesis for function fields, II.
+    - **2016--17 Winter Seminar** 
+        + [Crystalline Cohomology][Crystalline].
+            * 2016-10-31    Divided powers.
+            * 2016-11-07    Calculus with divided powers.
+            * 2016-11-28    Crystals.
+        + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
+            * 2017-02-09    Motivic integration and motivic zeta functions
+    - **2016 Summer Semester** [D-modules][dmod].
+        + 2015-05-02    D-modules and connections.
+        + 2015-07-11    The Gieseker conjecture.
+    - **2015--16 Winter Semester**. [Intersection Theory][intersection].
+        + 2015-11-16    Chow Ring of $\mathbb{G}(1,3)$.
+        + 2016-02-08    Chern Classes V: some proofs.
+    - **2015 Summer semester**. [Étale Cohomology][etale].
+        + 2015-04-20    Étale morphisms and Henselization.
+        + 2015-05-11    Galois coverings and fundamental group.
+        + 2015-06-19    Étale cohomology.
+    - **2014--15 Winter Semester**. [Abelian Varieties][abv].
+        + 2014-11-11    Vanishing theorem.
+
+- - - - - - - - - -
+
 ## Skripte zu ausgewählten Vorlesungen und Seminaren
 
 * 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf).
@@ -63,43 +96,14 @@ Here is my [CV](#). To know more, see [about](#).
 * 2014/15 Winter Semester, Local class field theory.
 
 Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
-
+		
 - - - - - - - - - -
+
 
 ## Teaching
 
 * **2015 Summer Semester**. Teaching Assistant for [Differential Geometry I][DG], with [Prof. Sullivan][Sullivan], at [TU Berlin][TUB].\
     *to assign and correct homework and to hold the tutorials*.
-
-- - - - - - - - - -
-
-## Talks
-* Seminars
-    - **2017 Summer Semester**
-        + [$p$-adic Hodge Theory][padichodge].
-            * 2017-07-17    Comparison isomorphisms I.
-        + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
-            * 2017-04-27    Tate’s thesis for function fields, I.
-            * 2017-05-04    Tate’s thesis for function fields, II.
-    - **2016-17 Winter Seminar** 
-        + [Crystalline Cohomology][Crystalline].
-            * 2016-10-31    Divided powers.
-            * 2016-11-07    Calculus with divided powers.
-            * 2016-11-28    Crystals.
-        + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
-            * 2017-02-09    Motivic integration and motivic zeta functions
-    - **2016 Summer Semester** [D-modules][dmod].
-        + 2015-05-02    D-modules and connections.
-        + 2015-07-11    The Gieseker conjecture.
-    - **2015-16 Winter Semester**. [Intersection Theory][intersection].
-        + 2015-11-16    Chow Ring of $\mathbb{G}(1,3)$.
-        + 2016-02-08    Chern Classes V: some proofs.
-    - **2015 Summer semester**. [Étale Cohomology][etale].
-        + 2015-04-20    Étale morphisms and Henselization.
-        + 2015-05-11    Galois coverings and fundamental group.
-        + 2015-06-19    Étale cohomology.
-    - **2014-15 Winter Semester**. [Abelian Varieties][abv].
-        + 2014-11-11    Vanishing theorem.
 
 - - - - - - - - - - -
 
@@ -144,6 +148,7 @@ Essentially, there is no original work by myself.
 [ellipticcurves]://www.mi.fu-berlin.de/users/ruelling/EC.html
 [etale]://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
 [FUB]://www.fu-berlin.de/
+[formalanddefomation]: //www.mi.fu-berlin.de/users/castillejo/formal-schemes
 [geomlanglands]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
 [GR]: http://ferienkurs.aei.mpg.de/
 [higssk3moduli]://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/HBKM/conference.php
@@ -162,6 +167,7 @@ Essentially, there is no original work by myself.
 [NSF]: //www.nsf.gov/
 [periods]: //people.math.ethz.ch/~jfresan/berlin.html
 [padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
+[padicsimpson]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/simpson_wise1718.html
 [smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
 [Sullivan]: http://page.math.tu-berlin.de/~sullivan/
 [TUB]: //www.tu-berlin.de/
