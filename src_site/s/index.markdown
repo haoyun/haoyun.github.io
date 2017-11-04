@@ -37,6 +37,7 @@ Here is my [CV](#). To know more, see [about](#).
 		    * 2017-11-06    Grothendieck Existence Theorem.
             * 2018-01-15    Lifting theory II: Serre's Example of non-liftable variety.
 	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
+            * 2017-11-23    Exponential Twisting: Cartier Transform.
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
             * 2017-07-17    Comparison isomorphisms I.
