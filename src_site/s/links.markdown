@@ -40,7 +40,7 @@ title: Links
 [SGA7II]: //publications.ias.edu/node/358
 
 
-## Online books & notes
+## Online Bücher & Skripte
 
 * James Milne, [Books][MilneBooks] and [Notes][MilneNotes] about EVERYTHING.
 * Ravi Vakil, [The Rising Sea: Foundations Of Algebraic Geometry][FOAG]
@@ -66,23 +66,40 @@ title: Links
 [MilneNotes]: http://www.jmilne.org/math/CourseNotes/index.html
 
 
-## People
+## Personen
 
 * [Brian Conrad][BrianConrad]
 
 [BrianConrad]: //math.stanford.edu/~conrad/
 
 ### Kollegen
-* [Pedro Ángel Castillejo][Pedro], [Tanya Kaushal Srivastava][Tanya],
-  [Efstathia Katsigianni][Efstathia], [Marco D'Addezio][Marco]
+* [Marco D'Addezio][Marco],
+  [Pedro Ángel Castillejo][Pedro],
+  [Tanya Kaushal Srivastava][Tanya],
+  [Efstathia Katsigianni][Efstathia]
+* [Michael Groechenig][Michael],
+  [Shane Kelly][Shane],
+  [Raju Krishnamoorthy][Raju],
+  [Simon Pepin Lehalleur][Simon],
+  [Kay Rülling][Kay],
+  [Fabio Tonini][Fabio],
+  [Lei Zhang][Lei]
+  
 
-[Pedro]: http://www.mi.fu-berlin.de/users/castillejo/
-[Tanya]: http://page.mi.fu-berlin.de/tanyasrivas/
-[Efstathia]: http://page.mi.fu-berlin.de/katsief/
-[Marco]: http://www.mi.fu-berlin.de/users/daddezio/
+    [Pedro]: //page.mi.fu-berlin.de/castillejo/
+    [Tanya]: //page.mi.fu-berlin.de/tanyasrivas/
+[Efstathia]: //page.mi.fu-berlin.de/katsief/
+    [Marco]: //page.mi.fu-berlin.de/daddezio/
+      [Kay]: //page.mi.fu-berlin.de/ruelling/
+      [Lei]: //page.mi.fu-berlin.de/lei/
+    [Shane]: //page.mi.fu-berlin.de/shanekelly/
+  [Michael]: //page.mi.fu-berlin.de/groemich/
+    [Fabio]: //page.mi.fu-berlin.de/tonini/
+    [Simon]: //simon-pepin.github.io/
+     [Raju]: //math.columbia.edu/~raju/
 
 
-## Wiki
+## Enzyklopädie
 
 * [$$n$$Lab][nlab]
 * [Stacks Project][SP]

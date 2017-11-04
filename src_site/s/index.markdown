@@ -34,7 +34,8 @@ Here is my [CV](#). To know more, see [about](#).
 * Seminars
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
-		    * 2017-11-06    Grothendieck Existence Theorem
+		    * 2017-11-06    Grothendieck Existence Theorem.
+            * 2018-01-15    Lifting theory II: Serre's Example of non-liftable variety.
 	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
@@ -48,7 +49,7 @@ Here is my [CV](#). To know more, see [about](#).
             * 2016-11-07    Calculus with divided powers.
             * 2016-11-28    Crystals.
         + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
-            * 2017-02-09    Motivic integration and motivic zeta functions
+            * 2017-02-09    Motivic integration and motivic zeta functions.
     - **2016 Summer Semester** [D-modules][dmod].
         + 2015-05-02    D-modules and connections.
         + 2015-07-11    The Gieseker conjecture.
