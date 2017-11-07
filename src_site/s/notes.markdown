@@ -8,12 +8,12 @@ read them. I do not suggest you read them.
 
 **Do not read**!
 
-* [Torsors and gerbes](/files/16WS-G-torsors.pdf)
+* [Torsors and gerbes]<!--(/files/16WS-G-torsors.pdf)-->
 * Pullback of connections
 * Characteristic polynomial of a twisted endomorphism
-* [Connections, stractifications and $$D$$-modules](/files/17SS-connection_stratification_D-module.pdf)
-* [Grothendieck connections](/files/16WS-Grothendieck_Connection.pdf)
-* [Divided-power envelope](/files/17SS-PD-envelop.pdf)
+* [Connections, stractifications and $$D$$-modules]<!--(/files/17SS-connection_stratification_D-module.pdf)-->
+* [Grothendieck connections]<!--(/files/16WS-Grothendieck_Connection.pdf)-->
+* [Divided-power envelope]<!--(/files/17SS-PD-envelop.pdf)-->
 * $$p$$-curvatures
 * Tannakian categories
 * Barsotti-Tate Group
