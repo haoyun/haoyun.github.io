@@ -25,7 +25,7 @@ der [Freie Universitaet Berlin][FUB]. Ich arbeite gerade in
 der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
 [Prof. Dr. Hélène Esnault][Esnault].
 Mein Studium wurde die [Berlin Mathematical School][BMS] (BMS)
-[Stipendien][scholarship] (Phase I und II) unterstützt.
+[Stipendien][scholarship] (Phase I und Phase II) unterstützt.
 <!--https://forum.wordreference.com/threads/mein-studium-wird-durch-ein-stipendium-unterst%C3%BCtzt.1879029/-->
 
 <!--Here is my [CV](#). To know more, see [about](#).-->
