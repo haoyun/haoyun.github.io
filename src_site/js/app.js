@@ -20,7 +20,7 @@ z-index: -1;\
 position: relative;\
 background: url(/images/unqualified.png) no-repeat;\
 background-size: auto 3rem;\
-opacity:.8;"></div>'); 
+opacity:.6;"></div>'); 
 
 $("span#to-replace-2").replaceWith('\
 <div style="\

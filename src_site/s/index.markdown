@@ -24,14 +24,16 @@ Ich </span>bin <span id="to-replace-1"></span>Doktorand in Mathematik an
 der [Freie Universitaet Berlin][FUB]. Ich arbeite gerade in
 der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
 [Prof. Dr. Hélène Esnault][Esnault].
+Mein Studium wurde die [Berlin Mathematical School][BMS] (BMS)
+[Stipendien][scholarship] (Phase I und II) unterstützt.
+<!--https://forum.wordreference.com/threads/mein-studium-wird-durch-ein-stipendium-unterst%C3%BCtzt.1879029/-->
 
-I am funded by [Berlin Mathematical School][BMS].
-Here is my [CV](#). To know more, see [about](#).
+<!--Here is my [CV](#). To know more, see [about](#).-->
 
 - - - - - - - - - -
 
-## Talks
-* Seminars
+## Vorträge
+* Seminare
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
 		    * 2017-11-06    Grothendieck Existence Theorem.
@@ -71,9 +73,9 @@ Here is my [CV](#). To know more, see [about](#).
 ### Aktuelle \& Kommende
 
 ### Vergangen
-* **2017-10-09  -- 2017-10-13 -28** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
+* **2017-10-09 -- 2017-10-13** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
   Johannes Gutenberg-Universität Main.
-* **2017-08-28 -- 2017-09-01**. [Motives for periods][periods].\
+* **2017-08-28 -- 2017-09-01** [Motives for periods][periods].\
   Freie Universität Berlin.
 * **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
   [Humboldt Universität zu Berlin][HUB].
@@ -91,7 +93,7 @@ Here is my [CV](#). To know more, see [about](#).
 
 - - - - - - - - - -
 
-## Skripte zu ausgewählten Vorlesungen und Seminaren
+## Skripte zu ausgewählten Vorlesungen und Seminare
 
 * 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf).
 * 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf).
@@ -107,7 +109,7 @@ Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
 - - - - - - - - - -
 
 
-## Teaching
+## Lehren
 
 * **2015 Summer Semester**. Teaching Assistant for [Differential Geometry I][DG], with [Prof. Sullivan][Sullivan], at [TU Berlin][TUB].\
     *to assign and correct homework and to hold the tutorials*.
@@ -177,6 +179,7 @@ Essentially, there is no original work by myself.
 [padicsimpson]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/simpson_wise1718.html
 [smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
 [Sullivan]: http://page.math.tu-berlin.de/~sullivan/
+[scholarship]: //www.math-berlin.de/students/financing-your-phd
 [TUB]: //www.tu-berlin.de/
 [TF]: //www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
 [UniDuisburgEssen]: //www.uni-due.de/
