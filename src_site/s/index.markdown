@@ -30,6 +30,8 @@ Mein Studium wurde die [Berlin Mathematical School][BMS] (BMS)
 
 <!--Here is my [CV](#). To know more, see [about](#).-->
 
+Mein [Lebenslauf][CV] (auf Englisch).
+
 - - - - - - - - - -
 
 ## Vorträge
@@ -148,7 +150,7 @@ Essentially, there is no original work by myself.
 [BICMREPGS]: http://www.bicmr.org/content/page/25.html
 [BICMR]: http://www.bicmr.org/
 [Crystalline]: //page.mi.fu-berlin.de/katsief/crys.html
-[CV]: /files/CV-20170121.pdf
+[CV]: /files/CV-20171116.pdf
 [de Jong-He-Starr]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
 [dmod]://pub.math.leidenuniv.nl/~zomervruchtw/2016-dmod/
 [deformation]: //www2.mathematik.hu-berlin.de/~kemenymi/teaching/deformation-theory.html
