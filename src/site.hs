@@ -22,7 +22,7 @@ main = hakyllWith hfConfiguration $ do
         compile (makeItem ("User-agent: *\nDisallow: /\n"::String))   
         
     -- | Copy binary files
-    match ("images/**" .||. "files/**" .||. "js/*") $ do
+    match ("images/**" .||. "files/**" .||. "js/*" .||. "vendor/**") $ do
         route   idRoute
         compile copyFileCompiler
         

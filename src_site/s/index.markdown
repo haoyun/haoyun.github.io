@@ -32,6 +32,65 @@ Mein Studium wurde die [Berlin Mathematical School][BMS] (BMS)
 
 Mein [Lebenslauf][CV] (auf Englisch).
 
+
+<!--
+<style>
+/*
+PDFObject appends the classname "pdfobject-container" to the target element.
+This enables you to style the element differently depending on whether the embed was successful.
+In this example, a successful embed will result in a large box.
+A failed embed will not have dimensions specified, so you don't see an oddly large empty box.
+*/
+
+.pdfobject-container {
+	width: 100%;
+	height: 600px;
+	margin: 2em 0;
+}
+
+.pdfobject { border: solid 1px #666; }
+#results { padding: 1rem; }
+.hidden { display: none; }
+.success { color: #4F8A10; background-color: #DFF2BF; }
+.fail { color: #D8000C; background-color: #FFBABA; }
+</style>
+
+
+<div class="large reveal" id="exampleModal1" data-reveal>
+<button class="close-button" data-close aria-label="Close modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+<div id="results" class="hidden"></div>
+<div id="pdf"></div>
+</div>
+
+<p><span class="embed-link" data-open="exampleModal1">Click me for a modal</span></p>
+
+<script>
+document.querySelector(".embed-link").addEventListener("click", function (e){
+e.preventDefault();
+this.setAttribute("class", "hidden");
+var options = {
+	pdfOpenParams: {
+		navpanes: 0,
+		toolbar: 0,
+		statusbar: 0,
+		pagemode: "none",
+		view: "FitV"
+	},
+    forcePDFJS: true,
+	PDFJS_URL: "/vendor/pdfjs/web/viewer.html"
+};
+
+var myPDF = PDFObject.embed("/files/CV-20171116.pdf", "#pdf", options);
+var el = document.querySelector("#results");
+el.setAttribute("class", (myPDF) ? "success" : "fail");
+el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to the page!" : "Uh-oh, the embed didn't work.";
+});
+</script>
+-->
+
+
 - - - - - - - - - -
 
 ## Vorträge
