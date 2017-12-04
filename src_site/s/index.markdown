@@ -100,7 +100,7 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 		    * 2017-11-06    Grothendieck Existence Theorem.
             * 2018-01-15    Lifting theory II: Serre's Example of non-liftable variety.
 	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
-            * 2017-11-23    Exponential Twisting: Cartier Transform.
+            * 2017-11-23    Inverse Cartier and Cartier transform via exponential twist.
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
             * 2017-07-17    Comparison isomorphisms I.
@@ -156,17 +156,21 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ## Skripte zu ausgewählten Vorlesungen und Seminare
 
-* 2017 Summer Semester, [$\infty$-categories](/files/17SS-Infinity-Categories.pdf).
-* 2017 Summer Semester, [Tate's Thesis](/files/17SS-FS-Tates-Thesis.pdf).
+* 2017/18 Winter Semester,
+  [Non-abelian Hodge theory via exponential twist][notes-LSZ],
+  following [[LSZ]][LSZ].
+* 2017 Summer Semester, [$\infty$-categories][notes-infcat],
+  a mini-course given by [Michael Groechenig][Michael].
+* 2017 Summer Semester, [Tate's Thesis][notes-TatesThesis].
 * 2017 Summer Semester, Models of curves and abelian varieties.
-* 2016/17 Winter Semester, [Divided Power Algebra](/files/16WS-Divided-Power-Crystal.pdf).
-* 2016/17 Winter Semester, [Motivic Integration](/files/16WS-FS-Motivic-Integration.pdf).
+* 2016/17 Winter Semester, [Divided Power Algebra][notes-pd].
+* 2016/17 Winter Semester, [Motivic Integration][notes-motivicint].
 * 2016 Summer Semester, Algebraic groups.
 * 2015/16 Winter Semester, Elliptic curves.
 * 2014/15 Winter Semester, Local class field theory.
 
 Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
-		
+
 - - - - - - - - - -
 
 
@@ -200,49 +204,77 @@ Frobenius is non-empty ([arXiv:1405.6381][Vashavsky]).
 Essentially, there is no original work by myself.
 
 
-[alggrp]: //www.math.fu-berlin.de/users/lei/algebraische%20Gruppen.html
-[abv]: //www.mi.fu-berlin.de/users/elenalavanda/ab_var2.html
-[AEI]: //www.aei.mpg.de/
-[AG]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/index.html
-[BMS]: //www.math-berlin.de
-[Berkovich]://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html
-[BICMREPGS]: http://www.bicmr.org/content/page/25.html
-[BICMR]: http://www.bicmr.org/
-[Crystalline]: //page.mi.fu-berlin.de/katsief/crys.html
-[CV]: /files/CV-20171116.pdf
-[de Jong-He-Starr]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
-[dmod]://pub.math.leidenuniv.nl/~zomervruchtw/2016-dmod/
-[deformation]: //www2.mathematik.hu-berlin.de/~kemenymi/teaching/deformation-theory.html
-[DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
+
+<!-- PEOPLE -->
 [Esnault]://www.mi.fu-berlin.de/users/esnault/
-[ellipticcurves]://www.mi.fu-berlin.de/users/ruelling/EC.html
-[etale]://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
+[Maryna]: //www.math.hu-berlin.de/~viazovsm/index.html
+[Michael]: //page.mi.fu-berlin.de/groemich/
+[Sullivan]: http://page.math.tu-berlin.de/~sullivan/
+
+<!-- INSTITUTE -->
+[AEI]: //www.aei.mpg.de/
+[BMS]: //www.math-berlin.de
+[BICMR]: http://www.bicmr.org/
 [FUB]://www.fu-berlin.de/
+[HUB]: //www.hu-berlin.de/
+[leidenu]://www.universiteitleiden.nl/
+[NSF]: //www.nsf.gov/
+[TUB]: //www.tu-berlin.de/
+[UniDuisburgEssen]: //www.uni-due.de/
+
+[AG]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/index.html
+
+
+<!-- Baby seminars -->
+[abv]: //www.mi.fu-berlin.de/users/elenalavanda/ab_var2.html
+[dmod]://pub.math.leidenuniv.nl/~zomervruchtw/2016-dmod/
 [formalanddefomation]: //www.mi.fu-berlin.de/users/castillejo/formal-schemes
+[Crystalline]: //page.mi.fu-berlin.de/katsief/crys.html
+[etale]://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
+[intersection]: /seminars/15WS-Intersection-Theory/
+[padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
+
+<!-- Research seminars -->
+[Berkovich]://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html
 [geomlanglands]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/langlands_sose17.html
+[Liedtke]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/k3_wise1516.html
+[motivic]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/motives_sose16.html
+[de Jong-He-Starr]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
+[padicsimpson]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/simpson_wise1718.html
+
+<!-- Courses -->
+[DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/
+[deformation]: //www2.mathematik.hu-berlin.de/~kemenymi/teaching/deformation-theory.html
+[TF]: //www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
+[smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
+[modulispacesandgit]: //userpage.fu-berlin.de/hoskins/moduli_and_GIT.html
+[alggrp]: //www.math.fu-berlin.de/users/lei/algebraische%20Gruppen.html
+[ellipticcurves]://www.mi.fu-berlin.de/users/ruelling/EC.html
+
+<!-- CONFERENCES -->
+[BICMREPGS]: http://www.bicmr.org/content/page/25.html
 [GR]: http://ferienkurs.aei.mpg.de/
 [higssk3moduli]://www2.mathematik.hu-berlin.de/~alggeo-webadmin/events/HBKM/conference.php
 [Higgs]: http://higgs2016.sfb45.de/
-[HUB]: //www.hu-berlin.de/
-[intersection]: /seminars/15WS-Intersection-Theory/
-[leidenu]://www.universiteitleiden.nl/
 [leidenshimura]: //www.math.leidenuniv.nl/~wzomervr/2016-shimura/
-[Liedtke]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/k3_wise1516.html
 [Mainz]: //www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
-[Maryna]: //www.math.hu-berlin.de/~viazovsm/index.html
-[modulispacesandgit]: //userpage.fu-berlin.de/hoskins/moduli_and_GIT.html
+[periods]: http://javier.fresan.perso.math.cnrs.fr/berlin.html
+[utah]: //sites.google.com/site/2015summerinstitute/
+
+<!-- ARTICLES -->
+[Vashavsky]: //arxiv.org/abs/1405.6381
+[LSZ]: //dx.doi.org/10.4310/MRL.2015.v22.n3.a12
+
+
+<!-- NOTES -->
+[notes-LSZ]: /files/17WS-FS-LanShengZuo.pdf
+[notes-infcat]: /files/17SS-Infinity-Categories.pdf
+[notes-TatesThesis]: /files/17SS-FS-Tates-Thesis.pdf
+[notes-pd]: /files/16WS-Divided-Power-Crystal.pdf
+[notes-motivicint]: /files/16WS-FS-Motivic-Integration.pdf
+
+<!-- OTHERS -->
+[CV]: /files/CV-20171116.pdf
 [masterthesis]: /files/master-thesis.pdf
 [masterthesissrc]: //raw.githubusercontent.com/haoyun/master-thesis/master/main.tex
-[motivic]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/motives_sose16.html
-[NSF]: //www.nsf.gov/
-[periods]: //people.math.ethz.ch/~jfresan/berlin.html
-[padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
-[padicsimpson]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/simpson_wise1718.html
-[smatrix]: //www2.mathematik.hu-berlin.de/~kreimer/teaching/introQFTOut/
-[Sullivan]: http://page.math.tu-berlin.de/~sullivan/
 [scholarship]: //www.math-berlin.de/students/financing-your-phd
-[TUB]: //www.tu-berlin.de/
-[TF]: //www.math.hu-berlin.de/~viazovsm/teachingSS15_theta.html
-[UniDuisburgEssen]: //www.uni-due.de/
-[utah]: //sites.google.com/site/2015summerinstitute/
-[Vashavsky]: //arxiv.org/abs/1405.6381
