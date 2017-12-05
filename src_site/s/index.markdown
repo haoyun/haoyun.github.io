@@ -97,35 +97,35 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 * Seminare
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
-		    * 2017-11-06    Grothendieck Existence Theorem.
-            * 2018-01-15    Lifting theory II: Serre's Example of non-liftable variety.
+		    * 06.11.2017    Grothendieck Existence Theorem.
+            * 15.01.2018    Lifting theory II: Serre's Example of non-liftable variety.
 	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
-            * 2017-11-23    Inverse Cartier and Cartier transform via exponential twist.
+            * 23.11.2017    Inverse Cartier and Cartier transform via exponential twist.
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
-            * 2017-07-17    Comparison isomorphisms I.
+            * 17.07.2017    Comparison isomorphisms I.
         + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
-            * 2017-04-27    Tate’s thesis for function fields, I.
-            * 2017-05-04    Tate’s thesis for function fields, II.
+            * 27.04.2017    Tate’s thesis for function fields, I.
+            * 04.05.2017    Tate’s thesis for function fields, II.
     - **2016--17 Winter Seminar** 
         + [Crystalline Cohomology][Crystalline].
-            * 2016-10-31    Divided powers.
-            * 2016-11-07    Calculus with divided powers.
-            * 2016-11-28    Crystals.
+            * 31.10.2016    Divided powers.
+            * 07.11.2016    Calculus with divided powers.
+            * 28.11.2016    Crystals.
         + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
-            * 2017-02-09    Motivic integration and motivic zeta functions.
+            * 09.02.2017    Motivic integration and motivic zeta functions.
     - **2016 Summer Semester** [D-modules][dmod].
-        + 2015-05-02    D-modules and connections.
-        + 2015-07-11    The Gieseker conjecture.
+        + 02.05.2015    D-modules and connections.
+        + 11.07.2015    The Gieseker conjecture.
     - **2015--16 Winter Semester**. [Intersection Theory][intersection].
-        + 2015-11-16    Chow Ring of $\mathbb{G}(1,3)$.
-        + 2016-02-08    Chern Classes V: some proofs.
+        + 16.11.2015    Chow Ring of $\mathbb{G}(1,3)$.
+        + 08.02.2016    Chern Classes V: some proofs.
     - **2015 Summer semester**. [Étale Cohomology][etale].
-        + 2015-04-20    Étale morphisms and Henselization.
-        + 2015-05-11    Galois coverings and fundamental group.
-        + 2015-06-19    Étale cohomology.
+        + 20.04.2015    Étale morphisms and Henselization.
+        + 11.05.2015    Galois coverings and fundamental group.
+        + 19.06.2015    Étale cohomology.
     - **2014--15 Winter Semester**. [Abelian Varieties][abv].
-        + 2014-11-11    Vanishing theorem.
+        + 11.11.2014    Vanishing theorem.
 
 - - - - - - - - - -
 
@@ -133,23 +133,28 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ### Aktuelle \& Kommende
 
+* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
+  Università degli Studi di Padova.
+* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
+  Technische Universität München.
+
 ### Vergangen
-* **2017-10-09 -- 2017-10-13** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
+
+* **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
   Johannes Gutenberg-Universität Main.
-* **2017-08-28 -- 2017-09-01** [Motives for periods][periods].\
+* **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\
   Freie Universität Berlin.
-* **2017-07-10 -- 2017-10-12** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
+* **07.10.2017 -- 12.10.2017** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
   [Humboldt Universität zu Berlin][HUB].
-* **2016-09-27 -- 2016-09-30**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
+* **27.09.2016 -- 30.09.2016**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
   [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
-* **2016-06-20 -- 2016-06-22**. [Shimura Varieties][leidenshimura].\
+* **20.06.2016 -- 22.06.2016**. [Shimura Varieties][leidenshimura].\
   [Leiden University][leidenu].
-* **2015-07-13 -- 2015-07-31**. [AMS Summer Institute in Algebraic Geometry][Utah].\
-  University of Utah, Salt Lake City, Utah, USA.\
-  *Supported by [BMS][BMS] and [NSF]*.
-* **2014-03-03 -- 2015-03-14**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
+* **13.07.2015 -- 31.07.2015**. [AMS Summer Institute in Algebraic Geometry][Utah].\
+  University of Utah, Salt Lake City, Utah, USA.
+* **03.03.2014 -- 14.03.2015**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
   [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
-* **2013-02 -- 2013-06**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
+* **02.2013 -- 06.2013**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
   [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
 
 - - - - - - - - - -
@@ -173,6 +178,12 @@ Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
 
 - - - - - - - - - -
 
+## Kalender
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=gd9168b9l4ndjnoq10h6bvls98%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+- - - - - - - - - -
 
 ## Lehren
 
@@ -260,6 +271,8 @@ Essentially, there is no original work by myself.
 [Mainz]: //www.agtz.mathematik.uni-mainz.de/arakelov-geometrie/junior-prof-dr-ariyan-javanpeykar/autumn-school-topics-in-arithmetic-and-algebraic-geometry/
 [periods]: http://javier.fresan.perso.math.cnrs.fr/berlin.html
 [utah]: //sites.google.com/site/2015summerinstitute/
+[Padua]: //events.math.unipd.it/rh2018/
+[Munich]: //sites.google.com/view/crystalgeometrymunich
 
 <!-- ARTICLES -->
 [Vashavsky]: //arxiv.org/abs/1405.6381
