@@ -16,7 +16,7 @@ title: Useful Tools
 - - - - - - - - -
 ### StackPrinter
 
-<iframe src="http://www.stackprinter.com/"
+<iframe src="https://www.google.com/search?q=%http://www.stackprinter.com&btnI=Im+Feeling+Lucky"
         width="100%" height="300" frameborder="0">
   <p> <a href="http://www.stackprinter.com/">
     your browser doesn't support iframes.
