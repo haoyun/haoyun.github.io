@@ -93,6 +93,43 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 - - - - - - - - - -
 
+## Veranstaltungen
+
+### Aktuelle \& Kommende
+
+* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
+  Università degli Studi di Padova.
+* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
+  Technische Universität München.
+
+### Vergangen
+
+* **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
+  Johannes Gutenberg-Universität Main.
+* **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\
+  Freie Universität Berlin.
+* **07.10.2017 -- 12.10.2017** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
+  [Humboldt Universität zu Berlin][HUB].
+* **27.09.2016 -- 30.09.2016**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
+  [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
+* **20.06.2016 -- 22.06.2016**. [Shimura Varieties][leidenshimura].\
+  [Leiden University][leidenu].
+* **13.07.2015 -- 31.07.2015**. [AMS Summer Institute in Algebraic Geometry][Utah].\
+  University of Utah, Salt Lake City, Utah, USA.
+* **03.03.2014 -- 14.03.2015**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
+  [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
+* **02.2013 -- 06.2013**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
+  [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
+
+  
+- - - - - - - - - -
+
+## Kalender
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=gd9168b9l4ndjnoq10h6bvls98%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+- - - - - - - - - -
+
 ## Vorträge
 * Seminare
     - **2017--18 Winter Semester**.
@@ -129,36 +166,6 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 - - - - - - - - - -
 
-## Veranstaltungen
-
-### Aktuelle \& Kommende
-
-* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
-  Università degli Studi di Padova.
-* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
-  Technische Universität München.
-
-### Vergangen
-
-* **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
-  Johannes Gutenberg-Universität Main.
-* **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\
-  Freie Universität Berlin.
-* **07.10.2017 -- 12.10.2017** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
-  [Humboldt Universität zu Berlin][HUB].
-* **27.09.2016 -- 30.09.2016**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
-  [Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.
-* **20.06.2016 -- 22.06.2016**. [Shimura Varieties][leidenshimura].\
-  [Leiden University][leidenu].
-* **13.07.2015 -- 31.07.2015**. [AMS Summer Institute in Algebraic Geometry][Utah].\
-  University of Utah, Salt Lake City, Utah, USA.
-* **03.03.2014 -- 14.03.2015**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
-  [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
-* **02.2013 -- 06.2013**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
-  [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
-
-- - - - - - - - - -
-
 ## Skripte zu ausgewählten Vorlesungen und Seminare
 
 * 2017/18 Winter Semester,
@@ -175,13 +182,6 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 * 2014/15 Winter Semester, Local class field theory.
 
 Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).
-
-- - - - - - - - - -
-
-## Kalender
-
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=gd9168b9l4ndjnoq10h6bvls98%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-
 
 - - - - - - - - - -
 
@@ -281,6 +281,7 @@ Essentially, there is no original work by myself.
 
 <!-- NOTES -->
 [notes-LSZ]: /files/17WS-FS-LanShengZuo.pdf
+[notes-LSZ]: #
 [notes-infcat]: /files/17SS-Infinity-Categories.pdf
 [notes-TatesThesis]: /files/17SS-FS-Tates-Thesis.pdf
 [notes-pd]: /files/16WS-Divided-Power-Crystal.pdf
