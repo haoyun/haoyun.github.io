@@ -18,15 +18,14 @@ It prevents the image to be enclosed in <p></p>. See Pandoc's documents.
 
 - - - - - - - - - -
 
-## ÜBER MICH<!--<span id="to-replace-2">-->
+## ÜBER MICH<!--<span id="to-replace-2"></span>-->
 
-Ich <!--</span>bin <span id="to-replace-1"></span>-->Doktorand in Mathematik an
+Ich bin <!--<span id="to-replace-1"></span>-->Doktorand in Mathematik an
 der [Freien Universität Berlin][FUB] (FU Berlin) und arbeite in
 der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
 [Prof. Dr. Hélène Esnault][Esnault].
 Mein Studium ist durch die [Stipendien][scholarship]
 der [Berlin Mathematical School][BMS] (BMS) unterstützt.
-<!--https://forum.wordreference.com/threads/mein-studium-wird-durch-ein-stipendium-unterst%C3%BCtzt.1879029/-->
 
 <!--Here is my [CV](#). To know more, see [about](#).-->
 
