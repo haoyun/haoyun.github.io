@@ -24,7 +24,7 @@ Ich bin <!--<span id="to-replace-1"></span>-->Doktorand in Mathematik an
 der [Freien Universität Berlin][FUB] (FU Berlin) und arbeite in
 der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
 [Prof. Dr. Hélène Esnault][Esnault] mit Zweitbetreuer
-[Michael Groechenig][Michael].
+[Michael Gröchenig][Michael].
 Mein Studium ist durch die [Stipendien][scholarship]
 der [Berlin Mathematical School][BMS] (BMS) unterstützt.
 
@@ -288,7 +288,7 @@ Essentially, there is no original work by myself.
 [notes-motivicint]: /files/16WS-FS-Motivic-Integration.pdf
 
 <!-- OTHERS -->
-[CV]: /files/CV-20171116.pdf
+[CV]: /files/CV-20180126.pdf
 [masterthesis]: /files/master-thesis.pdf
 [masterthesissrc]: //raw.githubusercontent.com/haoyun/master-thesis/master/main.tex
 [scholarship]: //www.math-berlin.de/students/financing-your-phd
