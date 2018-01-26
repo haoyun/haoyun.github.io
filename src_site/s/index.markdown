@@ -23,7 +23,8 @@ It prevents the image to be enclosed in <p></p>. See Pandoc's documents.
 Ich bin <!--<span id="to-replace-1"></span>-->Doktorand in Mathematik an
 der [Freien Universität Berlin][FUB] (FU Berlin) und arbeite in
 der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
-[Prof. Dr. Hélène Esnault][Esnault].
+[Prof. Dr. Hélène Esnault][Esnault] mit Zweitbetreuer
+[Michael Groechenig][Michael].
 Mein Studium ist durch die [Stipendien][scholarship]
 der [Berlin Mathematical School][BMS] (BMS) unterstützt.
 
