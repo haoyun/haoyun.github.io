@@ -97,13 +97,13 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ### Aktuelle \& Kommende
 
-* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
-  Università degli Studi di Padova.
 * **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
   Technische Universität München.
 
 ### Vergangen
 
+* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
+  Università degli Studi di Padova.
 * **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
   Johannes Gutenberg-Universität Main.
 * **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\

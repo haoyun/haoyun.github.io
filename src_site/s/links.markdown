@@ -4,13 +4,12 @@ title: Links
 
 ## EGA
 
-* [EGA I][EGA1]
-* [EGA II][EGA2]
-* [EGA III~1~][EGA31], [EGA III~2~][EGA32]
-* [EGA IV~1~][EGA41], [EGA IV~2~][EGA42], [EGA IV~3~][EGA43], [EGA IV~4~][EGA44]
-* [EGA Synopses][Synopses] by [Mark Haiman][MarkHaiman]
+* [EGA I][EGA1], [EGA II][EGA2], [EGA III~1~][EGA31], [EGA III~2~][EGA32],
+  [EGA IV~1~][EGA41], [EGA IV~2~][EGA42],
+  [EGA IV~3~][EGA43], [EGA IV~4~][EGA44].
+* [EGA Synopses][Synopses] by [Mark Haiman][MarkHaiman].
 * Table of contents, in [English][TOC_en] by Mark Haiman and in
-  [French][TOC_fr] by [David Madore][DavidMadore]
+  [French][TOC_fr] by [David Madore][DavidMadore].
   
   
 [EGA1]: http://www.math.jussieu.fr/~leila/grothendieckcircle/EGA/EGAI.pdf
@@ -30,15 +29,30 @@ title: Links
 ## SGA
 
 * [Scanned][SGAScanned]. 
-* TeXed: [SGA1][SGA1], [SGA2][SGA2], [SGA3][SGA3], [SGA4][SGA4], SGA4½, SGA5, SGA6, SGA7 I, SGA 7 II
+* TeXed: [SGA1][SGA1], [SGA2][SGA2], [SGA3][SGA3], [SGA4][SGA4].
+* Springer: [SGA4½][SGA4.5], [SGA5][SGA5], [SGA6][SGA6], [SGA7 I][SGA7I],
+  [SGA7 II][SGA7II].
+
 
 [SGAScanned]: http://library.msri.org/books/sga/sga/index.html
 [SGA1]: //arxiv.org/abs/math/0206203
 [SGA2]: //arxiv.org/abs/math/0511279
 [SGA3]: //webusers.imj-prg.fr/~patrick.polo/SGA3/
 [SGA4]: //fabrice.orgogozo.perso.math.cnrs.fr/SGA4/
-[SGA7II]: //publications.ias.edu/node/358
+[SGA4.5]: //doi.org/10.1007/BFb0091516
+[SGA5]: //doi.org/10.1007/BFb0096802
+[SGA6]: //doi.org/10.1007/BFb0066283
+[SGA7I]: //doi.org/10.1007/BFb0068688
+[SGA7II]: //doi.org/10.1007/BFb0060505
 
+## FGA
+
+* [Scanned][FGAScanned].
+* [FGA Explained][FGAe].
+
+
+[FGAScanned]: //webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FGA.pdf
+[FGAe]: //dx.doi.org/10.1090/surv/123
 
 ## Online Bücher & Skripte
 
