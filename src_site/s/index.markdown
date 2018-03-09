@@ -107,7 +107,7 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 * **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
   Johannes Gutenberg-Universität Main.
 * **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\
-  Freie Universität Berlin.
+  [Freie Universität Berlin][FUB].
 * **07.10.2017 -- 12.10.2017** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
   [Humboldt Universität zu Berlin][HUB].
 * **27.09.2016 -- 30.09.2016**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
