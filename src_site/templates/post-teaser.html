@@ -1,0 +1,10 @@
+<article  class="post-preview">
+    <section class="header post-preview-header">
+        <h4><a href="$url$">$title$</a></h4>
+        <p>Posted on $date$ $if(author)$ by $author$ $endif$</p>
+    </section>
+    <section class="main post-preview-main">
+        $if(teaser)$ $teaser$ <a href="$url$">Read more &hellip;</a> $else$ $body$ $endif$
+        
+    </section>
+</article>

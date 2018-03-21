@@ -36,6 +36,7 @@ main = hakyllWith hfConfiguration $ do
         route $ setExtension "html" `composeRoutes`
                 appendIndex
         compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/post-container.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" (dropIndexHtml "url"  `mappend` defaultContext)
             >>= relativizeUrls
 
@@ -44,6 +45,7 @@ main = hakyllWith hfConfiguration $ do
                 appendIndex         `composeRoutes`
                 dateFolders
         compile $ pandocCompiler
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -68,10 +70,12 @@ main = hakyllWith hfConfiguration $ do
     match "n/index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "n/posts/*"
+            -- posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAllSnapshots "n/posts/*" "content"
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Home"                `mappend`
+                    -- listField "posts" postCtx (return posts) `mappend`
+                    listField "posts" teasCtx (return posts) `mappend`
+                    -- constField "title" "Home"                `mappend`
                     defaultContext
 
             getResourceBody
@@ -108,6 +112,11 @@ postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     dropIndexHtml "url"          `mappend`
     defaultContext
+    
+teasCtx :: Context String
+teasCtx =
+    teaserField "teaser" "content" `mappend`
+    postCtx
 
 --------------------------------------------------------------------------------
 hfConfiguration :: Configuration

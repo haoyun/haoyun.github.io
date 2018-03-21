@@ -6,6 +6,8 @@ author: Yun Hao
 This post is used to record what I have done to build up this project out of
 the original, basic, official templates of Hakyll and Foundation.
 
+<!--more-->
+
 ## How was this project initialized? ##
 
 ```bash
@@ -65,15 +67,18 @@ git push origin source
 .pipe(gulp.dest('../src_site/css'));
 ```
 
-* To make hakyll find the files, there are two files to change. The first
-  is the '.cabal' file.
+* To make sure that hakyll will find all the Hakyll source files that are put
+  under the `./scr` directory, there are two files to change.
+  The first  is the '.cabal' file.
   
 ```json
-  main-is:          ./src/site.hs
+main-is:          site.hs
+Hs-source-dirs:   src
 ```
 
-  The second is the `main.hs` file. We have to change the
-  `defaultConfiguration`. Instead of using the default `hakyll $ do`, use
+  The second is the `main.hs` file. We have to change Hakyll's Configuration.
+  So in replacement of the default `hakyll $ do`, which will run hakyll with
+  `defaultConfiguration`, we need to write
 
 ```haskell
 main = hakyllWith hfConfiguration $ do
@@ -89,10 +94,10 @@ hfConfiguration = defaultConfiguration
     }
 ```
 
-  The above is apdated from
-   [`Hakyll.Core.Configuration`][Hakyll.Core.Configuration].
+  The above is adapted from
+  [`Hakyll.Core.Configuration`][Hakyll.Core.Configuration].
   As we can see, there are many configurations that we can modify
-  according to our need. Most imprtantly, if `Foundation` is inside the
+  according to our need. Most importantly, if `Foundation` is inside the
   `providerDirectory`, one has to use ignoreFile to ignore it. Otherwise,
   it takes an extremely long time to generate the site.
 
@@ -103,13 +108,13 @@ There are many solutions available on the Internet.
 * [This one][jekyll-url]
  seems to be the best solution.
 
-This solution really makes Hakyll to generate the *correct* url in the very
-beginning, rather than modify the *wrong* url that has ben put into the html
-files. The latter approch has the potential that it does not correct all urls,
+This solution makes Hakyll to generate the *correct* url in the very
+beginning, rather than modify the *wrong* url that has been put into the html
+files. The latter approach has the potential that it does not correct all urls,
 and that it may also introduce mistakes for the urls that should be in their
 original form.
 
-Other solutions are.
+Other solutions are
 
 * [Alternative 1](https://www.rohanjain.in/hakyll-clean-urls/)
 * [Alternative 2](http://alexanderlobov.ru/posts/2017-02-05-hakyll-clean-urls/)
@@ -124,7 +129,7 @@ This is a post about TikZ.
 * https://skybluetrades.net/blog/posts/2013/11/25/the-teeny-tiny-happy-hakyll-tikz-pixie.html
 
 The source code of it show how to add new commands to the main program.
-It's better to creat a command like
+It's better to create a command like
 
 ```bash
 cabal run newpost
@@ -133,12 +138,18 @@ cabal run newpost
 ? Tag (separated by comma):
 ```
 
-to creat a new post (and metada file) according to a predesigned template file.
+to create a new post (and metadata file) based on a template file.
 
 * https://www.gwern.net/About
 
 This is another well programmed site.
 
+
+To display full/part instead of just titles on the home page,
+see for examle:
+
+* https://github.com/travisbrown/metaplasm
+* https://github.com/aherrmann/aherrmann.github.io.hakyll
 
 
 [Hakyll.Core.Configuration]: https://hackage.haskell.org/package/hakyll-4.9.8.0/docs/Hakyll-Core-Configuration.html

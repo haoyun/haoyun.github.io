@@ -5,7 +5,9 @@ tag:
 ---
 
 It's nice to understand how the original template works. With no a priori
-knowledge of Haskell. I learn it in the hard way.
+knowledge of Haskell, I learn it in the hard way.
+
+<!--more-->
 
 - - - - - - - - - - 
 
@@ -203,18 +205,6 @@ pandocCompiler
 ```hasekll
 pandocCompiler :: Compiler (Item String)
 ```
-
-
-
-
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
-- - - - - - - - - - 
 
 
 

@@ -1,14 +1,12 @@
-<article>
-    <section class="header">
-        Posted on $date$
-        $if(author)$
-            by $author$
-        $endif$
+<article class="post-full">
+    <section class="header post-full-header">
+        <h1>$title$</h1>
+        <p>Posted on $date$ $if(author)$ by $author$ $endif$</p>
     </section>
-    <section class="main">
+    <section class="main post-full-main">
         $body$
     </section>
-    <section>
+    <section class="post-full-comment">
 <script>
 var idcomments_acct = '3eb5e7864d2f0dc9d1586c6209453d5d';
 var idcomments_post_id;
@@ -18,3 +16,4 @@ var idcomments_post_url = '$url$';
 <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
     </section>
 </article>
+
