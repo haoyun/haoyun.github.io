@@ -8,10 +8,11 @@ $partial("templates/post-list.html")$
 
 
 <div class="grid-y grid-padding-y">
-<h1>Recent Posts</h1>
-$for(posts)$<div class="cell"> 
+$for(posts)$
+<div class="cell"> 
 $partial("templates/post-teaser.html")$
-</div>$endfor$
+</div>
+$endfor$
 </div>
 
 <p>…or you can find more in the <a href="archive">archives</a>.</p>

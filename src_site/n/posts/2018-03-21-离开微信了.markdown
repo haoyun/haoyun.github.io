@@ -18,9 +18,15 @@ tag:
 
 如有需要，可以通过
 
-* 邮箱: [haoyun.math@gmail.com](mailto:haoyun.math@gmail.com) 或者 [hy_haoyun@163.com](mailto:hy_haoyun@163.com) 或者网页底部的地址
-* 腾讯 QQ: 395563629
-* Telegram: [\@haoyun](https://t.me/haoyun/) （**推荐**）
-* ВКонтакте、Twitter、微博等
+* <i class="far fa-envelope"></i>
+  [haoyun.math@gmail.com](mailto:haoyun.math@gmail.com)、
+  [hy_haoyun@163.com](mailto:hy_haoyun@163.com)
+* <i class="fab fa-qq"></i>
+  395563629
+* <i class="fab fa-telegram"></i>
+  [\@haoyun](https://t.me/haoyun/) （推荐）
+* <i class="fab fa-vk"></i>、
+  <i class="fab fa-twitter"></i>、
+  <i class="fab fa-weibo"></i> 等
 
 联系我。

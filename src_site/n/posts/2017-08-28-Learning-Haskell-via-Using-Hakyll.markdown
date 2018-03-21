@@ -1,5 +1,5 @@
 ---
-title: Understand Hakyll
+title: Learning Haskell via Using Hakyll --- Some Notes
 author: Yun Hao
 tag:
 ---
