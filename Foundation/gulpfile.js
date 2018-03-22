@@ -20,6 +20,20 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('../src_site/css'));
 });
 
-gulp.task('default', ['sass'], function() {
-  gulp.watch(['scss/**/*.scss'], ['sass']);
+gulp.task('blog', function() {
+  return gulp.src('scss/blog_app.scss')
+    .pipe($.sass({
+      includePaths: sassPaths,
+      outputStyle: 'compressed' // if css compressed **file size**
+    })
+      .on('error', $.sass.logError))
+    .pipe($.autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 9']
+    }))
+    .pipe(gulp.dest('../src_site/css'));
+});
+
+
+gulp.task('default', ['sass', 'blog'], function() {
+  gulp.watch(['scss/**/*.scss'], ['sass', 'blog']);
 });

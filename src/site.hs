@@ -36,7 +36,8 @@ main = hakyllWith hfConfiguration $ do
         route $ setExtension "html" `composeRoutes`
                 appendIndex
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post-container.html"    postCtx
+            >>= loadAndApplyTemplate "templates/post-title-body.html"   postCtx
+            >>= loadAndApplyTemplate "templates/post.html"              postCtx
             >>= loadAndApplyTemplate "templates/default.html" (dropIndexHtml "url"  `mappend` defaultContext)
             >>= relativizeUrls
 
@@ -46,6 +47,7 @@ main = hakyllWith hfConfiguration $ do
                 dateFolders
         compile $ pandocCompiler
             >>= saveSnapshot "content"
+            >>= loadAndApplyTemplate "templates/post-title_info-body.html"    postCtx
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -63,6 +65,8 @@ main = hakyllWith hfConfiguration $ do
 
             makeItem ""
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/post-title-body.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/post.html"    archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
@@ -80,6 +84,7 @@ main = hakyllWith hfConfiguration $ do
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/post-with-hero.html" indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
     

@@ -1,0 +1,51 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+//
+//  For blog posts.
+//
+//
+
+section .header {
+    color: $solarized-base01;
+    font-size: $small-font-size;
+//    font-style: italic;
+}
+
+// article .main {
+//     text-align: justify;
+// }
+
+
+//
+// For blog
+//
+//
+
+.top-bar .menu a {
+    color: $solarized-base2;
+}
+
+
+
+//
+//  Blog index.html
+//
+//
+
+$hero-height: 100vh;
+
+.hero-section {
+  background: url('https://images.pexels.com/photos/64778/pexels-photo-64778.jpeg') 50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero-section-text {
+    color: $white;
+    text-shadow: 1px 1px 2px $black;
+  }
+}
+

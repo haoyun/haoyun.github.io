@@ -1,0 +1,14 @@
+<section class="cell">
+    <div class="header">
+        <h1>$title$</h1>
+        <p><i class="far fa-calendar-alt"></i>&nbsp;$date$&nbsp;
+        $if(author)$ <i class="far fa-edit"></i>&nbsp;$author$ $endif$</p>
+    </div>
+    <div>
+        $body$
+    </div>
+</section>
+
+<section>
+    $partial("templates/post-comment.html")$
+</section>

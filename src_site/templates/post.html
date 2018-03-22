@@ -1,29 +1,7 @@
-<article class="post-full">
-<div class="grid-y grid-padding-y">
-<div class="cell">
-<section class="header post-full-header">
-<h1>$title$</h1>
-<p>Posted on $date$ $if(author)$ by $author$ $endif$</p>
-</section>
-</div>
-<div class="cell">
-<section class="main post-full-main">
-$body$
-</section>
-</div>
-<div class="cell">
-<section class="post-full-comment">
-<script>
-var idcomments_acct = '3eb5e7864d2f0dc9d1586c6209453d5d';
-var idcomments_post_id;
-var idcomments_post_url = '$url$';
-</script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
-</section>
-</div>
-</div>
+<article>
+    <div class="grid-container" style="min-height:100vh" id="main">
+        <div class="grid-y">
+            $body$
+        </div>
+    </div>
 </article>
-
-
-
