@@ -14,14 +14,14 @@
 .media__image { display: block; }
 
 .media__body {
-  background: rgba($solarized-base2,.7);//rgba(41, 128, 185, 0.7);
+  background: rgba($solarized-base2,.7); //rgba(41, 128, 185, 0.7);
   bottom: 0;
   color: #002b36;
   font-size: 1em;
   left: 0;
   opacity: 0;
   overflow: hidden;
-  padding: 3em 2em;
+  padding: 2em 2em;
   position: absolute;
   text-align: center;
   top: 0;
@@ -76,11 +76,7 @@
 .media__body p { margin-bottom: 1.5em; }
 
 .media:nth-child(2) .media__body { background: rgba(146, 41, 185, 0.7); }
-
 .media:nth-child(3) .media__body { background: rgba(185, 41, 128, 0.7); }
-
 .media:nth-child(4) .media__body { background: rgba(185, 50, 41, 0.7); }
-
 .media:nth-child(5) .media__body { background: rgba(185, 146, 41, 0.7); }
-
 .media:nth-child(6) .media__body { background: rgba(128, 185, 41, 0.7); }

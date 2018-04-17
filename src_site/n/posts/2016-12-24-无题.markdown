@@ -1,0 +1,54 @@
+---
+title: 无题
+date: December 24, 2016
+---
+
+> This is a repost of <http://telegra.ph/2016-12-2324-12-23>
+>
+
+<!--more-->
+
+读了一段《Riemann 猜想漫谈》，里面提到Riemann的手稿。有一部分非常关键的涉及Riemann Hypothesis的笔记在捐出后又被Riemann的妻子因其内容包含私事而索回，再然后就遗失了。不能不说是遗憾。尽管有此遗憾，Siegel还是在保存下来的手稿里找到了Riemann-Siegel公式。那Grothendieck的手稿呢？有个博客非常关注此事：
+
+* [Grothendieck’s gribouillis](http://www.neverendingbooks.org/grothendiecks-gribouillis)
+* [Grothendieck’s gribouillis (2)](http://www.neverendingbooks.org/grothendiecks-gribouillis-2)
+* [Where are Grothendieck’s writings?](http://www.neverendingbooks.org/where-are-grothendiecks-writings)
+* [Where are Grothendieck’s writings? (2)](http://www.neverendingbooks.org/where-are-grothendiecks-writings-2)
+谁知道Grothendieck的手稿里会有什么天大的秘密呢？
+
+关于手稿，Categories for the Working Mathematician 上还有一段
+
+> A systematic treatment of all possible properties of limits was contained in a manuscript by Chevalley on category theory; the manuscript was unfortunately lost by some shipping company.
+
+ - - - - - - - - - - - - - - - - - - - -
+
+今天去逛了一圈优衣库，但是什么都没有买。有如下感想：
+
+1. 自己好穷。
+2. 消费观有问题了，因为1.并不完全成立。买衣服在一定程度上也是给自己投资啊，没有必要不舍得。
+3. 没有心情打扮自己，也没有什么审美。曾经喜欢可爱的衣服，穿起来也很好看，但是感觉现在突然间年纪大了，不再适合穿可爱的衣服了。可是我还是喜欢可爱的衣服。
+4. 也许有女友了可以在3.上，甚至2.上帮我一下。
+5. 自己救不了自己，怎么会有女友呢？
+
+自从柏林的优衣库开门之后，我大概所有的衣服都是在优衣库买的了吧。因为其他地方的便宜衣服感觉都不合身，而优衣库里有大量的XS号的衣服可供我选择。
+
+- - - - - - - - - - - - - - - - - - - -
+
+曾经喜欢折腾TeX，给一些包的作者反馈过一些东西：
+
+* pagecolor： `\newpagecolor` 和 `\restorepagecolor`
+* newtx: <http://tex.stackexchange.com/q/104531/9848>
+* showkeys: <http://tex.stackexchange.com/q/208415/9848>
+* tikz-cd: [Improved open and closed immersions in tikz-cd](http://pbelmans.ncag.info/blog/2016/11/30/improved-open-and-closed-immersions-in-tikz-cd/), 然而TikZ-cd的作者好像已经不想维护它了。
+
+好像还有，但是想不起来了。曾经第一此看到自己的名字出现在宏包文档的致谢里时，感觉特别有成就感，但是后来就没什么感觉了。而且好多年都没有折腾过TeX了。去年趁便宜买了the TeX book和TeX by Topic，但是至今都么有看。没有那么浓的兴致了。
+
+- - - - - - - - - - - - - - - - - - - -
+
+应该坚持做些事情：
+
+* 在这里写字。
+* 学德语。
+* 健身。
+
+努力吧！

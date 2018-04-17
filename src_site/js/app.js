@@ -64,43 +64,47 @@ c_container.click(function() {
  /
  / https://codepen.io/Askwithloud/pen/yNRPWB
  /
- /
+ / https://ru.stackoverflow.com/questions/685387/fetchoffset-is-not-defined
 */
 
 
-jQuery(window).scroll(function(){
-    if(jQuery(window).scrollTop()<50){
+//ROCKET TO TOP
+jQuery(window).scroll(function() {
+    if (jQuery(window).scrollTop() < 50) {
         jQuery('#rocketmeluncur').slideUp(500);
-    }else{
+    } else {
         jQuery('#rocketmeluncur').slideDown(500);
     }
     var ftrocketmeluncur = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0];
-    var scrolltoprocketmeluncur = $('#rocketmeluncur');  // the original without #
+    var scrolltoprocketmeluncur = $('rocketmeluncur');
     var viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
     var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
     var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
     var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
     if (basewrocketmeluncur < 1000) {
-        var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
+        var leftrocketmeluncur = parseInt(ftrocketmeluncur.offsetLeft);
         leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
-        scrolltoprocketmeluncur.css.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';  // the original was .style.left
+        scrolltoprocketmeluncur.css('left', (basewrocketmeluncur + leftrocketmeluncur + "px"));
     } else {
-        scrolltoprocketmeluncur.css.left = 'auto';  // the original was .style.left
-        scrolltoprocketmeluncur.css.right = '10px';  // the original was .style.left
+        scrolltoprocketmeluncur.css('left', 'auto');
+        scrolltoprocketmeluncur.css('right', '10px');
     }
 });
 
-jQuery('#rocketmeluncur').click(function(){
-    jQuery("html, body").animate({ scrollTop: '0px',display:'none'},{
-            duration: 600,  
-            easing: 'linear'
-        });
-    
+jQuery('#rocketmeluncur').click(function() {
+    jQuery("html, body").animate({
+        scrollTop: '0px',
+        display: 'none'
+    }, {
+        duration: 600,
+        easing: 'linear'
+    });
+
     var self = this;
-    this.className += ' '+"launchrocket";
-    setTimeout(function(){
-      self.className = 'showrocket';
-    },800)
+    this.className += ' ' + "launchrocket";
+    setTimeout(function() {
+        self.className = 'showrocket';
+    }, 800);
 });
 
 
@@ -148,4 +152,14 @@ jQuery('#rocketmeluncur').click(function(){
 
 })( jQuery );
 
+var lang = navigator.languages
+    ? navigator.languages[0]
+    : (navigator.language || navigator.userLanguage)
+    
+if (lang.search('zh') == 0) {
+        $('.link_zh').css('display','initial');
+        $('.link_en').css('display','none');
+}
+
 jQuery(".responsive_huge_text").fitText(.1);
+jQuery(".responsive_huge_text_en").fitText(.35);

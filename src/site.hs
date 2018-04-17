@@ -32,7 +32,7 @@ main = hakyllWith hfConfiguration $ do
         
     -- | Compile pages
 
-    match (fromList ["n/about.rst", "n/contact.markdown"]) $ do
+    match (fromList ["n/about.markdown", "n/contact.markdown"]) $ do
         route $ setExtension "html" `composeRoutes`
                 appendIndex
         compile $ pandocCompiler
@@ -41,7 +41,7 @@ main = hakyllWith hfConfiguration $ do
             >>= loadAndApplyTemplate "templates/default.html" (dropIndexHtml "url"  `mappend` defaultContext)
             >>= relativizeUrls
 
-    match "n/posts/*" $ do
+    match "n/posts/*.markdown" $ do
         route $ setExtension "html" `composeRoutes`
                 appendIndex         `composeRoutes`
                 dateFolders

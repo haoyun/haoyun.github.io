@@ -35,12 +35,22 @@
     font-family: 'Noto Sans SC', sans-serif;
 }
 
+.responsive_huge_text_en {
+    color: $solarized-base01;
+    line-height: 1;
+    font-weight: 900;
+}
+
 .media:hover .media__image { color: $solarized-cyan; }
 
 .media a .media__image {
     color: $body-font-color;
 }
 
+
+.link_zh {
+    display:none;
+}
 
 //
 // all pages

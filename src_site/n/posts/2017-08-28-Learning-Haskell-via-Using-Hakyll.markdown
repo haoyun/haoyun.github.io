@@ -4,8 +4,8 @@ author: Yun Hao
 tag:
 ---
 
-It's nice to understand how the original template works. With no a priori
-knowledge of Haskell, I learn it in the hard way.
+It's nice to understand how the original template works. With no preknowledge of
+Haskell, I learn it in the hard way.
 
 <!--more-->
 
@@ -14,7 +14,7 @@ knowledge of Haskell, I learn it in the hard way.
 The `site.hs` contains the `main` function,
 this is the place where an *I/O action* is executed. This is explained in
 
-* http://learnyouahaskell.com/input-and-output#hello-world
+* <http://learnyouahaskell.com/input-and-output#hello-world>
 
 > So, when will an I/O action be performed? Well, this is where main comes in.
 > An I/O action will be performed when we give it a name of main and then
@@ -44,7 +44,7 @@ it means *an I/O action that results in the empty tupe `()`*.
 Now what is `Rules a`? `Rules` is something called a *type constructor*,
 it is explained in
 
-* http://learnyouahaskell.com/making-our-own-types-and-typeclasses#type-parameters
+* <http://learnyouahaskell.com/making-our-own-types-and-typeclasses#type-parameters>
 
 `Rules a` is defined in `Hakyll.Core.Rules.Internal`.
 It's hard for me to understand it for now, so let us put it aside.
@@ -60,11 +60,11 @@ give some result ?.
 
 Now the dolar sign, it is explained in 
 
-* http://learnyouahaskell.com/higher-order-functions#function-application
+* <http://learnyouahaskell.com/higher-order-functions#function-application>
 
 But a little bit confusing in the begining. A better reference is
 
-* https://stackoverflow.com/questions/940382/haskell-difference-between-dot-and-dollar-sign
+* <https://stackoverflow.com/questions/940382/haskell-difference-between-dot-and-dollar-sign>
 
 Basically, we can treat it a separator for now. Everything after the dollar sign
 will be treat as one thing. The it is easy to understand: codes after `$` are
@@ -123,7 +123,7 @@ This is a little bit complicated, but not that much.
 
 as explained in
 
-* http://learnyouahaskell.com/types-and-typeclasses#typeclasses-101
+* <http://learnyouahaskell.com/types-and-typeclasses#typeclasses-101>
 
 So the `compile` function has one variable of type `Compiler (Item a)`, and
 one value of type `Rules ()`. What is more, the type variable `a` has to have
@@ -188,7 +188,7 @@ route . setExtension "html"
 
 where `.` is the composition of fuctions. It is explained in
 
-* http://learnyouahaskell.com/higher-order-functions#composition
+* <http://learnyouahaskell.com/higher-order-functions#composition>
 
 as well as a link given above.
 

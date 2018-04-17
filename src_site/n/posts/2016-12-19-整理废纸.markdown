@@ -1,0 +1,15 @@
+---
+title: 整理废纸
+date: December 19, 2016
+---
+
+> This is a repost of <http://telegra.ph/2016-12-1819-12-18>
+>
+
+<!--more-->
+
+翻出了一张写了几句废话的纸，在把纸扔掉之前把纸上的废话抄下来。这些废话应该写于2013年，在某堂Complex Analysis II (Riemann Surfaces)课后。
+
+> Today the professor showed us two theorems with proofs. He said that we are actually following the historical path. Even Riemann didn't provide a correct proof at his time. For $\Delta f = 0$, Riemann used some minimal principal, which later was showed to be incorrect by Weierstrass. It takes a long time to prove these theorems. People think these theorem are important so they put much effort on them. This is how theories were developed. This motivates us to really learn it carefully only after we find out that is important to us.
+
+我也不知道当时为什么写了这些废话。不过即使是废话，对现在的我也许还是有些意义的，有时候自己太执着于严格的证明了，以至于迷失在证明之中而看不到整体的图像。
