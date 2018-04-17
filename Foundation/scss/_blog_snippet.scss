@@ -22,9 +22,12 @@ section .header {
 //
 
 .top-bar .menu a {
-    color: $solarized-base2;
+//    color: $solarized-base2;
 }
 
+.top-bar {
+    background-color: rgba($solarized-base03, 1)
+}
 
 
 //
@@ -32,7 +35,8 @@ section .header {
 //
 //
 
-$hero-height: 100vh;
+$topbar-height-calc: ($topbar-padding + nth($dropdownmenu-padding, 1) ) * 5;
+$hero-height: calc(100vh + #{$topbar-height-calc});
 
 .hero-section {
   background: url('https://images.pexels.com/photos/64778/pexels-photo-64778.jpeg') 50% no-repeat;
@@ -42,7 +46,9 @@ $hero-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: - $topbar-height-calc;
 
+  
   .hero-section-text {
     color: $white;
     text-shadow: 1px 1px 2px $black;

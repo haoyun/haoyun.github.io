@@ -97,11 +97,11 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ### Aktuelle \& Kommende
 
-* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
-  Technische Universität München.
 
 ### Vergangen
 
+* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic p][Munich].\
+  Technische Universität München.
 * **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
   Università degli Studi di Padova.
 * **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
@@ -126,12 +126,17 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ## Kalender
 
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=gd9168b9l4ndjnoq10h6bvls98%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=gd9168b9l4ndjnoq10h6bvls98%40group.calendar.google.com&amp;color=%23125A12&amp;src=u354c8kmu0gsrq8atp62tg12mg%40group.calendar.google.com&amp;color=%2323164E&amp;src=en.german%23holiday%40group.v.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FBerlin" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 - - - - - - - - - -
 
 ## Vorträge
 * Seminare
+    - **2018 Summer Semester**
+        + [Abhyankar's conjectures][AbhyankarConj]
+            * 04.06.2018    Formal and rigid geometry
+            * 25.06.2018    Raynaud’s proof II: Extension and algebraization
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
 		    * 06.11.2017    Grothendieck Existence Theorem.
@@ -244,6 +249,7 @@ Essentially, there is no original work by myself.
 [etale]://www.mi.fu-berlin.de/users/elenalavanda/etcohm.html
 [intersection]: /seminars/15WS-Intersection-Theory/
 [padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
+[AbhyankarConj]: //page.mi.fu-berlin.de/daddezio/abhyankar.php
 
 <!-- Research seminars -->
 [Berkovich]://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html

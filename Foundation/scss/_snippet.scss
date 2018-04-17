@@ -49,12 +49,9 @@
 
 footer {
     background-color: $solarized-base2;
+    font-size: $small-font-size;
 }
 
 .footer-copyright {
     background-color: rgba($solarized-base1,0.1);
-}
-
-footer {
-    font-size: $small-font-size;
 }

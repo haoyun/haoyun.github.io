@@ -1,0 +1,1 @@
+pandoc -s --mathjax -i -t revealjs --template=pandoc-bespoke.html index.md -o index.html

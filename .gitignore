@@ -1,2 +1,4 @@
 _*
 dist/
+
+!Foundation/scss/_*
