@@ -1,8 +1,17 @@
 <section class="cell post">
     <div class="header">
         <h1>$title$</h1>
-        <p><i class="far fa-calendar-alt"></i>&nbsp;$date$&nbsp;
-        $if(author)$ <i class="far fa-edit"></i>&nbsp;$author$ $endif$</p>
+        <p>
+            <i class="far fa-calendar-alt"></i>&nbsp;$date$&nbsp;
+            $if(author)$
+            <i class="far fa-edit"></i>&nbsp;$author$&nbsp;$endif$
+            $if(git-commits)$
+            <i class="fas fa-history"></i>&nbsp;<a href="$git-commits$">History</a>&nbsp;
+            $endif$
+            $if(git-src)$
+            <i class="fas fa-code"></i>&nbsp;<a href="$git-src$">$git-SHA$</a>&nbsp;
+            $endif$
+        </p>
     </div>
     <div>
         $body$
@@ -10,5 +19,5 @@
 </section>
 
 <section>
-    $partial("templates/post-comment.html")$
+    $partial("templates/comment.html")$
 </section>

@@ -2,10 +2,15 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
-import           ExtensionlessUrl
+
+
+import           Routes
+import           Context
+import           Configuration
 --------------------------------------------------------------------------------
+
 main :: IO ()
-main = hakyllWith hfConfiguration $ do
+main = hakyllWith configuration $ do
     -- | Create .nojekyll
     create [".nojekyll"] $ do
         route idRoute
@@ -109,32 +114,5 @@ main = hakyllWith hfConfiguration $ do
                     >>= loadAndApplyTemplate "templates/textfile.html" postCtx
 
     match "templates/*" $ compile templateBodyCompiler
-
-
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    dropIndexHtml "url"          `mappend`
-    defaultContext
-    
-teasCtx :: Context String
-teasCtx =
-    teaserField "teaser" "content" `mappend`
-    postCtx
 
---------------------------------------------------------------------------------
-hfConfiguration :: Configuration
-hfConfiguration = defaultConfiguration
-    {
---      destinationDirectory = "_site"
---    , storeDirectory       = "_cache"
---    , tmpDirectory         = "_cache/tmp"
-        providerDirectory    = "./src_site"
---    , ignoreFile           = ignoreFile'
-      , deployCommand        = "zsh ./src/deploy.sh" -- "echo 'No deploy command specified' && exit 1"
---    , deploySite           = system . deployCommand
---    , inMemoryCache        = True
-      , previewHost          = "0.0.0.0"
-      , previewPort          = 80
-    }
