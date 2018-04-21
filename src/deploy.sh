@@ -9,6 +9,7 @@ git checkout source                         # Ensure to be in the source branch
 
 
                                             # check if any untracted files
+                                            # https://goo.gl/w6KqrP
 UNTRACTED=$(git ls-files --others --exclude-standard)
 if [[ ! -z "${UNTRACTED// }" ]]; then
     print "

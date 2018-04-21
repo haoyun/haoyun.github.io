@@ -11,6 +11,12 @@ import           Configuration
 
 main :: IO ()
 main = hakyllWith configuration $ do
+    create ["README.md"] $ do
+        route idRoute
+        compile (makeItem ("\
+\Static website proudly generted by [Hakyll](https://jaspervdj.be/hakyll/),\n\
+\from the source files in the `source` branch.\n"::String))
+
     -- | Create .nojekyll
     create [".nojekyll"] $ do
         route idRoute
