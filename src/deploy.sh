@@ -25,7 +25,8 @@ if [[ ! -z "${UNTRACTED// }" ]]; then
 else
     print "
     There is no untracted files.
-    All modified files will be commited."
+    All modified files will be commited.
+"
 fi                                          # then manually add or ignore files
 
 git commit -a -m 'source update'            # commit changes
