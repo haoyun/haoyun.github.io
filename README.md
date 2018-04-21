@@ -36,7 +36,7 @@ For more, see `/src/deploy.sh`.
 * zurb/foundation-sites is licensed under the [MIT License][MIT].
 * Hakyll is licensed under the [BSD-3-Clause License][BSD-3]
 
-* Contents of blog posts (`/n/posts/*`) are licensed under the
+* Contents of blog posts (`src_site/n/posts/**`) are licensed under the
   [Creative Commons Attribution 4.0 International License][CC-BY],
   unless otherwise stated.
 * All the other contents are licensed under the [MIT License],
