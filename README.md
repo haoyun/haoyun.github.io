@@ -1,80 +1,34 @@
-Hakyll Foundation Template
-==========================
+Source code for <https://haoyun.github.io>
+==========================================
 
-This is just a very basic template that you can use
-* the [Hakyll][Hakyll] library, which is base on [Pandoc][Pandoc]
-  to generate your static site, and
-* the [Zurb Foundation][Foundation] framework to design your site.
+This is the source code for my homepage
+[Natural Stupidity](https://haoyun.github.io).
+The site is built with Hakyll (for generating the static site) and
+Zurb Foundation (for stylesheets).
 
-## Requirements
+If you would like to build it, following the following steps.
 
-* git
-* rsync (Not really necessary but it will make life easier)
-* GHC
-  - Hakyll (4.9.*)
-* NodeJS (Require by Foundation development, see more in `README.md` in the `Foundation` folder)
+#### Requirements
 
-## Download ##
+* [Hakyll][]
+* [Zurb Foundation for Sites][Foundation]
+
+
+#### Build the site
 
 ```bash
-git clone --recursive git@github.com:haoyun/haoyun.github.io.git site
+git clone git@github.com:haoyun/haoyun.github.io.git site
 cd site
 git checkout source
-git submodule update --init --recursive
-cd Foundation
-npm install
-bower install
-```
-
-## Develop ##
-
-Run in `Foundation` folder
-```bash
-foundation watch
-```
-
-Run in `site` folder
-```bash
-cabal run watch
-```
-
-## Deploy ##
-
-```bash
-chcp 65001
-cd Foundation
-Foudation build &&
+cd site/Foundation
+bower install && npm install
+foundation build
 cd ..
-cabal run rebuild &&
-git clean -xf &&
-rsync -avr --delete --exclude='.git' _site/ html_public/
-cd html_public
-git add .
-git commit -m 'pages update'
-git push orgin HEAD:master -f # without keeping any history of generated pages
-cd ..
-git add .
-git commit -m 'source updae'
-git push origin source
+cabal build
+cabal run build
 ```
 
-Hints
------
+For more, see `/src/deploy.sh`.
 
-If your file, for example `.html` file, will be processed by Hakyll/Pandoc,
-then write `$$` instead of `$`.
-
-
-To-do List
-----------
-
-- [ ] Create multiple templates,
-      each having a basic version and a ready-to-use version.
-- [ ] Cover image field.
-- [ ] Custimizable teaser.
-- [ ] Run foundation watch and hakyll watch using one command.
-
-[Hakyll]: https://jaspervdj.be/hakyll/
-[Foundation]: http://foundation.zurb.com/
-[Pandoc]: https://pandoc.org/
-
+[Hakyll]: //jaspervdj.be/hakyll/tutorials/01-installation.html
+[Foundation]: //foundation.zurb.com/sites/docs/installation.html#install-with-foundation-cli

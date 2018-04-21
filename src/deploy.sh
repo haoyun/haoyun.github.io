@@ -1,33 +1,16 @@
 #/bin/zsh
 
+set -Eeuxo pipefail                         # Safer bash scripts
+                                            # https://goo.gl/u9Djx4
 
-chcp 65001
-
-################################################################################
-#                      Build CSS
-################################################################################
-cd Foundation/ &&
-foundation build &&
+                                            
+chcp 65001                                  # Ensure to use UTF8
+git checkout source                         # Ensure to be in the source branch
 
 
-################################################################################
-#                      Build site
-################################################################################
-
-cd ../
-cabal run rebuild &&
-
-
-################################################################################
-# Check are there any untracted files,
-# IF there is, exit,
-#     use git add, or gitignore manually
-#     The problem is that not all new files are useful
-# Otherwise, continue
-################################################################################
-
+                                            # check if any untracted files
 UNTRACTED=$(git ls-files --others --exclude-standard)
-if [[ -z "${UNTRACTED// }" ]]; then
+if [[ ! -z "${UNTRACTED// }" ]]; then
     print "
 **************************************************
      _ 
@@ -36,42 +19,45 @@ if [[ -z "${UNTRACTED// }" ]]; then
     |_|    Please check untracted files first!
      _ 
     (_)
-    
+
 **************************************************"
-fi
+    exit 1                                  # if any, exit with code 1.
+else
+    print "
+    There is no untracted files.
+    All modified files will be commited."
+fi                                          # then manually add or ignore files
+
+git commit -a -m 'source update'            # commit changes
+git push -u origin source                   # push to remote origin/source
+SHA=$(git log -1 HEAD --pretty=format:%h)   # get the comit hash
 
 
-################################################################################
-#                      Commit the changes and get SHA
-################################################################################
-git commit -a -a 'source update'
-SHA=$(git log -1 HEAD --pretty=format:%h)
+cd Foundation/                              # Build Foundation Styles
+# npm install
+# bower install                             # if not installed
+foundation build > /dev/null 2>&1
 
 
-################################################################################
-#                      Sync html_public, commit, push
-################################################################################
-rsync -avr --delete --exclude='.git' _site/ html_public/
+cd ../                                      # rebuild the site
+cabal run rebuild > /dev/null 2>&1          # clean and build
+
+
+mkdir html_public                           # temp folder to hold generated site
+rsync -ar _site/ html_public/               # cp files into html_public
+
+
+REMOTE="git@github.com:haoyun/haoyun.github.io/"
+
 cd html_public
-git add .
-# git commit -m 'pages update'    # use the next if you do not want to keep
-git commit --amend -m "site generated from commit $SHA"  # any history of generated pages 
-git push origin HEAD:master -f
-
-
-################################################################################
-#                      Update Submodule pointer
-# Since submodule is used, have to correct the submodule pointer.
-# now it seems better not to use submodule
-################################################################################
+git init                                    # initialize a new repo,
+git remote add origin $REMOTE               # add remote
+git add .                                   # commit generated site, and force
+git commit -m 'site generated with '"$SHA" 
+git push -f -u origin master                # push to remote origin/master
 
 cd ..
-git add .
-git commit -m 'update submodule pointer'
-git push origin source &&
+rm html_public -rf                          # remote temp folder
 
-git clean -xf &&  # Sometimes this is dangerous but it is also useful
-
-cd Foundation/ &&
-foundation build &&
-cd ../
+git pull                                    # update
+git gc                                      # do some cleaning
