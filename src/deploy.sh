@@ -48,7 +48,7 @@ mkdir html_public                           # temp folder to hold generated site
 rsync -ar _site/ html_public/               # cp files into html_public
 
 
-REMOTE="git@github.com:haoyun/haoyun.github.io/"
+REMOTE="git@github.com:haoyun/haoyun.github.io.git"
 
 cd html_public
 git init                                    # initialize a new repo,
