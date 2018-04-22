@@ -5,6 +5,8 @@ This is the source code for my homepage
 [Natural Stupidity](https://haoyun.github.io).
 The site is built with Hakyll (for generating the static site) and
 Zurb Foundation (for stylesheets).
+The actural HTML files (with CSS, JS, etc.) are on the `master` branch
+of this repo.
 
 If you would like to build it, following the following steps.
 
@@ -39,7 +41,7 @@ For more, see `/src/deploy.sh`.
 * Contents of blog posts (`src_site/n/posts/**`) are licensed under the
   [Creative Commons Attribution 4.0 International License][CC-BY],
   unless otherwise stated.
-* All the other contents are licensed under the [MIT License],
+* All the other contents are licensed under the [MIT License][MIT],
 
 
 [CC-BY]: //creativecommons.org/licenses/by/4.0/

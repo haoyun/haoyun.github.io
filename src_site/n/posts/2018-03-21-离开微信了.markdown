@@ -19,12 +19,12 @@ tag:
 
 如有需要，可以通过
 
-* <i class="far fa-envelope"></i>
+* <i class="fas fa-at"></i>
   [haoyun.math@gmail.com](mailto:haoyun.math@gmail.com)、
   [hy_haoyun@163.com](mailto:hy_haoyun@163.com)
 * <i class="fab fa-qq"></i>
   395563629
-* <i class="fab fa-telegram"></i>
+* <i class="fab fa-telegram-plane"></i>
   [\@haoyun](https://t.me/haoyun/) （推荐）
 * <i class="fab fa-vk"></i>、
   <i class="fab fa-twitter"></i>、

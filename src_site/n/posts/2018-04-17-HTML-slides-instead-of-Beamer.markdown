@@ -14,9 +14,9 @@ will be updated whenever there are updates.
 [source]: /files/bespoke-test/src/index.txt
 [mathgen]: http://thatsmathematics.com/mathgen/
 
-<!--more-->
-
 There are some reasons that I choose [Bespoke.js][] but not others:
+
+<!--more-->
 
 - Math rendering is of great importance to me. Nowadays I have to choose from
   [MathJax] (slow but fully functional) and [KaTeX]

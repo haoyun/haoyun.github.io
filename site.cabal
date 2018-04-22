@@ -6,11 +6,12 @@ cabal-version:      >= 1.10
 executable site
   main-is:          site.hs
   hs-source-dirs:   src
-  build-depends:    base       == 4.*
-                  , hakyll     == 4.12.*
-                  , filepath   >= 1.0    && < 1.5
-                  , blaze-html >= 0.5    && < 0.10
-                  , process    >= 1.6    && < 1.7
+  build-depends:    base                 == 4.*
+                  , hakyll               == 4.12.*
+                  , filepath             >= 1.0    && < 1.5
+                  , blaze-html           >= 0.5    && < 0.10
+                  , process              >= 1.6    && < 1.7
+                  , optparse-applicative >= 0.12   && < 0.15
   ghc-options:      -threaded
   default-language: Haskell2010
   Other-Modules:    Context

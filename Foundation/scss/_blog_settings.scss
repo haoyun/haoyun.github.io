@@ -137,24 +137,24 @@
 // $header-color: inherit;
 // $header-lineheight: 1.4;
 // $header-margin-bottom: 0.5rem;
-// $header-styles: (
-//   small: (
-//     'h1': ('font-size': 24),
-//     'h2': ('font-size': 20),
-//     'h3': ('font-size': 19),
-//     'h4': ('font-size': 18),
-//     'h5': ('font-size': 17),
-//     'h6': ('font-size': 16),
-//   ),
-//   medium: (
-//     'h1': ('font-size': 48),
-//     'h2': ('font-size': 40),
-//     'h3': ('font-size': 31),
-//     'h4': ('font-size': 25),
-//     'h5': ('font-size': 20),
-//     'h6': ('font-size': 16),
-//   ),
-// );
+$header-styles: (
+  small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
+    'h1': ('font-size': 38),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 22),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+);
 // $header-text-rendering: optimizeLegibility;
 // $small-font-size: 80%;
 // $header-small-font-color: $medium-gray;
@@ -167,7 +167,7 @@
 // $code-background: $solarized-base2; //$light-gray;
 // $code-border: none; //1px solid $medium-gray;
 // $code-padding: rem-calc(2 5 1);
-// $anchor-color: $primary-color;
+// $anchor-color: red; //$primary-color;
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
@@ -851,7 +851,7 @@ $topbar-submenu-background: transparent;
 // // -----------
 // 
 // $xy-grid: true;
-// $grid-container: $global-width * .6;
+$grid-container: $global-width * .6;
 // $grid-columns: 12;
 // $grid-margin-gutters: (
 //   small: 20px,

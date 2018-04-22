@@ -36,11 +36,12 @@ gitRepoCommits = gitRepo ++ "/commits/source"
 -- gitRepoSrc = gitRepo ++ "/blob"
 gitRepoSrc = "https://raw.githubusercontent.com/haoyun/haoyun.github.io/"
 --------------------------------------------------------------------------------
+
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    dropIndexHtml "url"          `mappend`
-    gitInfoCtx                   `mappend`
+    dateField "date" "%B %e, %Y"    `mappend`
+    dropIndexHtml "url"             `mappend`
+    gitInfoCtx                      `mappend`
     defaultContext
     
 teasCtx :: Context String

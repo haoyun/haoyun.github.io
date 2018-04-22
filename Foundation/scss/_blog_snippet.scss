@@ -1,43 +1,44 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
 
-//
-//  For blog posts.
-//
-//
+
+$first-element-padding-top: 2rem;
+
+//------------------------------------------------------------------------------
+//    Global Layout
+//------------------------------------------------------------------------------
+
+.top-bar .menu a {
+    color: $solarized-base2;
+}
+
+.top-bar {
+    background-color: $solarized-base02;
+}
+
+.posts section:first-child {
+    padding-top: $first-element-padding-top;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//     a {
+//         color: $body-font-color;
+//     }
+// }
+
+//------------------------------------------------------------------------------
+//    For each post
+//------------------------------------------------------------------------------
+
 
 section .header {
     color: $solarized-base01;
     font-size: $small-font-size;
-//    font-style: italic;
-}
-
-// article .main {
-//     text-align: justify;
-// }
-
-.post .header h1 {
-    padding: 2rem 0;
 }
 
 
-//
-// For blog
-//
-//
-
-.top-bar .menu a {
-    color: $solarized-base3;
-}
-
-.top-bar {
-    background-color: rgba($solarized-base02, 1)
-}
-
-
-//
-//  Blog index.html
-//
-//
+//------------------------------------------------------------------------------
+//    For blog index
+//------------------------------------------------------------------------------
 
 $topbar-height-calc: ($topbar-padding + nth($dropdownmenu-padding, 1) ) * 5;
 $hero-height: calc(100vh + #{$topbar-height-calc});
@@ -58,4 +59,3 @@ $hero-height: calc(100vh + #{$topbar-height-calc});
     text-shadow: 1px 1px 2px $black;
   }
 }
-
