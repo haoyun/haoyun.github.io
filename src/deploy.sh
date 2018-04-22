@@ -1,5 +1,6 @@
 #/bin/zsh
 
+
 set -Eeuxo pipefail                         # Safer bash scripts
                                             # https://goo.gl/u9Djx4
 
@@ -8,24 +9,29 @@ chcp 65001                                  # Ensure to use UTF8
 git checkout source                         # Ensure to be in the source branch
 
 
-                                            # check if any untracted files
-                                            # https://goo.gl/w6KqrP
+indent() { sed 's/^/    /'; }               # Thanks to https://goo.gl/JsUkmG
 UNTRACTED=$(git ls-files --others --exclude-standard)
-if [[ ! -z "${UNTRACTED// }" ]]; then
+                                            # Thanks to https://goo.gl/w6KqrP
+if [[ ! -z "${UNTRACTED// }" ]]; then       # Thanks to https://goo.gl/epiWy7
+    LIST=$(echo $UNTRACTED| indent)
     print "
-**************************************************
-     _ 
+\e[0;35m**************************************************
+\e[0m     _ 
     | |
     | |
-    |_|    Please check untracted files first!
-     _ 
+    |_|    \e[4;31mPlease check untracted files first!
+\e[0m     _ 
     (_)
 
-**************************************************"
+\e[0;33mThe following files are untracted:
+
+\e[0m$LIST
+
+\e[0;35m**************************************************"
     exit 1                                  # if any, exit with code 1.
 else
     print "
-    There is no untracted files.
+    There is no untracted file.
     All modified files will be commited.
 "
 fi                                          # then manually add or ignore files
