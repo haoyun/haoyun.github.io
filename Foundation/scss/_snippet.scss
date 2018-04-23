@@ -52,6 +52,26 @@
     display:none;
 }
 
+
+// body {
+//     background: url("/images/combine.png") no-repeat center center fixed; 
+//     background-size: cover;
+// }
+
+#bg-img::after {
+    content:"";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vH;
+    background: url('/images/combine.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.15;
+    filter:alpha(opacity=85);
+    z-index: -1;
+}
+
 //
 // all pages
 //
