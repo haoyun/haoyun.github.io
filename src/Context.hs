@@ -4,6 +4,7 @@ module Context
     ( postCtx
     , dropIndexHtml
     , teasCtx
+    , gitInfoCtx
     ) where
 
     

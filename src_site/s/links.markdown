@@ -120,17 +120,17 @@ title: Links
   [Lei Zhang][Lei]
   
 
-    [Pedro]: //page.mi.fu-berlin.de/castillejo/
-    [Tanya]: //page.mi.fu-berlin.de/tanyasrivas/
+[Pedro]:     //page.mi.fu-berlin.de/castillejo/
+[Tanya]:     //page.mi.fu-berlin.de/tanyasrivas/
 [Efstathia]: //page.mi.fu-berlin.de/katsief/
-    [Marco]: //page.mi.fu-berlin.de/daddezio/
-      [Kay]: //page.mi.fu-berlin.de/ruelling/
-      [Lei]: //page.mi.fu-berlin.de/lei/
-    [Shane]: //page.mi.fu-berlin.de/shanekelly/
-  [Michael]: //page.mi.fu-berlin.de/groemich/
-    [Fabio]: //page.mi.fu-berlin.de/tonini/
-    [Simon]: //simon-pepin.github.io/
-     [Raju]: //math.columbia.edu/~raju/
+[Marco]:     //page.mi.fu-berlin.de/daddezio/
+[Kay]:       //page.mi.fu-berlin.de/ruelling/
+[Lei]:       //page.mi.fu-berlin.de/lei/
+[Shane]:     //page.mi.fu-berlin.de/shanekelly/
+[Michael]:   //page.mi.fu-berlin.de/groemich/
+[Fabio]:     //page.mi.fu-berlin.de/tonini/
+[Simon]:     //simon-pepin.github.io/
+[Raju]:      //math.columbia.edu/~raju/
 
 
 ## Enzyklopädie

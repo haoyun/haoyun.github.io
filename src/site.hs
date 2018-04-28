@@ -118,7 +118,7 @@ main = do
                 getResourceBody
                     >>= applyAsTemplate indexCtx
                     >>= loadAndApplyTemplate "templates/post-with-hero.html" indexCtx
-                    >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                    >>= loadAndApplyTemplate "templates/default.html" (gitInfoCtx `mappend` indexCtx)
                     >>= relativizeUrls
         
         match "index.html" $ do
