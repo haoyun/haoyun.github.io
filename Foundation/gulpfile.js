@@ -2,13 +2,12 @@ var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 
 var sassPaths = [
-  'bower_components/normalize.scss/sass',
-  'bower_components/foundation-sites/scss',
-  'bower_components/motion-ui/src'
+  'node_modules/foundation-sites/scss',
+  'node_modules/motion-ui/src'
 ];
 
 gulp.task('sass', function() {
-    return gulp.src(['scss/app.scss', 'scss/blog_app.scss'])
+    return gulp.src(['scss/main.scss', 'scss/blog_main.scss'])
         .pipe($.sass({
             includePaths: sassPaths,
             outputStyle: 'compressed' // if css compressed **file size**

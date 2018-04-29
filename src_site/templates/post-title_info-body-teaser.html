@@ -1,15 +1,26 @@
 <section class="cell">
+<div class="card">
+<div class="card-divider">
     <div class="header">
         <h2><a href="$url$">$title$</a></h2>
-        <p>
+        <span>
             <i class="far fa-calendar"></i>&nbsp;$date$&nbsp;
             $if(author)$
             <i class="far fa-user"></i>&nbsp;$author$
             $endif$
-        </p>
+        </span>
     </div>
-    <div>
-        $if(teaser)$ $teaser$ <a href="$url$">Read more &hellip;</a> $else$ $body$ $endif$
+</div>
+<div class="card-section">
+    <div>$if(teaser)$
+        $teaser$
+        <div class="grid-x align-right">
+        <div class="cell shrink">
+        <a href="$url$"  class="button">Read more &hellip;</a>
+        <div></div>$else$
+        $body$$endif$
     </div>
+</div>
+</div>
 </section>
 
