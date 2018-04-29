@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhaoyun%2Fhaoyun.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhaoyun%2Fhaoyun.github.io?ref=badge_shield)
+
 Source code for <https://haoyun.github.io>
 ==========================================
 
@@ -50,3 +52,5 @@ For more, see `/src/deploy.sh`.
 
 [Hakyll]: //jaspervdj.be/hakyll/tutorials/01-installation.html
 [Foundation]: //foundation.zurb.com/sites/docs/installation.html#install-with-foundation-cli
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhaoyun%2Fhaoyun.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhaoyun%2Fhaoyun.github.io?ref=badge_large)
