@@ -26,7 +26,7 @@ main = do
                        then constField "livejs" "TRUE" `mappend` postCtx
                        else postCtx
     
-    print ifWatchMode
+    --print ifWatchMode
 
     hakyllWith configuration $ do
     
@@ -68,7 +68,6 @@ main = do
                     appendIndex
             compile $ pandocCompiler
                 >>= loadAndApplyTemplate "templates/post-title-body.html"   postCtx
-                >>= loadAndApplyTemplate "templates/post.html"              postCtx
                 >>= loadAndApplyTemplate "templates/default.html"           postCtx'
                 >>= relativizeUrls
     
@@ -79,7 +78,6 @@ main = do
             compile $ pandocCompiler
                 >>= saveSnapshot "content"
                 >>= loadAndApplyTemplate "templates/post-title_info-body.html"    postCtx
-                >>= loadAndApplyTemplate "templates/post.html"    postCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx'
                 >>= relativizeUrls
     
@@ -98,7 +96,6 @@ main = do
                 makeItem ""
                     >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                     >>= loadAndApplyTemplate "templates/post-title-body.html" archiveCtx
-                    >>= loadAndApplyTemplate "templates/post.html"    archiveCtx
                     >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                     >>= relativizeUrls
     

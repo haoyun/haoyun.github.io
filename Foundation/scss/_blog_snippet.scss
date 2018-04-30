@@ -19,21 +19,20 @@ $first-element-padding-top: 2rem;
     padding-top: $first-element-padding-top;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//     a {
-//         color: $body-font-color;
-//     }
-// }
+article.post header {
+    padding-top: $first-element-padding-top;
+}
+
 
 //------------------------------------------------------------------------------
 //    For each post
 //------------------------------------------------------------------------------
 
 
-section .header {
-    color: $solarized-base01;
-    font-size: $small-font-size;
-}
+// section .header {
+//     color: $solarized-base01;
+//     font-size: $small-font-size;
+// }
 
 
 //------------------------------------------------------------------------------
