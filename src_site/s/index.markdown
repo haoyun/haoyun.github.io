@@ -136,6 +136,8 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ### Aktuelle \& Kommende
 
+* **02.09.2018 -- 08.09.2018** Autumn School [Arithmetic of Differential Equations][Łukęcin].\
+  <!--Łukęcin, Poland-->
 * **10.09.2018 -- 14.09.2018** [International summer school on Arithmetic geometry][Salerno].\
   <!--Università degli Studi di Salerno.-->
 * **01.02.2019 -- 25.04.2019** [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.\
@@ -285,6 +287,7 @@ Essentially, there is no original work by myself.
 [Munich]: //sites.google.com/view/crystalgeometrymunich
 [Salerno]: //www.staff.uni-mainz.de/dfesti/SummerSchool2018/
 [MSRI1]: //www.msri.org/programs/306
+[Łukęcin]: //www.impan.pl/~vat/lukecin.html
 
 <!-- ARTICLES -->
 [Vashavsky]: //arxiv.org/abs/1405.6381
