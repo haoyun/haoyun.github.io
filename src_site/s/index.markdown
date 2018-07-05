@@ -5,7 +5,7 @@ FB Mathematik und Informtik<br>
 Arnimallee 3, Zimmer 111<br>
 14195 Berlin<br>
 Deutschland<br>
-Email: yun.hao@fu-berlin.de
+Email: yun.hao@fu-berlin.de ([X.509 public certificate][Certificate]<sup><a href="#fnstar" id="refstar">*</a></sup>)
 </address>
 
 <!--<div class="medium-2 columns align-self-middle">
@@ -97,7 +97,7 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
-            * 25.06.2018    Raynaud’s proof II: Extension and algebraization
+            * 26.06.2018    Raynaud’s proof II: Extension and algebraization
     - **2017--18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
 		    * 06.11.2017    Grothendieck Existence Theorem.
@@ -227,6 +227,12 @@ Essentially, there is no original work by myself.
 
 
 
+
+- - - - - - - - - - - 
+<sup id="fnstar">*. ausgestellt von [DFN-Verein Global Issuing CA][DFN-CA]
+<a href="#refstar">↩</a></sup>
+
+
 <!-- PEOPLE -->
 [Esnault]://www.mi.fu-berlin.de/users/esnault/
 [Maryna]: //www.math.hu-berlin.de/~viazovsm/index.html
@@ -307,3 +313,5 @@ Essentially, there is no original work by myself.
 [masterthesis]: /files/master-thesis.pdf
 [masterthesissrc]: //raw.githubusercontent.com/haoyun/master-thesis/master/main.tex
 [scholarship]: //www.math-berlin.de/students/financing-your-phd
+[Certificate]: /files/Yun_Hao.pem
+[DFN-CA]: //info.pca.dfn.de/dfn-ca-global-g2/
