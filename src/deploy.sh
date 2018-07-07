@@ -37,8 +37,8 @@ else
 fi                                          # then manually add or ignore files
 
 git commit -a -m 'source update'            # commit changes
-git push -u origin source                   # push to remote origin/source
-SHA=$(git log -1 HEAD --pretty=format:%h)   # get the comit hash
+git push -f -u origin source                # push to remote origin/source
+SHA=$(git log -1 HEAD --pretty=format:%h)   # get the commit hash
 
 
 cd Foundation/                              # Build Foundation Styles

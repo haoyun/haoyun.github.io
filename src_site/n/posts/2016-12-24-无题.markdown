@@ -3,17 +3,15 @@ title: 无题
 date: December 24, 2016
 ---
 
-> This is a repost of <http://telegra.ph/2016-12-2324-12-23>
->
+读了一段《Riemann 猜想漫谈》，里面提到Riemann的手稿。有一部分非常关键的涉及Riemann Hypothesis的笔记在捐出后又被Riemann的妻子因其内容包含私事而索回，再然后就遗失了。不能不说是遗憾。尽管有此遗憾，Siegel还是在保存下来的手稿里找到了Riemann-Siegel公式。那Grothendieck的手稿呢？有个博客非常关注此事：
 
 <!--more-->
-
-读了一段《Riemann 猜想漫谈》，里面提到Riemann的手稿。有一部分非常关键的涉及Riemann Hypothesis的笔记在捐出后又被Riemann的妻子因其内容包含私事而索回，再然后就遗失了。不能不说是遗憾。尽管有此遗憾，Siegel还是在保存下来的手稿里找到了Riemann-Siegel公式。那Grothendieck的手稿呢？有个博客非常关注此事：
 
 * [Grothendieck’s gribouillis](http://www.neverendingbooks.org/grothendiecks-gribouillis)
 * [Grothendieck’s gribouillis (2)](http://www.neverendingbooks.org/grothendiecks-gribouillis-2)
 * [Where are Grothendieck’s writings?](http://www.neverendingbooks.org/where-are-grothendiecks-writings)
 * [Where are Grothendieck’s writings? (2)](http://www.neverendingbooks.org/where-are-grothendiecks-writings-2)
+
 谁知道Grothendieck的手稿里会有什么天大的秘密呢？
 
 关于手稿，Categories for the Working Mathematician 上还有一段
@@ -22,7 +20,7 @@ date: December 24, 2016
 
  - - - - - - - - - - - - - - - - - - - -
 
-今天去逛了一圈优衣库，但是什么都没有买。有如下感想：
+今天逛了一下午街，但是什么都没有买。有如下感想：
 
 1. 自己好穷。
 2. 消费观有问题了，因为1.并不完全成立。买衣服在一定程度上也是给自己投资啊，没有必要不舍得。
@@ -52,3 +50,5 @@ date: December 24, 2016
 * 健身。
 
 努力吧！
+
+> This is a repost of <http://telegra.ph/2016-12-2324-12-23>

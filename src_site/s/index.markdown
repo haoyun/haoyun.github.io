@@ -5,7 +5,9 @@ FB Mathematik und Informtik<br>
 Arnimallee 3, Zimmer 111<br>
 14195 Berlin<br>
 Deutschland<br>
-Email: yun.hao@fu-berlin.de ([X.509 public certificate][Certificate]<sup><a href="#fnstar" id="refstar">*</a></sup>)
+Email: yun.hao@fu-berlin.de<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+([X.509 public certificate][Certificate][^1])
 </address>
 
 <!--<div class="medium-2 columns align-self-middle">
@@ -227,10 +229,7 @@ Essentially, there is no original work by myself.
 
 
 
-
-- - - - - - - - - - - 
-<sup id="fnstar">*. ausgestellt von [DFN-Verein Global Issuing CA][DFN-CA]
-<a href="#refstar">↩</a></sup>
+[^1]: ausgestellt von [DFN-Verein Global Issuing CA][DFN-CA]
 
 
 <!-- PEOPLE -->
