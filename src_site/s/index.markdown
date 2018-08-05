@@ -138,33 +138,36 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
 
 ### Aktuelle \& Kommende
 
-* **02.09.2018 -- 08.09.2018** Autumn School [Arithmetic of Differential Equations][Łukęcin].\
+* **02.09.2018 -- 08.09.2018**, Autumn School [Arithmetic of Differential Equations][Łukęcin].\
   <!--Łukęcin, Poland-->
-* **10.09.2018 -- 14.09.2018** [International summer school on Arithmetic geometry][Salerno].\
+* **10.09.2018 -- 14.09.2018**, [International summer school on Arithmetic geometry][Salerno].\
   <!--Università degli Studi di Salerno.-->
-* **01.02.2019 -- 25.04.2019** [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.\
+* **05.11.2018 -- 07.11.2018**, [Chow Lectures][Chow2018]: by Peter Scholze.\
+  <!--University of Leipzig, Felix Klein lecture room and
+  Max Planck Institute for Mathematics in the Sciences-->
+* **01.02.2019 -- 25.04.2019**, [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.\
   <!--MSRI, Berkeley, CA, USA-->
 
 ### Vergangen
 
-* **04.04.2018 -- 06.04.2018** [Crystals and Geometry in Characteristic $p$][Munich].\
+* **04.04.2018 -- 06.04.2018**, [Crystals and Geometry in Characteristic $p$][Munich].\
   <!--Technische Universität München.-->
-* **29.01.2018 -- 09.02.2018** [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
+* **29.01.2018 -- 09.02.2018**, [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
   <!--Università degli Studi di Padova.-->
-* **09.10.2017 -- 13.10.2017** [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
+* **09.10.2017 -- 13.10.2017**, [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].\
   <!--Johannes Gutenberg-Universität Mainz.-->
-* **28.08.2017 -- 01.09.2017** [Motives for periods][periods].\
+* **28.08.2017 -- 01.09.2017**, [Motives for periods][periods].\
   <!--[Freie Universität Berlin][FUB].-->
-* **07.10.2017 -- 12.10.2017** [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
+* **07.10.2017 -- 12.10.2017**, [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].\
   <!--[Humboldt Universität zu Berlin][HUB].-->
-* **27.09.2016 -- 30.09.2016**. [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
+* **27.09.2016 -- 30.09.2016**, [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].\
   <!--[Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.-->
-* **20.06.2016 -- 22.06.2016**. [Shimura Varieties][leidenshimura].\
+* **20.06.2016 -- 22.06.2016**, [Shimura Varieties][leidenshimura].\
   <!--[Leiden University][leidenu].-->
-* **13.07.2015 -- 31.07.2015**. [AMS Summer Institute in Algebraic Geometry][Utah].\
+* **13.07.2015 -- 31.07.2015**, [AMS Summer Institute in Algebraic Geometry][Utah].\
   <!--University of Utah, Salt Lake City, Utah, USA.-->
 <!--
-* **03.03.2014 -- 14.03.2015**. [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
+* **03.03.2014 -- 14.03.2015**, [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
   [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
 * **02.2013 -- 06.2013**. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
   [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
@@ -293,6 +296,7 @@ Essentially, there is no original work by myself.
 [Salerno]: //www.staff.uni-mainz.de/dfesti/SummerSchool2018/
 [MSRI1]: //www.msri.org/programs/306
 [Łukęcin]: //www.impan.pl/~vat/lukecin.html
+[Chow2018]: //www.mis.mpg.de/calendar/conferences/2018/chow2018.html
 
 <!-- ARTICLES -->
 [Vashavsky]: //arxiv.org/abs/1405.6381
