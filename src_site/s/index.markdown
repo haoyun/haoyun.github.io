@@ -1,3 +1,8 @@
+---
+title:
+---
+
+
 <p>Yun Hao (郝运)</p>
 <address style="white-space: nowrap;">
 Freie Universität Berlin<br>
@@ -34,68 +39,12 @@ der [Berlin Mathematical School][BMS] (BMS) unterstützt.
 
 Mein [Lebenslauf][CV] (auf Englisch).
 
-
-<!--
-<style>
-/*
-PDFObject appends the classname "pdfobject-container" to the target element.
-This enables you to style the element differently depending on whether the embed was successful.
-In this example, a successful embed will result in a large box.
-A failed embed will not have dimensions specified, so you don't see an oddly large empty box.
-*/
-
-.pdfobject-container {
-	width: 100%;
-	height: 600px;
-	margin: 2em 0;
-}
-
-.pdfobject { border: solid 1px #666; }
-#results { padding: 1rem; }
-.hidden { display: none; }
-.success { color: #4F8A10; background-color: #DFF2BF; }
-.fail { color: #D8000C; background-color: #FFBABA; }
-</style>
-
-
-<div class="large reveal" id="exampleModal1" data-reveal>
-<button class="close-button" data-close aria-label="Close modal" type="button">
-<span aria-hidden="true">&times;</span>
-</button>
-<div id="results" class="hidden"></div>
-<div id="pdf"></div>
-</div>
-
-<p><span class="embed-link" data-open="exampleModal1">Click me for a modal</span></p>
-
-<script>
-document.querySelector(".embed-link").addEventListener("click", function (e){
-e.preventDefault();
-this.setAttribute("class", "hidden");
-var options = {
-	pdfOpenParams: {
-		navpanes: 0,
-		toolbar: 0,
-		statusbar: 0,
-		pagemode: "none",
-		view: "FitV"
-	},
-    forcePDFJS: true,
-	PDFJS_URL: "/vendor/pdfjs/web/viewer.html"
-};
-
-var myPDF = PDFObject.embed("/files/CV-20171116.pdf", "#pdf", options);
-var el = document.querySelector("#results");
-el.setAttribute("class", (myPDF) ? "success" : "fail");
-el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to the page!" : "Uh-oh, the embed didn't work.";
-});
-</script>
--->
-
 - - - - - - - - - -
 
 ## Vorträge
 * Seminare
+    - **2018-19 Winter Semester**
+	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
@@ -122,7 +71,7 @@ el.innerHTML = (myPDF) ? "PDFObject successfully added an &lt;embed> element to 
     - **2016 Summer Semester** [D-modules][dmod].
         + 02.05.2015    D-modules and connections.
         + 11.07.2015    The Gieseker conjecture.
-    - **2015--16 Winter Semester**. [Intersection Theory][intersection].
+    - **2015--16 Winter Semester**. Intersection Theory (Organiser).
         + 16.11.2015    Chow Ring of $\mathbb{G}(1,3)$.
         + 08.02.2016    Chern Classes V: some proofs.
     - **2015 Summer semester**. [Étale Cohomology][etale].
@@ -264,6 +213,7 @@ Essentially, there is no original work by myself.
 [intersection]: /seminars/15WS-Intersection-Theory/
 [padichodge]: //www.mi.fu-berlin.de/users/tanyasrivas/p-adichodgetheory.html
 [AbhyankarConj]: //page.mi.fu-berlin.de/daddezio/abhyankar.php
+[padichodge-2]: /s/seminars/1819WS/p-adic_Hodge_Theory/
 
 <!-- Research seminars -->
 [Berkovich]://www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/berkovich_wise1617.html

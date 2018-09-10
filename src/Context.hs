@@ -5,6 +5,7 @@ module Context
     , dropIndexHtml
     , teasCtx
     , gitInfoCtx
+    , mathCtx
     ) where
 
     
@@ -14,20 +15,48 @@ import           Hakyll.Core.Compiler            (unsafeCompiler, Compiler)
 import           Hakyll.Core.Identifier          (toFilePath, Identifier)
 import           Hakyll.Core.Item                (itemIdentifier, Item)
 import           Hakyll.Core.Configuration       (providerDirectory)
+import           Hakyll.Core.Metadata            (getMetadataField)
 import           Hakyll.Web.Html                 (toUrl)
 
 import           Configuration
 import           Compiler
 
 import           System.Process
-import           System.FilePath                 ( (</>), (<.>), combine
+import           System.FilePath                 ( (</>), (<.>)--, combine
                                                  , splitFileName
                                                  , takeDirectory )
-import           Text.Blaze.Html                 (toHtml, toValue, (!))
-import           Text.Blaze.Html.Renderer.String (renderHtml)
-import qualified Text.Blaze.Html5                as H
-import qualified Text.Blaze.Html5.Attributes     as A
+-- import           Text.Blaze.Html                 (toHtml, toValue, (!))
+-- import           Text.Blaze.Html.Renderer.String (renderHtml)
+-- import qualified Text.Blaze.Html5                as H
+-- import qualified Text.Blaze.Html5.Attributes     as A
+
 --------------------------------------------------------------------------------
+
+postCtx :: Context String
+postCtx =
+    dateField "date" "%B %e, %Y"    `mappend`
+    dropIndexHtml "url"             `mappend`
+    gitInfoCtx                      `mappend`
+    mathCtx                         `mappend`
+    defaultContext
+
+--------------------------------------------------------------------------------
+
+teasCtx :: Context String
+teasCtx =
+    teaserField "teaser" "content" `mappend`
+    postCtx
+    
+--------------------------------------------------------------------------------
+
+dropIndexHtml :: String -> Context a
+dropIndexHtml key = mapContext transform (urlField key)
+    where transform url = case splitFileName url of
+                              (p, "index.html") -> takeDirectory p
+                              _                 -> url
+
+--------------------------------------------------------------------------------
+
 gitRepo :: FilePath
 gitRepoSrc :: FilePath
 gitRepoCommits :: FilePath
@@ -36,27 +65,8 @@ gitRepo = "https://github.com/haoyun/haoyun.github.io"
 gitRepoCommits = gitRepo ++ "/commits/source"
 -- gitRepoSrc = gitRepo ++ "/blob"
 gitRepoSrc = "https://raw.githubusercontent.com/haoyun/haoyun.github.io/"
+
 --------------------------------------------------------------------------------
-
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y"    `mappend`
-    dropIndexHtml "url"             `mappend`
-    gitInfoCtx                      `mappend`
-    defaultContext
-    
-teasCtx :: Context String
-teasCtx =
-    teaserField "teaser" "content" `mappend`
-    postCtx
-
-dropIndexHtml :: String -> Context a
-dropIndexHtml key = mapContext transform (urlField key)
-    where transform url = case splitFileName url of
-                              (p, "index.html") -> takeDirectory p
-                              _                 -> url
---------------------------------------------------------------------------------
-
 
 -- A modified version of
 -- https://github.com/blaenk/blaenk.github.io/blob/source/src/Site/Contexts.hs
@@ -110,3 +120,19 @@ gitInfoCtx =
 --                           H.span ! A.class_ "hash" $ do
 --                               toHtml (", " :: String)
 --                               H.a ! A.href (toValue commit) ! A.title (toValue message) $ toHtml sha
+
+
+--------------------------------------------------------------------------------
+
+-- | This is adopted from https://axiomatic.neophilus.net/using-katex-with-hakyll/
+-- Note that the metadata filed is case-sensitive.
+mathCtx :: Context a
+mathCtx = field "MathJax" $ \item -> do
+    mathjax <- getMetadataField (itemIdentifier item) "MathJax"
+    return $ case mathjax of
+                    Nothing -> ""
+                    Just "false" -> ""
+                    Just "off" -> ""
+                    _ -> "<script type=\"text/javascript\" async\
+  \ src=\"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML\">\
+\</script>"

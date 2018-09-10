@@ -1,15 +1,16 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+--------------------------------------------------------------------------------
 import           Data.Monoid (mappend)
 import           Hakyll
-
 
 import           Routes
 import           Context
 import           Configuration
---------------------------------------------------------------------------------
+import           Compiler
 
 import           System.Environment
+--------------------------------------------------------------------------------
 
 
 ifLiveJS :: String
@@ -25,8 +26,7 @@ main = do
         postCtx' = if ifWatchMode
                        then constField "livejs" "TRUE" `mappend` postCtx
                        else postCtx
-    
-    --print ifWatchMode
+    -- print ifWatchMode
 
     hakyllWith configuration $ do
     
@@ -88,8 +88,8 @@ main = do
                 posts <- recentFirst =<< loadAll "n/posts/*"
                 let archiveCtx =
                         listField "posts" postCtx (return posts) `mappend`
-                        constField "title" "Archives"             `mappend`
-                        dropIndexHtml "url"                       `mappend`
+                        constField "title" "Archives"            `mappend`
+                        dropIndexHtml "url"                      `mappend`
                         (if ifWatchMode then constField "livejs" "TRUE" else mempty) `mappend`
                         defaultContext
     
@@ -129,14 +129,16 @@ main = do
                 >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
                 >>= relativizeUrls
     
-        match ( "comment.markdown" .||. 
+        match ( "comment.markdown" .||.
+                "s/seminars/**.markdown" .||.
                 "s/*.markdown" .&&. complement "s/index.markdown"
               ) $ do
                     route $ setExtension "html" `composeRoutes` appendIndex
                     compile $ getResourceBody
                         >>= applyAsTemplate postCtx
-                        >>= renderPandoc
+                        >>= renderPandocMath
                         >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
+                        >>= relativizeUrls
     
         match "templates/*" $ compile templateBodyCompiler
 --------------------------------------------------------------------------------

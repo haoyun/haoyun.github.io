@@ -10,15 +10,27 @@ import           Hakyll.Core.Util.String     (replaceAll)
 
 import           System.FilePath             ( (</>), (<.>), combine
                                              , splitExtension
-                                             , takeDirectory )
+                                             , takeDirectory 
+                                             , takeBaseName)
 --------------------------------------------------------------------------------
+
+-- | Get the file path and split its file name and extension.
+-- If the file name is index, do nothing;
+-- otherwise, insert index.
 appendIndex :: Routes
 appendIndex = customRoute $
-    (\(p, e) -> p ++ "/index" ++ e ) . splitExtension . toFilePath
+    appendIndex' . splitExtension . toFilePath
+    where appendIndex' (p, e) = if takeBaseName(p) == "index"
+                                    then p ++ e 
+                                    else p ++ "/index" ++ e
+            
 --------------------------------------------------------------------------------
--- This is not enough. If the file name does not contain date info, we
--- need to get it from metadata or metadata file.
+
+-- | This works only when the file name contains date info
+-- An improved version should be implement so it can get the date info
+-- from metadata block in the file or a separated metadata file.
 dateFolders :: Routes
 dateFolders =
     gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" $ replaceAll "-" (const "/")
+
 --------------------------------------------------------------------------------

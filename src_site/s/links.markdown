@@ -103,8 +103,10 @@ title: Links
 ## Personen
 
 * [Brian Conrad][BrianConrad]
+* [Kiran Sridhara Kedlaya][KiranKedlaya]
 
 [BrianConrad]: //math.stanford.edu/~conrad/
+[KiranKedlaya]: //www.kskedlaya.org/
 
 ### Kollegen
 * [Marco D'Addezio][Marco],
@@ -137,6 +139,8 @@ title: Links
 
 * [$$n$$Lab][nlab]
 * [Stacks Project][SP]
+* [Kerodon][Kerodon]
 
 [nlab]: //ncatlab.org/
 [SP]: //stacks.math.columbia.edu/
+[Kerodon]: http://www.math.harvard.edu/~lurie/Kerodon/main.html
