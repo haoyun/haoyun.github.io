@@ -104,9 +104,11 @@ title: Links
 
 * [Brian Conrad][BrianConrad]
 * [Kiran Sridhara Kedlaya][KiranKedlaya]
+* [Aise Johan de Jong][AJdeJong]
 
 [BrianConrad]: //math.stanford.edu/~conrad/
 [KiranKedlaya]: //www.kskedlaya.org/
+[AJdeJong]: http://math.columbia.edu/~dejong/
 
 ### Kollegen
 * [Marco D'Addezio][Marco],
@@ -115,11 +117,13 @@ title: Links
   [Efstathia Katsigianni][Efstathia]
 * [Michael Groechenig][Michael],
   [Shane Kelly][Shane],
+  [Tohru Kohrita][Tohru],
   [Raju Krishnamoorthy][Raju],
   [Simon Pepin Lehalleur][Simon],
   [Kay Rülling][Kay],
   [Fabio Tonini][Fabio],
   [Lei Zhang][Lei]
+  
   
 
 [Pedro]:     //page.mi.fu-berlin.de/castillejo/
@@ -131,8 +135,10 @@ title: Links
 [Shane]:     //page.mi.fu-berlin.de/shanekelly/
 [Michael]:   //page.mi.fu-berlin.de/groemich/
 [Fabio]:     //page.mi.fu-berlin.de/tonini/
+[tohru]:     //page.mi.fu-berlin.de/tohru/
 [Simon]:     //simon-pepin.github.io/
 [Raju]:      //math.columbia.edu/~raju/
+
 
 
 ## Enzyklopädie

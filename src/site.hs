@@ -8,6 +8,7 @@ import           Routes
 import           Context
 import           Configuration
 import           Compiler
+-- import           LaTeXtoImage
 
 import           System.Environment
 --------------------------------------------------------------------------------
@@ -18,6 +19,7 @@ ifLiveJS = "0"
 
 main :: IO ()
 main = do
+    -- renderFormulae <- myInitFormulaCompilerDataURI 1000 myDefaultEnv
 
     (action:_) <- getArgs
     
@@ -128,6 +130,14 @@ main = do
             compile $ pandocCompiler
                 >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
                 >>= relativizeUrls
+                
+        -- match "s/seminars/**.markdown" $ do
+        --     route $ setExtension "html"
+        --     compile $ do
+        --             pandocCompilerWithTransformM customReaderOptions customWriterOptions
+        --                $ myCompileFormulaeDataURI myDefaultEnv defaultPandocFormulaOptions
+        --             >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
+        --             >>= relativizeUrls
     
         match ( "comment.markdown" .||.
                 "s/seminars/**.markdown" .||.

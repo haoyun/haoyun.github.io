@@ -45,6 +45,8 @@ Mein [Lebenslauf][CV] (auf Englisch).
 * Seminare
     - **2018-19 Winter Semester**
 	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
+            * 15.10.2018    Introduction
+        + [Research Seminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
@@ -87,10 +89,6 @@ Mein [Lebenslauf][CV] (auf Englisch).
 
 ### Aktuelle \& Kommende
 
-* **02.09.2018 -- 08.09.2018**, Autumn School [Arithmetic of Differential Equations][Łukęcin].\
-  <!--Łukęcin, Poland-->
-* **10.09.2018 -- 14.09.2018**, [International summer school on Arithmetic geometry][Salerno].\
-  <!--Università degli Studi di Salerno.-->
 * **05.11.2018 -- 07.11.2018**, [Chow Lectures][Chow2018]: by Peter Scholze.\
   <!--University of Leipzig, Felix Klein lecture room and
   Max Planck Institute for Mathematics in the Sciences-->
@@ -99,6 +97,10 @@ Mein [Lebenslauf][CV] (auf Englisch).
 
 ### Vergangen
 
+* **02.09.2018 -- 08.09.2018**, Autumn School [Arithmetic of Differential Equations][Łukęcin].\
+  <!--Łukęcin, Poland-->
+* **10.09.2018 -- 14.09.2018**, [International summer school on Arithmetic geometry][Salerno].\
+  <!--Università degli Studi di Salerno.-->
 * **04.04.2018 -- 06.04.2018**, [Crystals and Geometry in Characteristic $p$][Munich].\
   <!--Technische Universität München.-->
 * **29.01.2018 -- 09.02.2018**, [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].\
@@ -222,6 +224,7 @@ Essentially, there is no original work by myself.
 [motivic]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/motives_sose16.html
 [de Jong-He-Starr]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/sections_sose15.html
 [padicsimpson]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/simpson_wise1718.html
+[mordell]: //www.mi.fu-berlin.de/en/math/groups/arithmetic_geometry/research_seminar/Mordell_wise1819.html
 
 <!-- Courses -->
 [DG]: http://www3.math.tu-berlin.de/geometrie/Lehre/SS15/DGI/

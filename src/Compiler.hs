@@ -6,6 +6,8 @@ module Compiler
     , getSrcPath
     , pandocMathCompiler
     , renderPandocMath
+    , customWriterOptions
+    , customReaderOptions
     ) where
 
 --------------------------------------------------------------------------------
@@ -17,7 +19,6 @@ import           Hakyll.Web.Html                 (toUrl)
 import           Hakyll.Web.Pandoc
 
 import           Text.Pandoc
-
 
 import           Configuration
 
