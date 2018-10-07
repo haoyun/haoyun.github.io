@@ -46,7 +46,7 @@ Mein [Lebenslauf][CV] (auf Englisch).
     - **2018-19 Winter Semester**
 	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
             * 15.10.2018    Introduction
-        + [Research Seminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
+        + [Forschungsseminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
@@ -55,20 +55,20 @@ Mein [Lebenslauf][CV] (auf Englisch).
 	    + [Formal geometry and deformation theory][formalanddefomation].
 		    * 06.11.2017    Grothendieck Existence Theorem.
             * 15.01.2018    Lifting theory II: Serre's Example of non-liftable variety.
-	    + [Research Seminar]: [$p$-adic Simpson Correspondence][padicsimpson].
+	    + [Forschungsseminar]: [$p$-adic Simpson Correspondence][padicsimpson].
             * 23.11.2017    Inverse Cartier and Cartier transform via exponential twist.
     - **2017 Summer Semester**
         + [$p$-adic Hodge Theory][padichodge].
             * 17.07.2017    Comparison isomorphisms I.
-        + [Research Seminar]: [Langlands correspondence for function fields][geomlanglands].
+        + [Forschungsseminar]: [Langlands correspondence for function fields][geomlanglands].
             * 27.04.2017    Tate’s thesis for function fields, I.
             * 04.05.2017    Tate’s thesis for function fields, II.
-    - **2016--17 Winter Seminar** 
+    - **2016--17 Winter Semester** 
         + [Crystalline Cohomology][Crystalline].
             * 31.10.2016    Divided powers.
             * 07.11.2016    Calculus with divided powers.
             * 28.11.2016    Crystals.
-        + [Research Seminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
+        + [Forschungsseminar]: [Berkovich spaces, birational geometry and motivic zeta functions][Berkovich].
             * 09.02.2017    Motivic integration and motivic zeta functions.
     - **2016 Summer Semester** [D-modules][dmod].
         + 02.05.2015    D-modules and connections.
