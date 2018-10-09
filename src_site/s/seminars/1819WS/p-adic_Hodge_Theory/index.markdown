@@ -22,8 +22,7 @@ MathJax: on
 
 Detailed program can be found [here][program], hosted by OneDrive.
 
-Our aim is to prove the following two theorem,
-following [[BMS16b]][arXiv:1606.01463] and [[Sch13]][Zbl 1297.14023].
+Our aim is to prove the following two theorem.
 Let \(C\) be a complete and algebraically closed nonarchimedean extension
 of \(\mathbf{Q}_p\), \(\mathcal{O}_C\) its ring of integers and \(k\)
 the residue field.
@@ -112,9 +111,9 @@ for \(X/C\)*.
 
 ## References
 
-* **[BMS16a]** B. Bhatt, M. Morrow and P. Scholze, *Integral $$p$$-adic
+* **[BMS16]** B. Bhatt, M. Morrow and P. Scholze, *Integral $$p$$-adic
   Hodge theory*, v2, 7 Sep 2018, [arXiv:1602.03148][].
-* **[BMS16b]** B. Bhatt, *Specializing varieties and their cohomology
+* **[Bha16]** B. Bhatt, *Specializing varieties and their cohomology
   from characteristic \(0\) to characteristic \(p\)*, v2, 11 Nov 2017,
   [arXiv:1606.01463][].
 * **[Mor16]** M. Morrow, *Notes on the \(A_{\inf}\)-cohomology of Integral
