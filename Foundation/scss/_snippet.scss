@@ -5,6 +5,20 @@
 // 
 // 
 
+.huge-link a {
+    font-size:5rem;
+    font-weight:700;
+    color:inherit
+}
+.huge-link-smaller {
+    font-size:3rem;
+    font-weight:700;
+    color:inherit
+}
+.nomore a:hover:before {
+    content:"No\00a0";
+}
+
 .website-title {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: 900;
