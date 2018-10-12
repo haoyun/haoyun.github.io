@@ -135,6 +135,8 @@ Mein [Lebenslauf][CV] (auf Englisch).
 
 ## Skripte zu ausgewählten Vorlesungen und Seminare
 
+Einige Links sind deaktiviert.
+
 * 2017/18 Winter Semester,
   [Non-abelian Hodge theory via exponential twist][notes-LSZ],
   following [[LSZ]][LSZ].

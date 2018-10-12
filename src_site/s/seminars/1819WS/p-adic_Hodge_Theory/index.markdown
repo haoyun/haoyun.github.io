@@ -8,8 +8,12 @@ MathJax: on
 
 ## Announcement
 
-* (Oct. 9, 2018) The program is 55% done.
-* ...
+* (Oct. 12, 2018) Some of use will to go the
+  [Chow Lectures: by Peter Scholze][chow2018] in Lepzig, November 05 - 07, 2018.
+  The topic is \(p\)-adic geometry.
+* (Oct. 09, 2018) The program is 55% done, and you could find it below.
+  If you would like to give a talk, please send me an email. Note each PhD
+  student is supposed to claim at least one talk.
 
 
 ## Practical Information
@@ -57,52 +61,52 @@ for \(X/C\)*.
 +--+----------+----------------------------------------------+----------+-------+
 |No|   Date   |     Title                                    | Speaker  | Notes |
 +==+==========+==============================================+==========+=======+
-|1 |15.10.2018| Introduction                                 | 郝运     |       |
+|1 |15.10.2018| Introduction                                 | Yun      |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|2 |22.10.2018| Hodge-Tate decomposition for an abelian      | TBA      |       |
+|2 |22.10.2018| Hodge-Tate decomposition for an abelian      |          |       |
 |  |          | variety with good reduction                  |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|3 |29.10.2018| Introduction to adic spaces                  | TBA      |       |
+|3 |29.10.2018| Introduction to adic spaces                  |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|4 |05.11.2018| The pro-étale site associated to an adic     | TBA      |       |
+|4 |05.11.2018| The pro-étale site associated to an adic     | Julian   |       |
 |  |          | space                                        |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|5 |12.11.2018| The cotangent complexes                      | TBA      |       |
+|5 |12.11.2018| The cotangent complexes                      |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|6 |19.11.2018| Proof of the Hodge-Tate filtration           | TBA      |       |
+|6 |19.11.2018| Proof of the Hodge-Tate filtration           |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|7 |26.11.2018| Fontaine's \(A_{\inf}\) and the map          | TBA      |       |
+|7 |26.11.2018| Fontaine's \(A_{\inf}\) and the map          |          |       |
 |  |          | \(\theta\)                                   |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|8 |03.12.2018| The décalage functor \(\mathrm{L}\eta\)      | TBA      |       |
+|8 |03.12.2018| The décalage functor \(\mathrm{L}\eta\)      |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|9 |10.12.2018| The complex                                  | TBA      |       |
+|9 |10.12.2018| The complex                                  |          |       |
 |  |          | \(\widetilde{\Omega}_{\mathfrak{X}}\)        |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|10|17.12.2018| The complex \(A\Omega_{\mathfrak{X}}\)       | TBA      |       |
+|10|17.12.2018| The complex \(A\Omega_{\mathfrak{X}}\)       |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|11|07.01.2019| Etale and de Rham Specialisations            | TBA      |       |
+|11|07.01.2019| Etale and de Rham Specialisations            |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|12|14.01.2019| The relative de~Rham-Witt comple             | TBA      |       |
+|12|14.01.2019| The relative de Rham-Witt comple             |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|13|21.01.2019| Comparison with de~Rham-Witt                 | TBA      |       |
+|13|21.01.2019| Comparison with de Rham-Witt                 |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|14|28.01.2019| Crystalline Specialisation                   | TBA      |       |
+|14|28.01.2019| Crystalline Specialisation                   |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|15|04.02.2019| ?                                            | TBA      |       |
+|15|04.02.2019| ?                                            |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|16|11.02.2019| ?                                            | TBA      |       |
+|16|11.02.2019| ?                                            |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 
@@ -141,6 +145,8 @@ More references are available in the [program][].
 [W-outline]: http://math.arizona.edu/~swc/aws/2017/2017WeinsteinOutline.pdf
 [W-notes]: http://math.arizona.edu/~swc/aws/2017/2017WeinsteinNotes.pdf
 [program]: //1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g
+
+[Chow2018]: //www.mis.mpg.de/calendar/conferences/2018/chow2018.html
 
 [N1]: #
 [N2]: #
