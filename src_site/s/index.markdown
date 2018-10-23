@@ -46,6 +46,7 @@ Mein [Lebenslauf][CV] (auf Englisch).
     - **2018-19 Winter Semester**
 	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
             * 15.10.2018    Introduction
+            * 22.10.2018    The Hodge-Tate decomposition for abelian varieties
         + [Forschungsseminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]

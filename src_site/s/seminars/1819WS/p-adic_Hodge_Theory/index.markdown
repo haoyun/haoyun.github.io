@@ -9,8 +9,8 @@ MathJax: on
 ## Announcement
 
 * (Oct. 12, 2018) Some of use will to go the
-  [Chow Lectures: by Peter Scholze][chow2018] in Lepzig, November 05 - 07, 2018.
-  The topic is \(p\)-adic geometry.
+  [Chow Lectures: by Peter Scholze][chow2018] in Lepzig,
+  November 05 -- 07, 2018. The topic is \(p\)-adic geometry.
 * (Oct. 09, 2018) The program is 55% done, and you could find it below.
   If you would like to give a talk, please send me an email. Note each PhD
   student is supposed to claim at least one talk.
@@ -61,10 +61,10 @@ for \(X/C\)*.
 +--+----------+----------------------------------------------+----------+-------+
 |No|   Date   |     Title                                    | Speaker  | Notes |
 +==+==========+==============================================+==========+=======+
-|1 |15.10.2018| Introduction                                 | Yun      |       |
+|1 |15.10.2018| Introduction                                 | Yun      |See [program]|
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|2 |22.10.2018| Hodge-Tate decomposition for an abelian      |          |       |
+|2 |22.10.2018| Hodge-Tate decomposition for an abelian      | Yun      |See [program]|
 |  |          | variety with good reduction                  |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |3 |29.10.2018| Introduction to adic spaces                  |          |       |
