@@ -8,6 +8,8 @@ MathJax: on
 
 ## Announcement
 
+* (Oct. 26, 2018) The 3rd talk, on *introduction to adic spaces*, is moved to
+  **10:15 -- 11:45, Friday, 02.10.2018**.
 * (Oct. 12, 2018) Some of use will to go the
   [Chow Lectures: by Peter Scholze][chow2018] in Lepzig,
   November 05 -- 07, 2018. The topic is \(p\)-adic geometry.
@@ -18,7 +20,7 @@ MathJax: on
 
 ## Practical Information
 
-* **Time**: Monday 10:15 --- 11:45
+* **Time**: Monday 10:15 -- 11:45
 * **Localtion**: A3/SR 019 Seminarraum (Arnimallee 3)
 
 
@@ -67,7 +69,7 @@ for \(X/C\)*.
 |2 |22.10.2018| Hodge-Tate decomposition for an abelian      | Yun      |See [program]|
 |  |          | variety with good reduction                  |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|3 |29.10.2018| Introduction to adic spaces                  |          |       |
+|3 |02.10.2018| Introduction to adic spaces                  | Youshua  |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |4 |05.11.2018| The pro-étale site associated to an adic     | Marcin   |       |
