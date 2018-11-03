@@ -93,6 +93,7 @@ Mein [Lebenslauf][CV] (auf Englisch).
 * **05.11.2018 -- 07.11.2018**, [Chow Lectures][Chow2018]: by Peter Scholze.\
   <!--University of Leipzig, Felix Klein lecture room and
   Max Planck Institute for Mathematics in the Sciences-->
+  ([poster][Leipzig-poster] presentation)
 * **01.02.2019 -- 25.04.2019**, [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.\
   <!--MSRI, Berkeley, CA, USA-->
 
@@ -253,6 +254,7 @@ Essentially, there is no original work by myself.
 [MSRI1]: //www.msri.org/programs/306
 [Łukęcin]: //www.impan.pl/~vat/lukecin.html
 [Chow2018]: //www.mis.mpg.de/calendar/conferences/2018/chow2018.html
+[Leipzig-poster]: /files/20181106-Leipzig-poster-signed.pdf
 
 <!-- ARTICLES -->
 [Vashavsky]: //arxiv.org/abs/1405.6381
