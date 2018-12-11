@@ -8,7 +8,7 @@ MathJax: on
 
 ## Announcement
 
-* (10.12.2018) There will be double sessions on 07.01.2018.
+* (10.12.2018) There will be double sessions on 07.01.2019.
 * (03.12.2018) There will be no seminar on 03.12.2018 and 17.12.2018.
 * (26.10.2018) The 3rd talk, on *introduction to adic spaces*, is moved to
   **10:15 -- 11:45, Friday, 02.10.2018**.
