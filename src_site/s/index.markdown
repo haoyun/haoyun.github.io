@@ -48,6 +48,7 @@ Mein [Lebenslauf][CV] (auf Englisch).
             * 15.10.2018    Introduction
             * 22.10.2018    The Hodge-Tate decomposition for abelian varieties
         + [Forschungsseminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
+            * 13.12.2018    Proof of Faltings’s Theorem-I
     - **2018 Summer Semester**
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
@@ -90,15 +91,16 @@ Mein [Lebenslauf][CV] (auf Englisch).
 
 ### Aktuelle \& Kommende
 
-* **05.11.2018 -- 07.11.2018**, [Chow Lectures][Chow2018]: by Peter Scholze.\
-  <!--University of Leipzig, Felix Klein lecture room and
-  Max Planck Institute for Mathematics in the Sciences-->
-  ([poster][Leipzig-poster] presentation)
+
 * **01.02.2019 -- 25.04.2019**, [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.\
   <!--MSRI, Berkeley, CA, USA-->
 
 ### Vergangen
 
+* **05.11.2018 -- 07.11.2018**, [Chow Lectures][Chow2018]: by Peter Scholze.\
+  <!--University of Leipzig, Felix Klein lecture room and
+  Max Planck Institute for Mathematics in the Sciences-->
+  ([poster][Leipzig-poster] presentation)
 * **02.09.2018 -- 08.09.2018**, Autumn School [Arithmetic of Differential Equations][Łukęcin].\
   <!--Łukęcin, Poland-->
 * **10.09.2018 -- 14.09.2018**, [International summer school on Arithmetic geometry][Salerno].\
@@ -179,10 +181,10 @@ Whoops... Coming Soon :p
 ### Thesis
 
 * **Master Thesis**. (PDF, TeX)\
-This is detailed explanation of Yakov Vashavsky's geometric proof of
+This is detailed explanation of Yakov Varshavsky's geometric proof of
 a theorem of Hrushovski, which states that the intersection of
 a correspondence with a graph of a sufficiently large power of
-Frobenius is non-empty ([arXiv:1405.6381][Vashavsky]).
+Frobenius is non-empty ([arXiv:1405.6381][Varshavsky]).
 Essentially, there is no original work by myself.
 
 
@@ -257,7 +259,7 @@ Essentially, there is no original work by myself.
 [Leipzig-poster]: /files/20181106-Leipzig-poster-signed.pdf
 
 <!-- ARTICLES -->
-[Vashavsky]: //arxiv.org/abs/1405.6381
+[Varshavsky]: //arxiv.org/abs/1405.6381
 [LSZ]: //dx.doi.org/10.4310/MRL.2015.v22.n3.a12
 
 

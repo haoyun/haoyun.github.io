@@ -8,12 +8,14 @@ MathJax: on
 
 ## Announcement
 
-* (Oct. 26, 2018) The 3rd talk, on *introduction to adic spaces*, is moved to
+* (10.12.2018) There will be double sessions on 07.01.2018.
+* (03.12.2018) There will be no seminar on 03.12.2018 and 17.12.2018.
+* (26.10.2018) The 3rd talk, on *introduction to adic spaces*, is moved to
   **10:15 -- 11:45, Friday, 02.10.2018**.
-* (Oct. 12, 2018) Some of use will to go the
+* (12.10.2018) Some of use will to go the
   [Chow Lectures: by Peter Scholze][chow2018] in Lepzig,
   November 05 -- 07, 2018. The topic is \(p\)-adic geometry.
-* (Oct. 09, 2018) The program is 55% done, and you could find it below.
+* (09.10.2018) The program is 55% done, and you could find it below.
   If you would like to give a talk, please send me an email. Note each PhD
   student is supposed to claim at least one talk.
 
@@ -84,31 +86,34 @@ for \(X/C\)*.
 |7 |26.11.2018| Fontaine's \(A_{\inf}\) and the map          | Grétar   |       |
 |  |          | \(\theta\)                                   |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|8 |03.12.2018| The décalage functor \(\mathrm{L}\eta\)      | Shusuke  |       |
+|8 |03.12.2018| **no seminar**                               |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|9 |10.12.2018| The complex                                  |          |       |
-|  |          | \(\widetilde{\Omega}_{\mathfrak{X}}\)        |          |       |
-+--+----------+----------------------------------------------+----------+-------+
-|10|17.12.2018| The complex \(A\Omega_{\mathfrak{X}}\)       |          |       |
+|10|10.12.2018| The complex \(A\Omega_{\mathfrak{X}}\)       | Shusuke  | [notes][N8]      |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|11|07.01.2019| Etale and de Rham Specialisations            |          |       |
+|8 |17.12.2018| **no seminar**                               |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|12|14.01.2019| The relative de Rham-Witt comple             |          |       |
+|9 |07.01.2019| The complex                                  |          |       |
+|  |(10--12)  | \(\widetilde{\Omega}_{\mathfrak{X}}\)        |          |       |
++--+----------+----------------------------------------------+----------+-------+
+|10|07.01.2019| The complex \(A\Omega_{\mathfrak{X}}\)       |          |       |
+|  |(14--16)  |                                              |          |       |
++--+----------+----------------------------------------------+----------+-------+
+|11|14.01.2019| Etale and de Rham Specialisations            |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|13|21.01.2019| Comparison with de Rham-Witt                 |          |       |
+|12|21.01.2019| The relative de Rham-Witt comple             |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|14|28.01.2019| Crystalline Specialisation                   |          |       |
+|13|28.01.2019| Comparison with de Rham-Witt                 |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|15|04.02.2019| ?                                            |          |       |
+|14|04.02.2019| Crystalline Specialisation                   |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|16|11.02.2019| ?                                            |          |       |
+|15|11.02.2019| ?                                            |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 
@@ -157,7 +162,7 @@ More references are available in the [program][].
 [N5]: #
 [N6]: #
 [N7]: #
-[N8]: #
+[N8]: /files/18WS-Otabe-décalage.pdf
 [N9]: #
 [N10]: #
 [N11]: #
