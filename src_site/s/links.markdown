@@ -121,6 +121,7 @@ title: Links
   [Raju Krishnamoorthy][Raju],
   [Simon Pepin Lehalleur][Simon],
   [Kay Rülling][Kay],
+  [K. V. Shuddhodan][Shuddhodan],
   [Fabio Tonini][Fabio],
   [Lei Zhang][Lei]
   
@@ -133,11 +134,13 @@ title: Links
 [Kay]:       //page.mi.fu-berlin.de/ruelling/
 [Lei]:       //page.mi.fu-berlin.de/lei/
 [Shane]:     //page.mi.fu-berlin.de/shanekelly/
-[Michael]:   //page.mi.fu-berlin.de/groemich/
 [Fabio]:     //page.mi.fu-berlin.de/tonini/
 [tohru]:     //page.mi.fu-berlin.de/tohru/
-[Simon]:     //simon-pepin.github.io/
+[Michael]:   //individual.utoronto.ca/groechenig/
 [Raju]:      //math.columbia.edu/~raju/
+[Simon]:     //simon-pepin.github.io/
+[Shuddhodan]://userpage.fu-berlin.de/rvshud/
+
 
 
 
@@ -149,4 +152,4 @@ title: Links
 
 [nlab]: //ncatlab.org/
 [SP]: //stacks.math.columbia.edu/
-[Kerodon]: http://www.math.harvard.edu/~lurie/Kerodon/main.html
+[Kerodon]: //kerodon.net/
