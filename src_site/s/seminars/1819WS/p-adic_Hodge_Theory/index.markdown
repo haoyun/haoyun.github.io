@@ -67,34 +67,34 @@ for \(X/C\)*.
 +--+----------+----------------------------------------------+----------+-------+
 |No|   Date   |     Title                                    | Speaker  | Notes |
 +==+==========+==============================================+==========+=======+
-|1 |15.10.2018| Introduction                                 | Yun      |See [program]|
+|1 |15.10.2018| Introduction                                 | Yun      | [notes][N1]|
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|2 |22.10.2018| Hodge-Tate decomposition for an abelian      | Yun      |See [program]|
+|2 |22.10.2018| Hodge-Tate decomposition for an abelian      | Yun      | [notes][N2]|
 |  |          | variety with good reduction                  |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |3 |02.10.2018| Introduction to adic spaces                  | Youshua  |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|4 |05.11.2018| The pro-étale site associated to an adic     | Marcin   |       |
+|4 |05.11.2018| The pro-étale site associated to an adic     | Marcin   | [notes][N4]|
 |  |          | space                                        |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |5 |12.11.2018| The cotangent complexes                      | Julian   |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|6 |19.11.2018| Proof of the Hodge-Tate filtration           | Pedro    |       |
+|6 |19.11.2018| Proof of the Hodge-Tate filtration           | Pedro    | [notes][N6]|
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |7 |26.11.2018| Fontaine's \(A_{\inf}\) and the map          | Grétar   |       |
 |  |          | \(\theta\)                                   |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|8 |03.12.2018| **no seminar**                               |          |       |
+|--|03.12.2018| **no seminar**                               |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|10|10.12.2018| The complex \(A\Omega_{\mathfrak{X}}\)       | Shusuke  | [notes][N8]      |
+|8 |10.12.2018| The décalage functor                         | Shusuke  | [notes][N8]|
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
-|8 |17.12.2018| **no seminar**                               |          |       |
+|--|17.12.2018| **no seminar**                               |          |       |
 |  |          |                                              |          |       |
 +--+----------+----------------------------------------------+----------+-------+
 |9 |07.01.2019| The complex                                  | Yun      |       |
@@ -157,12 +157,12 @@ More references are available in the [program][].
 
 [Chow2018]: //www.mis.mpg.de/calendar/conferences/2018/chow2018.html
 
-[N1]: #
-[N2]: #
+[N1]: //1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g
+[N2]: //1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g
 [N3]: #
-[N4]: #
+[N4]: /files/18WS-Marcin-pro-étale.pdf
 [N5]: #
-[N6]: #
+[N6]: /files/18WS-Pedro-HT.pdf
 [N7]: #
 [N8]: /files/18WS-Otabe-décalage.pdf
 [N9]: #
@@ -172,4 +172,3 @@ More references are available in the [program][].
 [N13]: #
 [N14]: #
 [N15]: #
-[N16]: #
