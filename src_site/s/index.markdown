@@ -2,6 +2,20 @@
 title: Yun Hao
 ---
 
+<blockquote>
+李卫公年轻时在洛阳城里。总想考数学博士，然后就可以领一份官俸，不必到街上当流氓。这是知识分子的正经出路。
+
+当时他可没有当大唐卫公的野心，只想考上个数学博士，在工部混个事就算了。但是这样的事他都没找到。
+
+对我这种被纯数学折磨得只剩了一丝游气的人说它真美，简直是对自己的面颊和牙齿不负责任。
+
+其实纯数学，尤其是数论，乃是世界上最无趣的事。一个人如果不是悲观绝望到了极点——比方说，像我现在一样，就决不会去碰那种东西。
+
+<cite class="text-right">王小波《红拂夜奔》</cite>
+</blockquote>
+
+- - - - - - - - - -
+
 
 <p>Yun Hao (郝运)</p>
 <address style="white-space: nowrap;">
@@ -187,6 +201,16 @@ a correspondence with a graph of a sufficiently large power of
 Frobenius is non-empty ([arXiv:1405.6381][Varshavsky]).
 Essentially, there is no original work by myself.
 
+
+<blockquote>
+在我看来，大干世界芸芸众生，无不在做白日梦。乞丐在做黄金梦，光棍在做美女梦，连狗都会梦到吃肉而不吃屎。一个数学家梦想证出个大定理，也是合情合理。在这个世界上总有一点可能好梦成真，但也可能不成真就到了梦醒时分。我们需要这些梦，是因为现实世界太无趣。
+
+我们需要的不是要逃出洛阳城或者证出费尔马，而是指望。如果需要寓意，这就是一个，明确说出来就是：根本没有指望。我们的生活是无法改变的。
+
+到目前为止，没有一件事能让我相信我是对的，就是人生来有趣。过去有趣，渴望有趣，内心有趣却假装无趣。也没有一件事能证明我是错的，让我相信人生来无趣，过去无趣现在也无趣，不喜欢有趣的事而且表里如一。所以到目前为止，我只能强忍着绝望活在世界上。
+
+<cite class="text-right">王小波《红拂夜奔》</cite>
+</blockquote>
 
 
 [^1]: ausgestellt von [DFN-Verein Global Issuing CA][DFN-CA]
