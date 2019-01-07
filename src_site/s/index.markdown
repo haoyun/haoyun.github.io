@@ -61,6 +61,8 @@ Mein [Lebenslauf][CV] (auf Englisch).
 	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
             * 15.10.2018    Introduction
             * 22.10.2018    The Hodge-Tate decomposition for abelian varieties
+            * 07.01.2019    The Complex $\widetilde{\Omega}_{\mathfrak{X}}$
+            * 07.01.2019    The Complex $A\Omega_{\mathfrak{X}}$
         + [Forschungsseminar]: [A new proof of Mordell conjecture after Lawrence-Venkatesh][mordell]
             * 13.12.2018    Proof of Faltings’s Theorem-I
     - **2018 Summer Semester**
