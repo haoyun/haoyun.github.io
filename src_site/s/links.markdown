@@ -89,15 +89,15 @@ title: Links
 
 [AV]: http://gerard.vdgeer.net/AV
 [Qpoints]: http://www-math.mit.edu/~poonen/papers/Qpoints.pdf
-[algstacks]: //www.math.uzh.ch/index.php?pr_vo_det&key1=1287&key2=580&no_cache=1
+[algstacks]: //www.math.uzh.ch/index.php?id=pr_vo_det&key1=1287&key2=580&key3=163&semId=13&L=1
 [FOAG]: //math.stanford.edu/~vakil/216blog/
 [therisingsea]: http://therisingsea.org/post/notes/
 [HA]: http://www.math.harvard.edu/~lurie/papers/HA.pdf
 [HTT]: http://www.math.harvard.edu/~lurie/papers/HTT.pdf
 [GL]: http://www.math.harvard.edu/~gaitsgde/GL/
 [GRT]: http://www.math.harvard.edu/~gaitsgde/grad_2009/
-[MilneBooks]: http://www.jmilne.org/math/Books/index.html
-[MilneNotes]: http://www.jmilne.org/math/CourseNotes/index.html
+[MilneBooks]: //www.jmilne.org/math/Books/index.html
+[MilneNotes]: //www.jmilne.org/math/CourseNotes/index.html
 
 
 ## Personen
@@ -108,7 +108,7 @@ title: Links
 
 [BrianConrad]: //math.stanford.edu/~conrad/
 [KiranKedlaya]: //www.kskedlaya.org/
-[AJdeJong]: http://math.columbia.edu/~dejong/
+[AJdeJong]: //math.columbia.edu/~dejong/
 
 ### Kollegen
 * [Marco D'Addezio][Marco],
