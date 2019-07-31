@@ -22,7 +22,7 @@ main = do
     -- renderFormulae <- myInitFormulaCompilerDataURI 1000 myDefaultEnv
 
     (action:_) <- getArgs
-    
+
     -- | the field $livejs$ is used only when applying the default.html template
     let ifWatchMode = action == "watch"
         postCtx' = if ifWatchMode
@@ -31,40 +31,40 @@ main = do
     -- print ifWatchMode
 
     hakyllWith configuration $ do
-    
+
         -- | Crete README.md
         create ["README.md"] $ do
             route idRoute
             compile (makeItem ("\
     \Static website proudly generted by [Hakyll](https://jaspervdj.be/hakyll/),\n\
     \from the source files in the `source` branch.\n"::String))
-    
+
         -- | Create .nojekyll
         create [".nojekyll"] $ do
             route idRoute
             compile (makeItem ("No jekyll\n"::String))
-        
+
         -- | Create CNAME
         create ["CNAME"] $ do
             route idRoute
             compile (makeItem ("naturalstupidity.tk\n"::String))
-    
+
         -- | Create robots.txt
         create ["robots.txt"] $ do
             route idRoute
             compile (makeItem ("User-agent: *\nDisallow: /\n"::String))   
-            
+
         -- | Copy binary files
         match ("images/**" .||. "files/**" .||. "js/*" .||. "vendor/**") $ do
             route   idRoute
             compile copyFileCompiler
-            
+
         match "css/*" $ do
             route   idRoute
             compile compressCssCompiler
-            
+
         -- | Compile pages
-    
+
         match (fromList ["n/about.markdown", "n/contact.markdown"]) $ do
             route $ setExtension "html" `composeRoutes`
                     appendIndex
@@ -72,7 +72,7 @@ main = do
                 >>= loadAndApplyTemplate "templates/post-title-body.html"   postCtx
                 >>= loadAndApplyTemplate "templates/default.html"           postCtx'
                 >>= relativizeUrls
-    
+
         match "n/posts/*.markdown" $ do
             route $ setExtension "html" `composeRoutes`
                     appendIndex         `composeRoutes`
@@ -82,7 +82,7 @@ main = do
                 >>= loadAndApplyTemplate "templates/post-title_info-body.html"    postCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx'
                 >>= relativizeUrls
-    
+
         create ["n/archive.html"] $ do
             route $ idRoute  `composeRoutes`
                     appendIndex
@@ -94,14 +94,14 @@ main = do
                         dropIndexHtml "url"                      `mappend`
                         (if ifWatchMode then constField "livejs" "TRUE" else mempty) `mappend`
                         defaultContext
-    
+
                 makeItem ""
                     >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                     >>= loadAndApplyTemplate "templates/post-title-body.html" archiveCtx
                     >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                     >>= relativizeUrls
-    
-    
+
+
         match "n/index.html" $ do
             route idRoute
             compile $ do
@@ -113,24 +113,24 @@ main = do
                         (if ifWatchMode then constField "livejs" "TRUE" else mempty) `mappend`
                         -- constField "title" "Home"                `mappend`
                         defaultContext
-    
+
                 getResourceBody
                     >>= applyAsTemplate indexCtx
                     >>= loadAndApplyTemplate "templates/post-with-hero.html" indexCtx
                     >>= loadAndApplyTemplate "templates/default.html" (gitInfoCtx `mappend` indexCtx)
                     >>= relativizeUrls
-        
+
         match "index.html" $ do
             route idRoute
             compile $ getResourceBody
                 >>= applyAsTemplate postCtx'
-    
+
         match "s/index.markdown" $ do
             route $ setExtension "html"
             compile $ pandocCompiler
                 >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
                 >>= relativizeUrls
-                
+
         -- match "s/seminars/**.markdown" $ do
         --     route $ setExtension "html"
         --     compile $ do
@@ -138,7 +138,7 @@ main = do
         --                $ myCompileFormulaeDataURI myDefaultEnv defaultPandocFormulaOptions
         --             >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
         --             >>= relativizeUrls
-    
+
         match ( "comment.markdown" .||.
                 "s/seminars/**.markdown" .||.
                 "s/*.markdown" .&&. complement "s/index.markdown"
@@ -149,6 +149,6 @@ main = do
                         >>= renderPandocMath
                         >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
                         >>= relativizeUrls
-    
+
         match "templates/*" $ compile templateBodyCompiler
 --------------------------------------------------------------------------------

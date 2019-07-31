@@ -19,5 +19,7 @@ configuration = defaultConfiguration
 --    , deploySite           = system . deployCommand
 --    , inMemoryCache        = True
       , previewHost          = "0.0.0.0"
-      , previewPort          = 80
+      -- previewPort has to be >= 1024, otherwise, sudo is required
+      -- Network.Socket.bind: permission denied (Permission denied)
+      , previewPort          = 8000
     }

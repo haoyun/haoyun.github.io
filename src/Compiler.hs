@@ -8,6 +8,7 @@ module Compiler
     , renderPandocMath
     , customWriterOptions
     , customReaderOptions
+    , writerOptionsWithToc
     ) where
 
 --------------------------------------------------------------------------------
@@ -70,5 +71,24 @@ customWriterOptions = defaultHakyllWriterOptions { writerHTMLMathMethod = MathJa
 customReaderOptions :: ReaderOptions
 customReaderOptions = defaultHakyllReaderOptions
                       { readerExtensions = pandocExtensions <> 
-                                           extensionsFromList [ Ext_tex_math_single_backslash]
+                                           extensionsFromList
+                                           [ Ext_tex_math_single_backslash
+-- The following extension does not work.
+-- See https://github.com/jgm/pandoc/pull/4674/commits/4012dd75f30f888c7915f4874072b26c61d810a0 
+--                                           , Ext_east_asian_line_breaks
+                                           ]
                       }
+
+--------------------------------------------------------------------------------
+
+-- | Recnernces:
+-- 1. https://argumatronic.com/posts/2018-01-16-pandoc-toc.html
+-- 2. https://peter.colberg.org/site#table-of-contents
+-- 3. https://jip.dev/posts/the-switch-to-hakyll/#table-of-contents
+
+writerOptionsWithToc :: WriterOptions
+writerOptionsWithToc = customWriterOptions
+                       { writerTableOfContents = True
+                       , writerTOCDepth = 2
+                       , writerTemplate = Just "Contents\n$toc$\n$body$"
+                       }

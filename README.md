@@ -13,8 +13,9 @@ If you would like to build it, following the following steps.
 #### Requirements
 
 * [Hakyll][]
-* [Zurb Foundation for Sites][Foundation]
-
+<!--* [Zurb Foundation for Sites][Foundation]-->
+* [Node.js][]
+    - gulp-cli `sudo npm install gulp-cli -g`
 
 #### Build the site
 
@@ -22,10 +23,10 @@ If you would like to build it, following the following steps.
 git clone git@github.com:haoyun/haoyun.github.io.git site
 cd site
 git checkout source
-cd site/Foundation
-bower install && npm install
-foundation build
-cd ..
+cd site/src_site/scss
+npm install
+gulp
+cd ../..
 cabal build
 cabal run build
 ```
@@ -50,3 +51,4 @@ For more, see `/src/deploy.sh`.
 
 [Hakyll]: //jaspervdj.be/hakyll/tutorials/01-installation.html
 [Foundation]: //foundation.zurb.com/sites/docs/installation.html#install-with-foundation-cli
+[Node.js]: //nodejs.org/en/
