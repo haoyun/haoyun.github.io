@@ -6,10 +6,10 @@ title: About / 关于
 #### About the site
 
 This is a simple blog built with Hakyll.
-Everything works but not really. I will update it when I do not want to do math.
+<!--Everything works but not really. I will update it when I do not want to do math.
 I do not know why sometimes I write in English, which is not my first language.
 Plenty of mistakes are here on this site, grammatical, technical, and even
-political.
+political.-->
 
 
 
