@@ -46,7 +46,6 @@ cd Foundation/                              # Build Foundation Styles
 # bower install                             # if not installed
 foundation build > /dev/null 2>&1
 
-cd ../src_site/scss                         
 cd ../src_site/css_dev/
 gulp sass                                   # Build scss
 
