@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+
+// 0l. Variables 
+// -------------
+
+
+
+//------------------------------------------------------------------------------
+//
+//  http://ethanschoonover.com/solarized
+//
+//------------------------------------------------------------------------------
+
+
+$solarized-base03:    #002b36;
+$solarized-base02:    #073642;
+$solarized-base01:    #586e75;
+$solarized-base00:    #657b83;
+$solarized-base0:     #839496;
+$solarized-base1:     #93a1a1;
+$solarized-base2:     #eee8d5;
+$solarized-base3:     #fdf6e3;
+$solarized-yellow:    #b58900;
+$solarized-orange:    #cb4b16;
+$solarized-red:       #dc322f;
+$solarized-magenta:   #d33682;
+$solarized-violet:    #6c71c4;
+$solarized-blue:      #268bd2;
+$solarized-cyan:      #2aa198;
+$solarized-green:     #859900;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// 1. Global
+// ---------
+
+$global-font-size: 100%; 
+
+$solarized-palette: (
+  primary: $solarized-blue,
+  secondary: $solarized-cyan,
+  success: $solarized-green,
+  warning: $solarized-orange,
+  alert: $solarized-red,
+);
+
+
+$body-font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+$body-font-size: 1.125rem;
+$font-family-monospace: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+$emoji-font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
+$header-font-family: $body-font-family;
+//$body-font-color: $solarized-base0;
+$header-font-weight: 700;
+
+$background-color: $solarized-base3;
+$footer-background-color: $solarized-base2;
+$header-background-color: $solarized-base2;
+
+$paragraph-lineheight: 1.5;
+$content-container-width: 48rem;
+
+$list-padding-left: 1.5rem;
+
+// 2. Colors
+//    adopted from https://ethanschoonover.com/solarized/
+// ------------------------------------------------------
+
+@mixin rebase($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3) 
+{
+    background-color: $rebase03;
+    color:$rebase0;
+    * { color:$rebase0; }
+    h1,h2,h3,h4,h5,h6 {
+        color:$rebase1;
+        border-color: $rebase0;
+    }
+//     a, a:active, a:visited {
+//         color: $rebase1;
+//     }
+}
+@mixin accentize($accent) {
+    a, a:active, a:visited, code.url {
+        color: $accent;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        color:$accent
+    }
+}
+/* light is default mode, so pair with general html definition */
+html, .light {
+    @include rebase(
+         $solarized-base3
+        ,$solarized-base2
+        ,$solarized-base1
+        ,$solarized-base0
+        ,$solarized-base00
+        ,$solarized-base01
+        ,$solarized-base02
+        ,$solarized-base03
+    );
+}
+.dark {
+    @include rebase(
+        $solarized-base03
+        ,$solarized-base02
+        ,$solarized-base01
+        ,$solarized-base00
+        ,$solarized-base0
+        ,$solarized-base1
+        ,$solarized-base2
+        ,$solarized-base3
+   );
+}
+
+// html * {
+//     color-profile: sRGB;
+//     rendering-intent: auto;
+// }
+
+
+//------------------------------------------------------------------------------
+//
+//    Grid: CSS Grid + frow
+//
+//------------------------------------------------------------------------------
+
+// .grid-container, .content-container {
+//     display: grid;
+// }
+// 
+// .gird-sidebar {
+//     grid-area: sidebar;
+// }
+// .grid-sidebar2 {
+//     grid-area: sidebar2;
+// }
+// .gird-content {
+//     grid-area: content;
+// }
+// .grid-header {
+//     grid-area: header;
+// }
+// .grid-footer {
+//     grid-area: footer;
+// }
+// 
+// .grid-container {
+//     // grid-gap: 1em;
+//     grid-template-areas:
+//      "header"
+//      "sidebar"
+//      "content"
+//      "footer"
+// }
+// 
+// @media only screen and (min-width: 500px)  {
+//     .grid-container { 
+//         grid-template-columns: auto;
+//         grid-template-areas:
+//         "header"
+//         "sidebar"
+//         "content"
+//         "footer";
+//     }
+// }
+// 
+// @media only screen and (min-width: 800px)   {
+//     .grid-container {
+//         //grid-gap: 20px;
+//         grid-template-columns: 1fr ($content-container-width) 1fr;
+//         grid-template-areas:
+//             "header  header  header"
+//             "sidebar content ."
+//             "footer  footer  footer";
+//     }
+//     .content-container {
+//         grid-template-columns: 1fr ($content-container-width) 1fr;
+//     }
+// 
+// }
+
+//------------------------------------------------------------------------------
+//
+//    Styles
+//
+//------------------------------------------------------------------------------
+
+
+// 1. Basic Topgraphy 
+// ------------------
+
+html {
+    font-size: $global-font-size;
+    box-sizing: boder-box;
+}
+
+body{
+    margin: 0px;
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+}
+
+
+
+
+ul, ol, dl {
+    padding-left: $list-padding-left;
+}
+
+//.grid-footer {
+//    display: flex;
+//    justify-content: center;
+//}
+
+//.grid-header {
+//    background-color: $header-background-color;
+//}
+
+
+p {
+    line-height: $paragraph-lineheight;
+}
+
+li {
+    line-height: $paragraph-lineheight;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $header-font-weight;
+}
+
+code {
+    font-family: $font-family-monospace;
+    background-color: $solarized-base02;
+}
+
+a {
+    text-decoration: none;
+    color: $solarized-cyan;
+    &:active, &:visited {
+        color: $solarized-cyan;
+    }
+    &:hover {
+        color: $solarized-blue;
+    }
+}
+
+//------------------------------------------------------------------------------
+//
+//    Site-specified Styles
+//
+//------------------------------------------------------------------------------
+
+
+.emoji {
+    font-family: $emoji-font-family;
+    font-style: normal;
+}
+
+.languages-switcher{
+    ul {
+        padding-left: 0px;
+        margin: 0px;
+    }
+    li {
+        list-style: none;
+        display: inline;
+    }
+    p {
+        margin: 0px;
+    }
+}
+
+.nav-container {
+    background-color: $header-background-color;
+    height: 2rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.footer-container {
+    background-color: $footer-background-color;
+    font-size: small;
+    p, ul {
+        margin-bottom: 0px;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    li {
+        list-style: none;
+        display: inline;
+    }
+    li:after {
+        content: " \2022";
+    }
+    li:last-child:after {
+        content: none;
+    }
+}
+
+//------------------------------------------------------------------------------
+
+#bg-img::after {
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:110vw;
+    height:110vh;
+    background:url("/images/combine.png") no-repeat center center fixed;
+    background-size:cover;
+    opacity:0.15;
+    filter:alpha(opacity=85);
+    z-index:-1;
+}
+
+.main-index {
+    height: 100vh;
+    display: flex;
+    .website-title {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-weight: 900;
+        text-decoration: underline;
+        border-bottom: 1px solid;
+    }
+    // .website-subtitle {
+    //     font-variant: small-caps;
+    // }
+    .entrance {
+        .huge-link {
+            a {
+                font-size:5rem;
+                font-weight:700;
+                color: inherit;
+                &:hover{
+                    color: $solarized-cyan;
+                }
+            }
+        }
+ 
+        .huge-link-smaller {
+            font-size:3rem;
+            font-weight:700;
+            color:inherit;
+        }
+ 
+        .nomore a:hover:before {
+            content:"No\00a0";
+        }
+    }
+}
+
+.extra-text {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: smaller;
+}
+
+
+
+//------------------------------------------------------------------------------
+//
+//    Frow
+//
+//------------------------------------------------------------------------------
+
+$frow-enable-html-basics:                false; // HTML basics (Minor styling/resets of anchor links, h1-h6, etc.)
+$frow-enable-columns:                    true;  // Columns/Grid functionality
+$frow-enable-buttons:                    false; // Button styling
+$frow-enable-forms:                      false; // Form elements
+$frow-enable-responsive-design-classes:  true;  // Responsive design rules
+$frow-enable-box-model-shorcuts:         true;  // Margin/Padding classes (.mb-10, .p-15, .mx-auto)
+$frow-enable-utilities:                  true;  // Miscellaneous utilities
+$frow-enable-normalize:                  true;  // Include built-in Normalize.css
+
+@import '../node_modules/frow/frow';
+
+.frow-container {
+    width: unset;
+}
