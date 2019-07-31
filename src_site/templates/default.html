@@ -2,28 +2,6 @@
 <html class="no-js" lang="en">
     <head>
 
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#aa0000",
-      "text": "#ffdddd"
-    },
-    "button": {
-      "background": "#ff0000"
-    }
-  },
-  "theme": "classic",
-  "position": "top",
-  "content": {
-    "message": "This site is NOT GDPR Complaint. This website uses cookies to ensure you get the best experience on our website."
-  }
-})});
-</script>
-
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61795702-1"></script>
 <script>
@@ -38,6 +16,7 @@ window.cookieconsent.initialise({
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>$title$</title>
         <meta name="title" content="$title$">
+        <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/blog_main.css" />
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
         $if(MathJax)$$MathJax$$endif$
@@ -79,8 +58,14 @@ window.cookieconsent.initialise({
 $body$
 
 		<!-- Footer -->
+<div class="footer-container">
+  <div class="frow-container">
+    <div class="frow direction-column items-center">
 $partial("templates/footer.html")$
 $partial("templates/finalize.html")$
+    </div>
+  </div>
+</div>
 
     </body>
 </html>

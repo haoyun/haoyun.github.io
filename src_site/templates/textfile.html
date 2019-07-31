@@ -1,29 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#aa0000",
-      "text": "#ffdddd"
-    },
-    "button": {
-      "background": "#ff0000"
-    }
-  },
-  "theme": "classic",
-  "position": "top",
-  "content": {
-    "message": "This site is NOT GDPR Complaint. This website uses cookies to ensure you get the best experience on our website."
-  }
-})});
-</script>
-
+<head>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61795702-1"></script>
 <script>
@@ -33,48 +10,57 @@ window.cookieconsent.initialise({
 
   gtag('config', 'UA-61795702-1');
 </script>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>$title$</title>
-
-        <link rel="stylesheet" href="/css/main.css" />
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-        $if(MathJax)$$MathJax$$endif$
-        <style>
-        body {
-            font-family: monospace, monospace;
-        }
-        h1, h2, h3, h4 {
-            font-size:  1.125rem;
-            font-weight: bolder;
-        }
-        h3 {
-            font-weight: lighter;
-        }
-        </style>
-    </head>
-    <body>
-    <div class="grid-container" style="min-height:100vh">
-        <div class="grid-y grid-padding-y">
-		    <div class="cell">
-            <div class="grid-x align-justify"> <!-- Aligned to the edges -->
-                <div class="cell small-8"><a href="/">[Back to Stupidity] ↵</a></div>
-                <div class="cell shrink"><a href="/s/">↑ [Home] </a></div>
-            </div>		                
-            </div>
-
-            <div class="cell">
-                $body$
-            </div>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title$</title>
+  <link rel="stylesheet" href="/css/default.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css" integrity="sha256-cC4ByuxbguozEVx8jcKy94MFiGvxN9GwjCqZ8f3+yBk=" crossorigin="anonymous" />
+  $if(MathJax)$$MathJax$$endif$
+</head>
+<body>
+ <div class="nav-container">
+    <div class="frow-container">
+      <div class="frow">
+        <div class="col-md-3-4">
+          <div class="frow justify-between">
+            <span><a href="/">Natural Stupidity</a></span>
+            <span><a href="/s/">Home</a></span>
+          </div>
         </div>
-    </div>    
+      </div>
+    </div>
+ </div>
+
+  <div class="frow-container">
+    <div class="frow">
+      <div class="col-md-3-4"> 
+        $partial("templates/languages-switcher.html")$
+        $body$
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="frow-container">
+      <div class="frow direction-column items-center">
+  $partial("templates/footer.html")$
+  $partial("templates/finalize.html")$
+      </div>
+    </div>
+  </div>
 
 
-    <!-- Footer -->
-$partial("templates/footer.html")$
-$partial("templates/finalize.html")$
 
-    </body>
+
+<!--
+  <div class="grid-container">
+    <div class="grid-header"><header></header></div> 
+    <div class="grid-sidebar"></div>
+    <div class="grid-content"></div>
+    <div class="grid-footer"></div>
+  </div>
+-->
+
+</body>
 </html>
-		
