@@ -5,7 +5,7 @@ set -Eeuxo pipefail                         # Safer bash scripts
                                             # https://goo.gl/u9Djx4
 
                                             
-chcp 65001                                  # Ensure to use UTF8
+#chcp 65001                                  # Ensure to use UTF8
 git checkout source                         # Ensure to be in the source branch
 
 
@@ -46,8 +46,11 @@ cd Foundation/                              # Build Foundation Styles
 # bower install                             # if not installed
 foundation build > /dev/null 2>&1
 
+cd ../src_site/scss                         
+cd ../src_site/css_dev/
+gulp sass                                   # Build scss
 
-cd ../                                      # rebuild the site
+cd ../../                                   # rebuild the site
 cabal run rebuild > /dev/null 2>&1          # clean and build
 
 
