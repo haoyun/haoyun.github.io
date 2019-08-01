@@ -1,5 +1,6 @@
 ---
 title: Yun Hao
+MathJax: on
 ---
 
 <!--
@@ -17,37 +18,59 @@ title: Yun Hao
 -->
 
 
+
+
+
+
+
+
+
+
 ## [Kontact]{.lang-de}[Contact]{.lang-en .lang-fr}[联系方式]{.lang-cn}
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{.lang-de .lang-en .lang-cn .lang-fr}
-
-
-::::::{.frow .wrap-reverse}
-:::{.grow-1}
-------------  ---------------------------------------------------
-              Yun Hao (郝运)
-**Address**   Freie Universität Berlin
-              FB Mathematik und Informtik
-              Arnimallee 3, Zimmer 111
-              14195 Berlin
-              Deutschland
-**Emails**    <haoyun.math@gmail.com>
-              <yun.hao@fu-berlin.de> ([X.509 public certificate][X509][^1])
-**GitHub**    [\@haoyun](//github.com/haoyun/)
-**Telegram**  [\@haoyun](//t.me/haoyun/)
-------------  ---------------------------------------------------
+:::::::::{.frow .wrap-reverse .row-center}
+::::::{.grow-1}
+:::{.lang-cn}
+-------------------------------------- ----------   ---------------------------------------------------
+                                                    Yun Hao (郝运)
+<i class="far fa-envelope"></i>        通讯地址       Freie Universität Berlin
+                                                    FB Mathematik und Informtik
+                                                    Arnimallee 3, Zimmer 111
+                                                    14195 Berlin
+                                                    Deutschland
+<i class="fas fa-at"></i>              电子邮件      <haoyun.math@gmail.com>
+                                                    <yun.hao@fu-berlin.de> ([X.509 public certificate][X509][^1])
+<i class="fab fa-github"></i>          GitHub       [\@haoyun](//github.com/haoyun/)
+<i class="fab fa-telegram-plane"></i>  Telegram     [\@haoyun](//t.me/haoyun/)
+<i class="fab fa-whatsapp"></i>        WhatsApp     [+49 172 9067753](//wa.me/491729067753)
+-------------------------------------- ----------  ---------------------------------------------------
 :::
-:::{.shrink-1}
-![2019@MSRI]
+:::{.lang-en .lang-fr .lang-de}
+-------------------------------------- ----------   ---------------------------------------------------
+                                       Postal       Yun Hao (郝运)
+<i class="far fa-envelope"></i>        address      Freie Universität Berlin
+                                                    FB Mathematik und Informtik
+                                                    Arnimallee 3, Zimmer 111
+                                                    14195 Berlin
+                                                    Deutschland
+<i class="fas fa-at"></i>              Emails       <haoyun.math@gmail.com>
+                                                    <yun.hao@fu-berlin.de> ([X.509 public certificate][X509][^1])
+<i class="fab fa-github"></i>          GitHub       [\@haoyun](//github.com/haoyun/)
+<i class="fab fa-telegram-plane"></i>  Telegram     [\@haoyun](//t.me/haoyun/)
+<i class="fab fa-whatsapp"></i>        WhatsApp     [+49 172 9067753](//wa.me/491729067753)
+-------------------------------------- ----------  ---------------------------------------------------
 :::
 ::::::
+::::::{.shrink-1}
+![2019@MSRI]
+::::::
+:::::::::
 <!--
  > If you just want a regular inline image, just make sure it is not
  > the only thing in the paragraph. One way to do this is to insert a
  > nonbreaking space after the image:
 -->
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
@@ -57,10 +80,7 @@ title: Yun Hao
 
 
 
-
-
-
-## [ÜBER MICH]{.lang-de}[About me]{.lang-en}[关于我]{.lang-cn}
+## [ÜBER MICH]{.lang-de} [About me]{.lang-en} [关于我]{.lang-cn}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{.lang-de}
 Ich war Doktorand in Mathematik an der [Freien Universität Berlin][FUB] (FU
@@ -68,7 +88,7 @@ Berlin) und habe in der [Arbeitsgruppe zur arithmetischen Geometrie][AG] von
 [Hélène Esnault][Esnault] gearbeitet. Ich hatte auch [Michael Gröchenig][Michael]
 als meinen Zweitbetreuer. Ich hatte meine Disputation am 20.05.2019.
 
-Mein [Lebenslauf][CV] (auf Englisch).
+Hier ist mein Lebenslauf [<i class="far fa-file-pdf"></i>][CV] (auf Englisch).
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -77,15 +97,23 @@ I was a PhD student in mathematics at the [Free University][FUB] in Berlin.
 My thesis advisors were [Hélène Esnault][Esnault] and [Michael Gröchenig][Michael].
 I had my defense on May 20, 2019. 
 
-Here is my [CV](CV).
+Here is my CV [<i class="far fa-file-pdf"></i>][CV].
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::{.lang-cn}
-我于2019年5月从柏林自由大学获得博士学位(Doctor rerum naturalium)。我的方向是算术几何。
+我于2019年5月从柏林自由大学获得博士学位 (Doctor rerum naturalium). 我的方向是算术几何.
 
-你可以在这里查看我的[简历](CV)(英文).
+你可以在这里查看我的简历 [<i class="far fa-file-pdf"></i>][CV] (英文).
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
 
 
 ## [Publikationen und Preprints]{.lang-de}[论文以及预印本]{.lang-cn}[Publications and Preprints]{.lang-en .lang.fr}
@@ -93,17 +121,18 @@ Here is my [CV](CV).
 ### [Thesis]{.lang-de .lang-fr .lang-en}[学位论文]{.lang-cn}
 
 * [**Doctoral Dissertation**]{.lang-de .lang-en .lang-fr}[**博士论文**]{.lang-cn}:
- *A Simpson correspondence for abelian varieties in postive characteristic*.
- [<i class="far fa-file-pdf"></i>][phdthesis] [<i class="far fa-file-code"></i>][phdthesissrc]
+  *A Simpson correspondence for abelian varieties in postive characteristic*.
+  [<i class="far fa-file-pdf"></i>][phdthesis] [<i class="far fa-file-code"></i>][phdthesissrc]
 * [**Master Thesis**]{.lang-de .lang-en .lang-fr}[**硕士论文**]{.lang-cn}:
- *Intersection of a correspondence with a graph of Frobenius*.
- [<i class="far fa-file-pdf"></i>][masterthesis] [<i class="far fa-file-code"></i>][masterthesissrc]\
-   [This is detailed explanation of Varshavsky's geometric proof of
-   a theorem of Hrushovski, which states that the intersection of
-   a correspondence with a graph of a sufficiently large power of
-   Frobenius is non-empty ([arXiv:1405.6381][Varshavsky]).
-   Essentially, there is no original work by myself.]{.lang-en .lang-de .lang-fr}
-   [这篇文章没有任何新的内容, 主要是为了学习Varshavsky对Hrushovski的一个定理的几何方法证明([arXiv:1405.6381][Varshavsky]).]{.lang-cn}
+  *Intersection of a correspondence with a graph of Frobenius*.
+  [<i class="far fa-file-pdf"></i>][masterthesis] [<i class="far fa-file-code"></i>][masterthesissrc]\
+  [This is detailed explanation of Varshavsky's geometric proof of
+  a theorem of Hrushovski, which states that the intersection of
+  a correspondence with a graph of a sufficiently large power of
+  Frobenius is non-empty ([arXiv:1405.6381][Varshavsky]).
+  Essentially, there is no original work by myself.]{.lang-en .lang-de .lang-fr}
+  [这篇文章没有任何新的内容, 主要是为了学习Varshavsky对Hrushovski的一个定理的
+  几何方法证明([arXiv:1405.6381][Varshavsky]).]{.lang-cn}
 
 <!--
 ### [Preprints]{.lang-de .lang-en .lang-fr}[预印本]{.lang-cn}
@@ -122,54 +151,62 @@ Whoops... Coming Soon :p
  [<i class="far fa-file-pdf"></i>][thesis-early-idea] (29.06.2017)
 
 
+
+
+
+
+
+
+
+
 ## [Veranstaltungen]{.lang-de}[Events]{.lang-en}[活动]{.lang-cn}[Événements]{.lang-fr}
 
-### [Aktuelle \& Kommende]{.lang-de}[Current \& Upcoming]{.lang-en}[当前和即将到来的]{.lang-cn}
+### [Aktuelle \& Kommende]{.lang-de}[Current \& Upcoming]{.lang-en .lang-fr}[当前和即将到来的]{.lang-cn}
 
 * 23.09.2017 -- 27.09.2019, [School on Motives and Stacks][motives-stacks].
 
-### [Vergangen]{.lang-de}[Past]{.lang-en}[过去的]{.lang-cn}
+### [Vergangen]{.lang-de}[Past]{.lang-en .lang-fr}[过去的]{.lang-cn}
 
 
-* 15.07.2019 -- 19.07.2019, [Arithmetic of connections][Ascona].
+* 15.07.2019--19.07.2019, [Arithmetic of connections][Ascona].
   <!--Hotel and Congress Centre Monte Verità, Ascona, Switzerland-->
-* 17.06.2019 -- 21.06.2019, [GAeL XXVII][GAeLXXVII].
+* 17.06.2019--21.06.2019, [GAeL XXVII][GAeLXXVII].
   (poster presentation)
   <!--"Simion Stoilow" Institute of Mathematics of the Romanian Academy (IMAR), Bucharest Romania-->
-* 01.02.2019 -- 13.05.2019, [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.
+* 01.02.2019--13.05.2019, [Derived Algebraic Geometry][MSRI1] and Birational Geometry and Moduli Spaces.
   <!--MSRI, Berkeley, CA, USA-->
-* 05.11.2018 -- 07.11.2018, [Chow Lectures][Chow2018]: by Peter Scholze.
+* 05.11.2018--07.11.2018, [Chow Lectures][Chow2018]: by Peter Scholze.
   <!--University of Leipzig, Felix Klein lecture room and
   Max Planck Institute for Mathematics in the Sciences-->
   ([poster][Leipzig-poster] presentation)
-* 02.09.2018 -- 08.09.2018, Autumn School [Arithmetic of Differential Equations][Łukęcin].
+* 02.09.2018--08.09.2018, Autumn School [Arithmetic of Differential Equations][Łukęcin].
   <!--Łukęcin, Poland-->
-* 10.09.2018 -- 14.09.2018, [International summer school on Arithmetic geometry][Salerno].
+* 10.09.2018--14.09.2018, [International summer school on Arithmetic geometry][Salerno].
   <!--Università degli Studi di Salerno.-->
-* 04.04.2018 -- 06.04.2018, [Crystals and Geometry in Characteristic $p$][Munich].
+* 04.04.2018--06.04.2018, [Crystals and Geometry in Characteristic $p$][Munich].
   <!--Technische Universität München.-->
-* 29.01.2018 -- 09.02.2018, [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].
+* 29.01.2018--09.02.2018, [Winter School and Workshop "Riemann-Hilbert correspondences"][Padua].
   <!--Università degli Studi di Padova.-->
-* 09.10.2017 -- 13.10.2017, [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
+* 09.10.2017--13.10.2017, [Autumn school: Topics in arithmetic and algebraic geometry][Mainz].
   <!--Johannes Gutenberg-Universität Mainz.-->
-* 28.08.2017 -- 01.09.2017, [Motives for periods][periods].
+* 28.08.2017--01.09.2017, [Motives for periods][periods].
   <!--[Freie Universität Berlin][FUB].-->
-* 07.10.2017 -- 12.10.2017, [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].
+* 07.10.2017--12.10.2017, [Higgs Bundles, K3 Surfaces and Moduli][higssk3moduli].
   <!--[Humboldt Universität zu Berlin][HUB].-->
-* 27.09.2016 -- 30.09.2016, [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].
+* 27.09.2016--30.09.2016, [School on Higgs Bundles and Fundamental Groups of Algebraic Varieties][Higgs].
   <!--[Universität Duisburg-Essen][UniDuisburgEssen], Campus Essen.-->
-* 20.06.2016 -- 22.06.2016, [Shimura Varieties][leidenshimura].
+* 20.06.2016--22.06.2016, [Shimura Varieties][leidenshimura].
   <!--[Leiden University][leidenu].-->
-* 13.07.2015 -- 31.07.2015, [AMS Summer Institute in Algebraic Geometry][Utah].
+* 13.07.2015--31.07.2015, [AMS Summer Institute in Algebraic Geometry][Utah].
   <!--University of Utah, Salt Lake City, Utah, USA.-->
-* 03.03.2014 -- 14.03.2015, [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
+* 03.03.2014--14.03.2015, [Jürgen-Ehlers-Frühjahrsschule "Gravitationsphysik"][GR] 2014.\
   [Max Planck Institute for Gravitational Physics (Albert Einstein Institute)][AEI], Potsdam-Golm.
-* 02.2013 -- 06.2013. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
+* 02.2013--06.2013. [The 5th Enhanced Program for Graduate Study][BICMREPGS].\
   [Beijing International Center for Mathematical Research][BICMR] & Peking University, Beijing.
 
-## [Vorträge]{.lang-de}[Talks]{.lang-en}[演讲报告]{.lang-cn}
-* [Seminare]{.lang-de}[Seminars]{.lang-en}[讨论班/研讨会]{.lang-cn}
-    - **2018-19 Winter Semester**
+## [Vorträge]{.lang-de}[Talks]{.lang-en .lang-fr}[演讲报告]{.lang-cn}
+* [Seminare]{.lang-de}[Seminars]{.lang-en .lang-fr}[讨论班/研讨会]{.lang-cn}
+    - **2018/19 Winter Semester**
 	    + [$p$-adic Hodge Theory][padichodge-2] (Organiser).
             * 15.10.2018    Introduction
             * 22.10.2018    The Hodge-Tate decomposition for abelian varieties
@@ -181,7 +218,7 @@ Whoops... Coming Soon :p
         + [Abhyankar's conjectures][AbhyankarConj]
             * 04.06.2018    Formal and rigid geometry
             * 26.06.2018    Raynaud’s proof II: Extension and algebraization
-    - **2017--18 Winter Semester**.
+    - **2017/18 Winter Semester**.
 	    + [Formal geometry and deformation theory][formalanddefomation].
 		    * 06.11.2017    Grothendieck Existence Theorem.
             * 15.01.2018    Lifting theory II: Serre's Example of non-liftable variety.
@@ -193,7 +230,7 @@ Whoops... Coming Soon :p
         + [Forschungsseminar]: [Langlands correspondence for function fields][geomlanglands].
             * 27.04.2017    Tate’s thesis for function fields, I.
             * 04.05.2017    Tate’s thesis for function fields, II.
-    - **2016--17 Winter Semester** 
+    - **2016/17 Winter Semester** 
         + [Crystalline Cohomology][Crystalline].
             * 31.10.2016    Divided powers.
             * 07.11.2016    Calculus with divided powers.
@@ -203,14 +240,14 @@ Whoops... Coming Soon :p
     - **2016 Summer Semester** [D-modules][dmod].
         + 02.05.2015    D-modules and connections.
         + 11.07.2015    The Gieseker conjecture.
-    - **2015--16 Winter Semester**. Intersection Theory (Organiser).
+    - **2015/16 Winter Semester**. Intersection Theory (Organiser).
         + 16.11.2015    Chow Ring of $\mathbb{G}(1,3)$.
         + 08.02.2016    Chern Classes V: some proofs.
     - **2015 Summer semester**. [Étale Cohomology][etale].
         + 20.04.2015    Étale morphisms and Henselization.
         + 11.05.2015    Galois coverings and fundamental group.
         + 19.06.2015    Étale cohomology.
-    - **2014--15 Winter Semester**. [Abelian Varieties][abv].
+    - **2014/15 Winter Semester**. [Abelian Varieties][abv].
         + 11.11.2014    Vanishing theorem.
 
 <!--
@@ -219,6 +256,15 @@ Whoops... Coming Soon :p
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=haoyun.math%40gmail.com&amp;color=%231B887A&amp;src=u354c8kmu0gsrq8atp62tg12mg%40group.calendar.google.com&amp;color=%2323164E&amp;src=lrar0s9cenincff62vcsv1hoq8%40group.calendar.google.com&amp;color=%23B1440E&amp;src=en.german%23holiday%40group.v.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FBerlin" style="border-width:0; width:100%; height:600px;"></iframe>
 
 -->
+
+
+
+
+
+
+
+
+
 
 ## [Skripte zu ausgewählten Vorlesungen und Seminare]{.lang-de}[一些课程和讨论班笔记]{.lang-cn}[Notes on some courses and seminars]{.lang-en .lang-fr}
 
@@ -253,10 +299,17 @@ Whoops... Coming Soon :p
 * 2016 夏季学期, 代数群.
 * 2015/16 冬季学期, 椭圆曲线.
 * 2014/15 冬季学期, 局部类域论.
-
 :::::
 
 <!--Mehr gibt es unter [/s/notes/](/s/notes/) und [/n/](/n/).-->
+
+
+
+
+
+
+
+
 
 
 ## [Lehren]{.lang-de}[Teaching]{.lang-en .lang-fr}[教学]{.lang-cn}

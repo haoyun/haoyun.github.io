@@ -30,8 +30,10 @@ $solarized-blue:      #268bd2;
 $solarized-cyan:      #2aa198;
 $solarized-green:     #859900;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap&subset=cyrillic,greek,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,500,600&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 // 1. Global
 // ---------
@@ -47,12 +49,13 @@ $solarized-palette: (
 );
 
 
-$body-font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+//$body-font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+//$body-font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+$body-font-family: 'Alegreya', serif;
 $body-font-size: 1.125rem;
-$font-family-monospace: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+$font-family-monospace: 'Fira Code', monospace;
 $emoji-font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
 $header-font-family: $body-font-family;
-//$body-font-color: $solarized-base0;
 $header-font-weight: 700;
 
 $background-color: $solarized-base3;
@@ -249,6 +252,11 @@ a {
     }
 }
 
+figure figcaption {
+    text-align: center;
+    font-size: smaller;
+}
+
 //------------------------------------------------------------------------------
 //
 //    Site-specified Styles
@@ -256,53 +264,35 @@ a {
 //------------------------------------------------------------------------------
 
 
-.emoji {
-    font-family: $emoji-font-family;
-    font-style: normal;
-}
 
-.languages-switcher{
-    ul {
-        padding-left: 0px;
-        margin: 0px;
-    }
-    li {
-        list-style: none;
-        display: inline;
-    }
-    p {
-        margin: 0px;
-    }
-}
-
-.nav-container {
-    background-color: $header-background-color;
-    height: 2rem;
-    padding: 1rem 0 1rem 0;
-}
+//
+// @ common 
+// ---------------
 
 .footer-container {
     background-color: $footer-background-color;
-    font-size: small;
-    p, ul {
-        margin-bottom: 0px;
-    }
+//    font-size: small;
+//    p, ul {
+//        margin-bottom: 0px;
+//    }
     ul {
-        padding-left: 0px;
+        padding-left: 1rem;
     }
-    li {
-        list-style: none;
-        display: inline;
-    }
-    li:after {
-        content: " \2022";
-    }
-    li:last-child:after {
-        content: none;
-    }
+//    li {
+//        list-style: none;
+//        display: inline;
+//    }
+//    li:after {
+//        content: " \2022 ";
+//    }
+//    li:last-child:after {
+//        content: none;
+//    }
 }
 
-//------------------------------------------------------------------------------
+//
+// @ index.html
+// ---------------
 
 #bg-img::after {
     content:"";
@@ -322,7 +312,7 @@ a {
     height: 100vh;
     display: flex;
     .website-title {
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        //font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
         font-weight: 900;
         text-decoration: underline;
         border-bottom: 1px solid;
@@ -360,11 +350,34 @@ a {
     padding: 0px;
 }
 
-figure figcaption {
-    text-align: center;
-    font-size: smaller;
+
+//
+// @ s/index.html
+// ---------------
+.emoji {
+    font-family: $emoji-font-family;
+    font-style: normal;
 }
 
+.languages-switcher{
+    ul {
+        padding-left: 0px;
+        margin: 0px;
+    }
+    li {
+        list-style: none;
+        display: inline;
+    }
+    p {
+        margin: 0px;
+    }
+}
+
+.nav-container {
+    background-color: $header-background-color;
+    height: 2rem;
+    padding: 1rem 0 1rem 0;
+}
 
 
 //------------------------------------------------------------------------------
@@ -380,7 +393,7 @@ $frow-enable-forms:                      false; // Form elements
 $frow-enable-responsive-design-classes:  true;  // Responsive design rules
 $frow-enable-box-model-shorcuts:         true;  // Margin/Padding classes (.mb-10, .p-15, .mx-auto)
 $frow-enable-utilities:                  true;  // Miscellaneous utilities
-$frow-enable-normalize:                  true;  // Include built-in Normalize.css
+$frow-enable-normalize:                  false;  // Include built-in Normalize.css
 
 @import '../node_modules/frow/frow';
 

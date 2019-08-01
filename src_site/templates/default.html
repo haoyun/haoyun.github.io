@@ -19,8 +19,8 @@
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/blog_main.css" />
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
-        $if(MathJax)$$MathJax$$endif$
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+        $if(MathJax)$$MathJax$$endif$
     </head>
     <body>
         <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
@@ -58,14 +58,19 @@
 $body$
 
 		<!-- Footer -->
-<div class="footer-container">
-  <div class="frow-container">
-    <div class="frow direction-column items-center">
-$partial("templates/footer.html")$
-$partial("templates/finalize.html")$
+  <div class="footer-container">
+    <div class="frow-container">
+      <div class="frow">
+        <div class="col-md-3-4">
+          $partial("templates/footer.html")$
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
+
+$partial("templates/finalize.html")$
+
 
     </body>
 </html>

@@ -35,7 +35,10 @@
   <div class="frow-container">
     <div class="frow">
       <div class="col-md-3-4"> 
-        $partial("templates/languages-switcher.html")$
+        <div class="frow languages-switcher justify-end wrap-reverse">
+          $partial("templates/languages-switcher.html")$
+        </div>
+
         $body$
       </div>
     </div>
@@ -43,14 +46,16 @@
 
   <div class="footer-container">
     <div class="frow-container">
-      <div class="frow direction-column items-center">
-  $partial("templates/footer.html")$
-  $partial("templates/finalize.html")$
+      <div class="frow">
+        <div class="col-md-3-4">
+          $partial("templates/footer.html")$
+        </div>
       </div>
     </div>
   </div>
 
 
+$partial("templates/finalize.html")$
 
 
 <!--

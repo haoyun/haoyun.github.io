@@ -1,5 +1,6 @@
 ---
 title: Links
+MathJax: on
 ---
 
 ## EGA, SGA, FGA, etc.

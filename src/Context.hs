@@ -134,5 +134,5 @@ mathCtx = field "MathJax" $ \item -> do
                     Just "false" -> ""
                     Just "off" -> ""
                     _ -> "<script type=\"text/javascript\" async\
-  \ src=\"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML\">\
-\</script>"
+                              \ src=\"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML\">\
+                              \</script>"

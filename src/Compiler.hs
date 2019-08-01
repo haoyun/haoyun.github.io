@@ -6,6 +6,7 @@ module Compiler
     , getSrcPath
     , pandocMathCompiler
     , renderPandocMath
+    , pandocCustomCompiler
     , customWriterOptions
     , customReaderOptions
     , writerOptionsWithToc
@@ -20,6 +21,7 @@ import           Hakyll.Web.Html                 (toUrl)
 import           Hakyll.Web.Pandoc
 
 import           Text.Pandoc
+import           Text.Pandoc.Shared              (eastAsianLineBreakFilter)
 
 import           Configuration
 
@@ -64,6 +66,9 @@ pandocMathCompiler = pandocCompilerWith customReaderOptions customWriterOptions
 
 renderPandocMath :: Item String -> Compiler (Item String)
 renderPandocMath = renderPandocWith customReaderOptions customWriterOptions
+
+pandocCustomCompiler :: Compiler (Item String)
+pandocCustomCompiler = pandocCompilerWithTransform customReaderOptions customWriterOptions eastAsianLineBreakFilter
 
 customWriterOptions :: WriterOptions
 customWriterOptions = defaultHakyllWriterOptions { writerHTMLMathMethod = MathJax ""}

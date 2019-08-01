@@ -127,7 +127,7 @@ main = do
 
         match "s/index.markdown" $ do
             route $ setExtension "html"
-            compile $ pandocCompiler
+            compile $ pandocCustomCompiler
                 >>= loadAndApplyTemplate "templates/textfile.html" postCtx'
                 >>= relativizeUrls
 
