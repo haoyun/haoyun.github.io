@@ -68,7 +68,7 @@ main = do
         match (fromList ["n/about.markdown", "n/contact.markdown"]) $ do
             route $ setExtension "html" `composeRoutes`
                     appendIndex
-            compile $ pandocCompiler
+            compile $ pandocCustomCompiler
                 >>= loadAndApplyTemplate "templates/post-title-body.html"   postCtx
                 >>= loadAndApplyTemplate "templates/default.html"           postCtx'
                 >>= relativizeUrls
@@ -77,7 +77,7 @@ main = do
             route $ setExtension "html" `composeRoutes`
                     appendIndex         `composeRoutes`
                     dateFolders
-            compile $ pandocCompiler
+            compile $ pandocCustomCompiler
                 >>= saveSnapshot "content"
                 >>= loadAndApplyTemplate "templates/post-title_info-body.html"    postCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx'
