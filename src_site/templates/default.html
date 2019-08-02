@@ -17,45 +17,39 @@
         <title>$title$</title>
         <meta name="title" content="$title$">
         <link rel="stylesheet" href="/css/default.css" />
-        <link rel="stylesheet" href="/css/blog_main.css" />
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
         $if(MathJax)$$MathJax$$endif$
     </head>
     <body>
-        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-            <div class="title-bar-title">Menu</div>
-        </div>
 
-	    <!-- nav section -->
-        <div class="top-bar" id="responsive-menu">
-		    <!--<div class="grid-container" style="flex-grow:1;">
-		        <div class="grid-x">-->
-		            <div class="top-bar-left">
-						    <!--<div class="menu-text">Natural Stupidity</div>
-							<li class="menu-text" style="padding-top:0px;padding-bottom:0px;">
-                                <a href="/" style="padding:0;"><img alt="facepalm" width="36" height="36" src="/images/facepalm.png"/></a></li>
-                                -->
-                                <ul class="menu">
-                            <li>
-                                <a href="/">Natural Stupidity</a>
-                            </li></ul>
-		            </div>
-		            <div class="top-bar-right">
-                        <ul class="menu" data-dropdown-menu>
-                            <li><a href="/n/">Home</a></li>
-                            <li><a href="/n/about/">About</a></li>
-                            <li><a href="/n/contact/">Contact</a></li>
-                            <li><a href="/n/archive/">Archive</a></li>
-                        </ul>
-		            </div>
-	            <!--</div>
-		    </div>-->
+ <div class="nav-container">
+    <div class="frow-container">
+      <div class="frow">
+        <div class="col-md-3-4">
+          <div class="frow justify-between">
+            <span><a href="/">Natural Stupidity</a></span>
+            <ul>
+              <li><a href="/n">Home</a></li>
+              <li><a href="/n/about">About</a></li>
+              <li><a href="/n/contact/">Contact</a></li>
+              <li><a href="/n/archive/">Archive</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+ </div>
 
-		<!-- main section -->
-$body$
+
+        <!-- main section -->
+<div class="frow-container">
+    <div class="frow">
+        <div class="col-md-3-4"> 
+           $body$
+        </div>
+    </div>
+</div>
 
 		<!-- Footer -->
   <div class="footer-container">

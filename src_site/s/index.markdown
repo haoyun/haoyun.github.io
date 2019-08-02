@@ -31,7 +31,7 @@ MathJax: on
 :::::::::{.frow .wrap-reverse .row-center}
 ::::::{.grow-1}
 :::{.lang-cn}
--------------------------------------- ----------   ---------------------------------------------------
+-------------------------------------- -----------  ----------------------------------------------------
                                                     Yun Hao (郝运)
 <i class="far fa-envelope"></i>        通讯地址       Freie Universität Berlin
                                                     FB Mathematik und Informtik
@@ -39,14 +39,15 @@ MathJax: on
                                                     14195 Berlin
                                                     Deutschland
 <i class="fas fa-at"></i>              电子邮件      <haoyun.math@gmail.com>
-                                                    <yun.hao@fu-berlin.de> ([X.509 public certificate][X509][^1])
+                                                    <yun.hao@fu-berlin.de> ([X.509 public certificate][X509])
 <i class="fab fa-github"></i>          GitHub       [\@haoyun](//github.com/haoyun/)
 <i class="fab fa-telegram-plane"></i>  Telegram     [\@haoyun](//t.me/haoyun/)
 <i class="fab fa-whatsapp"></i>        WhatsApp     [+49 172 9067753](//wa.me/491729067753)
--------------------------------------- ----------  ---------------------------------------------------
+<i class="fas fa-key"></i>             公钥/证书     [X.509 public certificate][X509], [PGP public key][PGP]
+-------------------------------------- ----------- ---------------------------------------------------
 :::
 :::{.lang-en .lang-fr .lang-de}
--------------------------------------- ----------   ---------------------------------------------------
+-------------------------------------- -----------  ----------------------------------------------------
                                        Postal       Yun Hao (郝运)
 <i class="far fa-envelope"></i>        address      Freie Universität Berlin
                                                     FB Mathematik und Informtik
@@ -54,11 +55,12 @@ MathJax: on
                                                     14195 Berlin
                                                     Deutschland
 <i class="fas fa-at"></i>              Emails       <haoyun.math@gmail.com>
-                                                    <yun.hao@fu-berlin.de> ([X.509 public certificate][X509][^1])
+                                                    <yun.hao@fu-berlin.de>
 <i class="fab fa-github"></i>          GitHub       [\@haoyun](//github.com/haoyun/)
 <i class="fab fa-telegram-plane"></i>  Telegram     [\@haoyun](//t.me/haoyun/)
 <i class="fab fa-whatsapp"></i>        WhatsApp     [+49 172 9067753](//wa.me/491729067753)
--------------------------------------- ----------  ---------------------------------------------------
+<i class="fas fa-key"></i>             public keys  [X.509 public certificate][X509], [PGP public key][PGP]
+-------------------------------------- -----------  ----------------------------------------------------
 :::
 ::::::
 ::::::{.shrink-1}
@@ -332,7 +334,6 @@ Whoops... Coming Soon :p
 </blockquote>
 -->
 
-[^1]: ausgestellt von [DFN-Verein Global Issuing CA][DFN-CA]
 
 
 <!-- PEOPLE -->
@@ -428,3 +429,4 @@ Whoops... Coming Soon :p
 [X509]: /files/Yun_Hao.pem
 [DFN-CA]: //info.pca.dfn.de/dfn-ca-global-g2/
 [2019@MSRI]: /images/Yun_Hao.jpeg
+[PGP]: /files/Yun_Hao.asc

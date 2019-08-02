@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 
 code {
     font-family: $font-family-monospace;
-    background-color: $solarized-base02;
+    background-color: $solarized-base2;
 }
 
 a {
@@ -289,6 +289,28 @@ figure figcaption {
 //        content: none;
 //    }
 }
+
+.nav-container {
+    background-color: $header-background-color;
+    height: 2rem;
+    padding: 1rem 0 1rem 0;
+    ul {
+        margin: 0px;
+        padding-left: 0px;
+    }
+    li {
+        list-style: none;
+        display: inline;
+    }
+    li:after {
+        content: " \2022 ";
+    }
+    li:last-child:after {
+        content: none;
+    }
+}
+
+
 
 //
 // @ index.html
@@ -371,12 +393,6 @@ figure figcaption {
     p {
         margin: 0px;
     }
-}
-
-.nav-container {
-    background-color: $header-background-color;
-    height: 2rem;
-    padding: 1rem 0 1rem 0;
 }
 
 
