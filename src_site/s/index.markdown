@@ -56,7 +56,7 @@ MathJax: on
                                                     Deutschland
 <i class="fas fa-at"></i>              Emails       <haoyun.math@gmail.com>
                                                     <yun.hao@fu-berlin.de>
-<i class="fas fa-key"></i>             public keys  [X.509 public certificate][X509], [OpenPGP public key][PGP]
+<i class="fas fa-key"></i>             Public keys  [X.509 public certificate][X509], [OpenPGP public key][PGP]
 <i class="fab fa-github"></i>          GitHub       [\@haoyun](//github.com/haoyun/)
 <i class="fab fa-telegram-plane"></i>  Telegram     [\@haoyun](//t.me/haoyun/)
 <i class="fab fa-whatsapp"></i>        WhatsApp     [+49 172 9067753](//wa.me/491729067753)
