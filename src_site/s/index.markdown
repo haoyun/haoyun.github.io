@@ -165,11 +165,12 @@ Whoops... Coming Soon :p
 
 ### [Aktuelle \& Kommende]{.lang-de}[Current \& Upcoming]{.lang-en .lang-fr}[当前和即将到来的]{.lang-cn}
 
-* 23.09.2017 -- 27.09.2019, [School on Motives and Stacks][motives-stacks].
+* NONE
 
 ### [Vergangen]{.lang-de}[Past]{.lang-en .lang-fr}[过去的]{.lang-cn}
 
 
+* 23.09.2017 -- 27.09.2019, [School on Motives and Stacks][motives-stacks].
 * 15.07.2019--19.07.2019, [Arithmetic of connections][Ascona].
   <!--Hotel and Congress Centre Monte Verità, Ascona, Switzerland-->
 * 17.06.2019--21.06.2019, [GAeL XXVII][GAeLXXVII].
