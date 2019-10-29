@@ -120,6 +120,17 @@ Here is my CV [<i class="far fa-file-pdf"></i>][CV].
 
 ## [Publikationen und Preprints]{.lang-de}[论文以及预印本]{.lang-cn}[Publications and Preprints]{.lang-en .lang.fr}
 
+### [Preprints]{.lang-de .lang-fr .lang-en}[预印本]{.lang-cn}
+
+ * [arXiv:1910.12405] **A Simpson correspondence for abelian varieties in characteristic $p > 0$**,
+   [<i class="ai ai-arxiv"></i>][1910.12405-abs]
+   [<i class="far fa-file-pdf"></i>][1910.12405-pdf]
+   [<i class="far fa-file-code"></i>][1910.12405-src]\
+   This is just a rewrite my PhD thesis, generalizing some results using the
+   language of $(k, R)$-Lie algebras/Lie algebroids. Some proofs are removed,
+   while some details, especially the Azumaya property of the Weyl algebra,
+   are added.
+
 ### [Thesis]{.lang-de .lang-fr .lang-en}[学位论文]{.lang-cn}
 
 * [**Doctoral Dissertation**]{.lang-de .lang-en .lang-fr}[**博士论文**]{.lang-cn}:
@@ -421,13 +432,18 @@ Whoops... Coming Soon :p
 [thesis-early-idea]: /files/17SS-Simpson-Correspondence-AV-char-p.pdf
 
 <!-- OTHERS -->
-[CV]: /files/CV-20190728.pdf
+[CV]: /files/CV-20191029.pdf
 [masterthesis]: /files/master-thesis.pdf
-[masterthesissrc]: //raw.githubusercontent.com/haoyun/master-thesis/8b33ff9708159acfa5f92ea6d2f0448399eaa2e0/main.tex?token=AAKS7NLP32MSP3H3WXT4LAS5JG4V6
+[masterthesissrc]: #
 [phdthesis]: /files/phd-thesis.pdf
-[phdthesissrc]: //raw.githubusercontent.com/haoyun/2017-2018-Winter-Semester/0ba00ef20c8c8fc13988709eef0b4c243a6541af/first/thesis.tex?token=AAKS7NJY3BOBYCK7TAOO36S5JG4LG
+[phdthesissrc]: #
 [scholarship]: //www.math-berlin.de/students/financing-your-phd
 [X509]: /files/Yun_Hao.pem
 [DFN-CA]: //info.pca.dfn.de/dfn-ca-global-g2/
 [2019@MSRI]: /images/Yun_Hao.jpeg
 [PGP]: /files/Yun_Hao.asc
+
+<!-- PUBLICATIONS -->
+[1910.12405-abs]: //arxiv.org/abs/1910.12405
+[1910.12405-pdf]: //arxiv.org/pdf/1910.12405
+[1910.12405-src]: //arxiv.org/e-print/1910.12405
