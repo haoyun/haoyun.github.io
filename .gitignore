@@ -1,4 +1,4 @@
 _*
-dist/
+dist-newstyle/
 
 !Foundation/scss/_*

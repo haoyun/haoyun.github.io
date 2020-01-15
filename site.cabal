@@ -7,7 +7,7 @@ executable site
   main-is:          site.hs
   hs-source-dirs:   src
   build-depends:    base                 == 4.*
-                  , hakyll               == 4.12.*
+                  , hakyll               == 4.13.*
                   , pandoc               >= 2.0.5
                   --&& <2.3
                   , filepath             >= 1.0   && < 1.5
