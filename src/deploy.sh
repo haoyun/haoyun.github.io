@@ -50,7 +50,7 @@ cd ../src_site/css_dev/
 gulp sass                                   # Build scss
 
 cd ../../                                   # rebuild the site
-cabal run rebuild > /dev/null 2>&1          # clean and build
+cabal run site rebuild > /dev/null 2>&1     # clean and build
 
 
 mkdir html_public                           # temp folder to hold generated site
