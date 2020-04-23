@@ -9,7 +9,7 @@ module Compiler
     , pandocCustomCompiler
     , customWriterOptions
     , customReaderOptions
-    , writerOptionsWithToc
+--    , writerOptionsWithToc
     ) where
 
 --------------------------------------------------------------------------------
@@ -91,9 +91,9 @@ customReaderOptions = defaultHakyllReaderOptions
 -- 2. https://peter.colberg.org/site#table-of-contents
 -- 3. https://jip.dev/posts/the-switch-to-hakyll/#table-of-contents
 
-writerOptionsWithToc :: WriterOptions
-writerOptionsWithToc = customWriterOptions
-                       { writerTableOfContents = True
-                       , writerTOCDepth = 2
-                       , writerTemplate = Just "Contents\n$toc$\n$body$"
-                       }
+-- writerOptionsWithToc :: WriterOptions
+-- writerOptionsWithToc = customWriterOptions
+--                        { writerTableOfContents = True
+--                        , writerTOCDepth = 2
+--                        , writerTemplate = Just "Contents\n$toc$\n$body$"
+--                        }
