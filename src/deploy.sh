@@ -44,7 +44,7 @@ SHA=$(git log -1 HEAD --pretty=format:%h)   # get the commit hash
 cd Foundation/                              # Build Foundation Styles
 # npm install
 # bower install                             # if not installed
-foundation build > /dev/null 2>&1
+# foundation build > /dev/null 2>&1
 
 cd ../src_site/css_dev/
 gulp sass                                   # Build scss
