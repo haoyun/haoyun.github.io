@@ -6,6 +6,7 @@ module Context
     , teasCtx
     , gitInfoCtx
     , mathCtx
+    , livejsCtx
     ) where
 
     
@@ -105,14 +106,14 @@ gitInfoCtx =
 -- gitTag :: String -> Context String
 -- gitTag key = field key $ \item -> do
 --     let fp = getSrcPath item
---     
+--
 --     unsafeCompiler $ do
 --         sha     <- gitLog "%h" fp
 --         message <- gitLog "%s" fp
---         
+--
 --         let history = gitRepoSrc ++ fp
 --             commit  = gitRepoCommits ++ sha
---         
+--
 --         return $ if null sha
 --                      then "Not Committed"
 --                      else renderHtml $ do
@@ -136,3 +137,8 @@ mathCtx = field "MathJax" $ \item -> do
                     _ -> "<script async\
                               \ src=\"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML\">\
                               \</script>"
+
+livejsCtx :: Bool -> Context String
+livejsCtx ifwatchmode = if ifwatchmode
+            then constField "livejs" "TRUE"
+            else mempty

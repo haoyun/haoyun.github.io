@@ -23,6 +23,9 @@ import           Hakyll.Web.Pandoc
 import           Text.Pandoc
 import           Text.Pandoc.Shared              (eastAsianLineBreakFilter)
 
+--import           Data.Text                      ( Text )
+--import           Data.Functor.Identity          ( runIdentity )
+
 import           Configuration
 
 import           System.Process
@@ -71,17 +74,22 @@ pandocCustomCompiler :: Compiler (Item String)
 pandocCustomCompiler = pandocCompilerWithTransform customReaderOptions customWriterOptions eastAsianLineBreakFilter
 
 customWriterOptions :: WriterOptions
-customWriterOptions = defaultHakyllWriterOptions { writerHTMLMathMethod = MathJax ""}
-                     
-customReaderOptions :: ReaderOptions
-customReaderOptions = defaultHakyllReaderOptions
-                      { readerExtensions = pandocExtensions <> 
-                                           extensionsFromList
-                                           [ Ext_tex_math_single_backslash
+customWriterOptions = defaultHakyllWriterOptions
+                      { writerHTMLMathMethod = MathJax ""
+                      , writerHighlightStyle = Nothing
+--                      , writerTableOfContents = True
+--                      , writerTOCDepth = 2
+--                      , writerTemplate = Just tocTemplate
+                      }
+
 -- The following extension does not work.
 -- See https://github.com/jgm/pandoc/pull/4674/commits/4012dd75f30f888c7915f4874072b26c61d810a0 
 --                                           , Ext_east_asian_line_breaks
-                                           ]
+customReaderOptions :: ReaderOptions
+customReaderOptions = defaultHakyllReaderOptions
+                      { readerExtensions = pandocExtensions <>
+                                           extensionsFromList
+                                           [ Ext_tex_math_single_backslash ]
                       }
 
 --------------------------------------------------------------------------------
@@ -90,6 +98,8 @@ customReaderOptions = defaultHakyllReaderOptions
 -- 1. https://argumatronic.com/posts/2018-01-16-pandoc-toc.html
 -- 2. https://peter.colberg.org/site#table-of-contents
 -- 3. https://jip.dev/posts/the-switch-to-hakyll/#table-of-contents
+-- 4. http://scr.stunts.hu/hakyll.html
+-- 5. https://svejcar.dev/posts/2019/11/27/table-of-contents-in-hakyll/
 
 -- writerOptionsWithToc :: WriterOptions
 -- writerOptionsWithToc = customWriterOptions
@@ -97,3 +107,11 @@ customReaderOptions = defaultHakyllReaderOptions
 --                        , writerTOCDepth = 2
 --                        , writerTemplate = Just "Contents\n$toc$\n$body$"
 --                        }
+--
+-- tocTemplate :: Template Text
+-- tocTemplate = case runIdentity $ compileTemplate "" tmpl of
+--   Left  err      -> error err
+--   Right template -> template
+--  where
+--   tmpl
+--     = "\n<div class=\"toc\"><div class=\"header\">Table of Contents</div>\n$toc$\n</div>\n$body$"
