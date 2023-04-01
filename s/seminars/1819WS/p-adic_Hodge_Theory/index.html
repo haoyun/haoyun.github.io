@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61795702-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61795702-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>p-adic Hodge Theory</title>
+  <link rel="stylesheet" href="../../../../css/default.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css" integrity="sha256-cC4ByuxbguozEVx8jcKy94MFiGvxN9GwjCqZ8f3+yBk=" crossorigin="anonymous" />
+  <script async id="MathJax-script" src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+</head>
+<body>
+ <div class="nav-container">
+    <div class="frow-container">
+      <div class="frow">
+        <div class="col-md-3-4">
+          <div class="frow justify-between">
+            <span><a href="../../../../">Natural Stupidity</a></span>
+            <span><a href="../../../../s/">Home</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+
+  <div class="frow-container">
+    <div class="frow">
+      <div class="col-md-3-4"> 
+        <div class="frow languages-switcher justify-end wrap-reverse">
+          <p class="grow-1"><span class="lang-en"><strong>The English version is not complete.</strong></span>
+    <span class="lang-fr"><strong>La version française n’est pas complète.</strong></span>
+    <span class="lang-cn"><strong>中文版本并不完整.</strong></span>
+    <span class="lang-de"></span></p>
+<ul>
+    <li><i class="emoji" onclick="switch_lang('de')">🇩🇪</i></li>
+    <li><i class="emoji" onclick="switch_lang('en')">🇬🇧</i></li>
+    <li><i class="emoji" onclick="switch_lang('cn')">🇨🇳</i></li>
+    <li><i class="emoji" onclick="switch_lang('fr')">🇫🇷</i></li>
+</ul>
+        </div>
+
+        <h1 id="p-adic-hodge-theory"><span class="math inline">\(p\)</span>-adic Hodge Theory</h1>
+<h2 id="announcement">Announcement</h2>
+<ul>
+<li>(10.12.2018) There will be double sessions on 07.01.2019.
+<ul>
+<li>10:00 – 12:00 A3/SR 019</li>
+<li><strong>14:00 – 16:00</strong> <strong>A3/SR 119</strong></li>
+</ul></li>
+<li>(03.12.2018) There will be no seminar on 03.12.2018 and 17.12.2018.</li>
+<li>(26.10.2018) The 3rd talk, on <em>introduction to adic spaces</em>, is moved to <strong>10:15 – 11:45, Friday, 02.10.2018</strong>.</li>
+<li>(12.10.2018) Some of use will to go the <a href="//www.mis.mpg.de/calendar/conferences/2018/chow2018.html">Chow Lectures: by Peter Scholze</a> in Lepzig, November 05 – 07, 2018. The topic is <span class="math inline">\(p\)</span>-adic geometry.</li>
+<li>(09.10.2018) The program is 55% done, and you could find it below. If you would like to give a talk, please send me an email. Note each PhD student is supposed to claim at least one talk.</li>
+</ul>
+<h2 id="practical-information">Practical Information</h2>
+<ul>
+<li><strong>Time</strong>: Monday 10:15 – 11:45</li>
+<li><strong>Localtion</strong>: A3/SR 019 Seminarraum (Arnimallee 3)</li>
+</ul>
+<h2 id="program">Program</h2>
+<p>Detailed program can be found <a href="//1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g">here</a>, hosted by OneDrive.</p>
+<p>Our aim is to prove the following two theorem. Let <span class="math inline">\(C\)</span> be a complete and algebraically closed nonarchimedean extension of <span class="math inline">\(\mathbf{Q}_p\)</span>, <span class="math inline">\(\mathcal{O}_C\)</span> its ring of integers and <span class="math inline">\(k\)</span> the residue field.</p>
+<div id="theorem1" class="theorem">
+<p><strong>Theorem 1</strong> Let <span class="math inline">\(X/C\)</span> be a smooth proper rigid-analytic space. <span class="math display">\[
+    E_2^{i,j}:= \operatorname{H}^i(X, \Omega_{X/C}^j)(-j) \Rightarrow
+    \operatorname{H}^{i+j}_{\text{ét}}(X, \mathbf{Q}_p) \otimes_{\mathbf{Q}_p} C
+\]</span></p>
+</div>
+<div id="theorem2" class="theorem">
+<p><strong>Theorem 2</strong> <em>Suppose that <span class="math inline">\(\mathfrak{X}/\mathcal{O}_C\)</span> is a smooth proper model for <span class="math inline">\(X/C\)</span></em>. <span class="math display">\[
+    \dim_{\mathbf{F}_p} \operatorname{H}^n_{\text{ét}}(X, \mathbf{F}_p)
+    \leq
+    \sum_{i+j=n} \dim_k \operatorname{H}^i
+    (\mathfrak{X}_k, \Omega_{\mathfrak{X}_k/k}^j).
+\]</span></p>
+</div>
+<h2 id="schedule">Schedule</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 13%" />
+<col style="width: 58%" />
+<col style="width: 13%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>No</th>
+<th>Date</th>
+<th>Title</th>
+<th>Speaker</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>15.10.2018</td>
+<td>Introduction</td>
+<td>Yun</td>
+<td><a href="//1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g">notes</a></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>22.10.2018</td>
+<td>Hodge-Tate decomposition for an abelian variety with good reduction</td>
+<td>Yun</td>
+<td><a href="//1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g">notes</a></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>02.10.2018</td>
+<td>Introduction to adic spaces</td>
+<td>Youshua</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>05.11.2018</td>
+<td>The pro-étale site associated to an adic space</td>
+<td>Marcin</td>
+<td><a href="../../../../files/18WS-Marcin-pro-étale.pdf">notes</a></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>12.11.2018</td>
+<td>The cotangent complexes</td>
+<td>Julian</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>19.11.2018</td>
+<td>Proof of the Hodge-Tate filtration</td>
+<td>Pedro</td>
+<td><a href="../../../../files/18WS-Pedro-HT.pdf">notes</a></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>26.11.2018</td>
+<td>Fontaine’s <span class="math inline">\(A_{\inf}\)</span> and the map <span class="math inline">\(\theta\)</span></td>
+<td>Grétar</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>–</td>
+<td>03.12.2018</td>
+<td><strong>no seminar</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>10.12.2018</td>
+<td>The décalage functor</td>
+<td>Shusuke</td>
+<td><a href="../../../../files/18WS-Otabe-décalage.pdf">notes</a></td>
+</tr>
+<tr class="even">
+<td>–</td>
+<td>17.12.2018</td>
+<td><strong>no seminar</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>07.01.2019 (10–12)</td>
+<td>The complex <span class="math inline">\(\widetilde{\Omega}_{\mathfrak{X}}\)</span></td>
+<td>Yun</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>07.01.2019 (14–16)</td>
+<td>The complex <span class="math inline">\(A\Omega_{\mathfrak{X}}\)</span></td>
+<td>Yun</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>14.01.2019</td>
+<td>Local computations</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>21.01.2019</td>
+<td>A example</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>28.01.2019</td>
+<td>The relative de Rham-Witt complex</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>04.02.2019</td>
+<td>Crystalline Comparison I</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>11.02.2019</td>
+<td>Crystalline Comparison II</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="references">References</h2>
+<ul>
+<li><strong>[BMS16]</strong> B. Bhatt, M. Morrow and P. Scholze, <em>Integral <span class="math inline">\(p\)</span>-adic Hodge theory</em>, v2, 7 Sep 2018, <a href="//arxiv.org/abs/1602.03148">arXiv:1602.03148</a>.</li>
+<li><strong>[Bha16]</strong> B. Bhatt, <em>Specializing varieties and their cohomology from characteristic <span class="math inline">\(0\)</span> to characteristic <span class="math inline">\(p\)</span></em>, v2, 11 Nov 2017, <a href="//arxiv.org/abs/1606.01463">arXiv:1606.01463</a>.</li>
+<li><strong>[Mor16]</strong> M. Morrow, <em>Notes on the <span class="math inline">\(A_{\inf}\)</span>-cohomology of Integral <span class="math inline">\(p\)</span>-adic Hodge theory</em>, 2016; <a href="//arxiv.org/abs/1608.00922">arXiv:1608.00922</a>.</li>
+<li><strong>[Sch13]</strong> P. Scholze, <em><span class="math inline">\(p\)</span>-adic Hodge theory for rigid-analytic varieties</em>, Forum Math. Pi 1, Article ID e1, 77 p. (2013; <a href="//zbmath.org/?q=an%3A1297.14023">Zbl 1297.14023</a>)</li>
+<li><strong>[Sch16]</strong> P. Scholze, <em>Corrigendum: “<span class="math inline">\(p\)</span>-adic Hodge theory for rigid-analytic varieties”</em>, Forum Math. Pi 4, Article ID e6, 4 p. (2016; <a href="//zbmath.org/?q=an%3A06700126">Zbl 06700126</a>)</li>
+<li>Arizona Winter School 2017: <a href="http://math.arizona.edu/~swc/aws/2017/">Perfectoid Spaces</a>.
+<ul>
+<li>B. Bhatt, <em><span class="math inline">\(p\)</span>-adic Hodge Theory</em>, <a href="http://math.arizona.edu/~swc/aws/2017/2017BhattOutline.pdf">outline</a>, <a href="http://math.arizona.edu/~swc/aws/2017/2017BhattNotes.pdf">notes</a>.</li>
+<li>J. Weinstein, <em>adic spaces</em>, <a href="http://math.arizona.edu/~swc/aws/2017/2017WeinsteinOutline.pdf">outline</a>, <a href="http://math.arizona.edu/~swc/aws/2017/2017WeinsteinNotes.pdf">notes</a>.</li>
+</ul></li>
+</ul>
+<p>More references are available in the <a href="//1drv.ms/b/s!AnCWvCUkaqq-gqgZ-r76_7TxZApG4g">program</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="frow-container">
+      <div class="frow">
+        <div class="col-md-3-4">
+          <footer> 
+
+<div class="frow justify-start">
+<div class="col-md-3-4">
+    <h4>About</h4>
+    <div class="footer-info">
+        <p>This site is proudly generated by <a href="//jaspervdj.be/hakyll/">Hakyll</a>
+           from <a href="//pandoc.org/">Pandoc</a>'s extended
+           <a href="//daringfireball.net/projects/markdown/">Markdown</a>.
+           The site together with its 
+           <a href="https://github.com/haoyun/haoyun.github.io">source code</a>
+           is hosted on <a href="https://pages.github.com/">GitHub</a>.
+        </p>
+    </div>
+    <div class="footer-source">
+        <p>The current page is Compiled from commit <a href="https://raw.githubusercontent.com/haoyun/haoyun.github.io/74bff68/src_site/s/seminars/1819WS/p-adic_Hodge_Theory/index.markdown">74bff68</a>.</p>
+    </div>
+</div>
+<div class="col-md-1-4">
+    <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+            <li><a href="//push2kindle-154021.appspot.com/">KindleEar</a></li>
+            <li><a href="//runalyze.com/athlete/dasistmiregal">Runalyze</a></li>
+            <!--<li><a href="/n/">Blog</a></li>-->
+            <li><a href="../../../../s/links/">Some Links</a></li>
+            <!--<li><a href="/s/tools/">Tools</a></li>-->
+            <li><a href="../../../../comment/">Leave a Message</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="footer-copyright">
+        <p>
+            © Yun Hao &bull; 2016--2019 &bull; <a href="mailto:haoyun_public@163.com">haoyun_public@163.com</a>
+        </p>
+
+    </div>
+</div>
+</footer>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket"><i></i></a>
+<!-- fork on github
+<div class="show-for-medium">
+<a href="https://github.com/haoyun/haoyun.github.io/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</div>
+<script src="//static.getclicky.com/js"></script>
+<script>try{ clicky.init(101019144); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1"
+  src="//in.getclicky.com/101019144ns.gif" /></p></noscript>
+-->
+
+<!-- JavaScript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+<script src="//code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="../../../../js/app.js"></script>
+<script>
+    hljs.configure({
+      languages: [] // Turn-off autodetection
+    })
+    hljs.initHighlightingOnLoad();
+    //$(document).foundation();
+</script>
+
+
+
+
+<!--
+  <div class="grid-container">
+    <div class="grid-header"><header></header></div> 
+    <div class="grid-sidebar"></div>
+    <div class="grid-content"></div>
+    <div class="grid-footer"></div>
+  </div>
+-->
+
+</body>
+</html>
